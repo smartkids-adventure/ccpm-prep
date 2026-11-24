@@ -1,0 +1,2310 @@
+{
+  "module_code": "M02",
+  "title_en": "Project Initiation & Site Due Diligence",
+  "title_bm": "Permulaan Projek & Ketekunan Wajar Tapak",
+  "total_questions": 100,
+  "sets": 10,
+  "questions_per_set": 10,
+  "questions": [
+    {
+      "id": 1,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "According to PMBOK as referenced in CCPM Module 02, how is 'Project Initiation' defined?",
+      "q_bm": "Menurut PMBOK seperti yang dirujuk dalam Modul 02 CCPM, bagaimanakah 'Permulaan Projek' (Project Initiation) ditakrifkan?",
+      "options_en": [
+        "Conducting daily concrete cube crushing tests during superstructure works",
+        "Launching a process that can result in the authorization of a new project (or a new project phase)",
+        "Closing out the final account and releasing retention money after DLP",
+        "Issuing the Certificate of Completion and Compliance (Borang F)"
+      ],
+      "options_bm": [
+        "Menjalankan ujian mampatan kiub konkrit harian semasa kerja superstruktur",
+        "Melancarkan satu proses yang boleh menghasilkan kebenaran rasmi bagi sesuatu projek baharu (atau fasa projek baharu)",
+        "Menutup akaun akhir dan melepaskan wang tahanan selepas tamat DLP",
+        "Mengeluarkan Perakuan Siap dan Pematuhan (Borang F)"
+      ],
+      "answer": 1,
+      "exp_en": "Project initiation defines the project and seeks formal authorization to commit resources—occurring at project start and at the start of each phase.",
+      "exp_bm": "Permulaan projek mentakrifkan projek dan mendapatkan kebenaran rasmi untuk menggerakkan sumber—berlaku pada permulaan projek serta pada awal setiap fasa.",
+      "ref": "CCPM Module 02 (1.1 Definition of Project Initiation)"
+    },
+    {
+      "id": 2,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "From a Contractor's perspective in competitive bidding, when does informal initiation begin versus formal project initiation?",
+      "q_bm": "Dari sudut pandangan Kontraktor dalam pembidaan kompetitif, bilakah permulaan tidak rasmi bermula berbanding permulaan projek secara rasmi?",
+      "options_en": [
+        "Both occur only after the roof slab is cast",
+        "Contractors never experience a project initiation phase",
+        "Informal initiation starts at the Invitation for Bid (or LOI for negotiated contracts), while formal initiation occurs upon Contract Award",
+        "Informal initiation starts at Practical Completion, while formal initiation starts after DLP"
+      ],
+      "options_bm": [
+        "Kedua-duanya berlaku hanya selepas papak bumbung dituang",
+        "Kontraktor tidak pernah melalui fasa permulaan projek",
+        "Permulaan tidak rasmi bermula pada Jemputan Membida (atau LOI bagi kontrak rundingan), manakala permulaan rasmi berlaku apabila Kontrak Dianugerahkan",
+        "Permulaan tidak rasmi bermula pada Siap Praktikal, manakala permulaan rasmi bermula selepas DLP"
+      ],
+      "answer": 2,
+      "exp_en": "While a Client initiates a project upon recognizing a business need/opportunity, a Contractor initiates internally at Invitation to Bid/LOI and formally upon Contract Award.",
+      "exp_bm": "Walaupun Klien memulakan projek apabila mengenal pasti keperluan/peluang perniagaan, Kontraktor memulakannya secara dalaman pada Jemputan Tender/LOI dan secara rasmi apabila Kontrak Dianugerahkan.",
+      "ref": "CCPM Module 02 (1.1 Definition of Project Initiation)"
+    },
+    {
+      "id": 3,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Which four contextual drivers form the 'Project Initiation Context' in CCPM Module 02 (Figure 2.0)?",
+      "q_bm": "Apakah empat pemacu kontekstual yang membentuk 'Konteks Permulaan Projek' dalam Modul 02 CCPM (Rajah 2.0)?",
+      "options_en": [
+        "Arbitration, adjudication, litigation, and mediation",
+        "Meeting regulatory/social requirements, satisfying stakeholder needs, creating/improving processes/services, and implementing business/technological strategies",
+        "Demolition, piling, painting, and landscaping",
+        "Hiring security guards, ordering stationery, opening a bank account, and printing brochures"
+      ],
+      "options_bm": [
+        "Timbang tara, adjudikasi, litigasi, dan mediasi",
+        "Memenuhi keperluan perundangan/sosial, memenuhi keperluan pihak berkepentingan, mencipta/menambah baik proses/perkhidmatan, dan melaksanakan strategi perniagaan/teknologi",
+        "Perobohan, kerja cerucuk, mengecat, dan landskap",
+        "Menggaji pengawal keselamatan, memesan alat tulis, membuka akaun bank, dan mencetak risalah"
+      ],
+      "answer": 1,
+      "exp_en": "Projects are initiated to satisfy stakeholder requirements, comply with regulatory/social mandates, improve processes/services, or execute business/tech strategies.",
+      "exp_bm": "Projek dimulakan untuk memenuhi keperluan pihak berkepentingan, mematuhi mandat perundangan/sosial, menambah baik proses/perkhidmatan, atau melaksanakan strategi perniagaan/teknologi.",
+      "ref": "CCPM Module 02 (1.2.1 Project Initiation Context)"
+    },
+    {
+      "id": 4,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "In Figure 1.0 of CCPM Module 02, what are the six sequential phases of the Project Management Process?",
+      "q_bm": "Dalam Rajah 1.0 Modul 02 CCPM, apakah enam fasa berurutan dalam Proses Pengurusan Projek?",
+      "options_en": [
+        "Budgeting -> Advertising -> Selling -> Leasing -> Renovating -> Refinancing",
+        "Tendering -> Piling -> Roofing -> Painting -> Handover -> Demolition",
+        "Initiation -> Definition -> Designing -> Development -> Implementation -> Closing and Follow-up",
+        "Feasibility -> Excavation -> Plumbing -> Electrical -> Plastering -> Audit"
+      ],
+      "options_bm": [
+        "Pembajetan -> Pengiklanan -> Penjualan -> Penyewaan -> Pengubahsuaian -> Pembiayaan Semula",
+        "Tender -> Cerucuk -> Bumbung -> Mengecat -> Penyerahan -> Perobohan",
+        "Permulaan -> Pentakrifan -> Reka Bentuk -> Pembangunan -> Pelaksanaan -> Penutupan dan Susulan",
+        "Kebolehlaksanaan -> Pengorekan -> Perpaipan -> Elektrikal -> Melepa -> Audit"
+      ],
+      "answer": 2,
+      "exp_en": "CCPM Module 02 models the project management process in 6 structured phases starting with Phase 1 (Initiation) and Phase 2 (Definition).",
+      "exp_bm": "Modul 02 CCPM memodelkan proses pengurusan projek dalam 6 fasa berstruktur bermula dengan Fasa 1 (Permulaan) dan Fasa 2 (Pentakrifan).",
+      "ref": "CCPM Module 02 (1.2.1 Fundamentals of Project Initiation)"
+    },
+    {
+      "id": 5,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "What is 'Project Selection' during the early initiation stage?",
+      "q_bm": "Apakah 'Pemilihan Projek' (Project Selection) semasa peringkat awal permulaan?",
+      "options_en": [
+        "Evaluating individual or groups of projects and choosing which to initiate so organizational objectives are achieved",
+        "Selecting the colour of the safety helmets on site",
+        "Selecting which brand of ceramic tiles to install in washrooms",
+        "Choosing which subcontractor will supply tower cranes"
+      ],
+      "options_bm": [
+        "Menilai projek individu atau kumpulan projek dan memilih mana yang perlu dimulakan agar objektif organisasi tercapai",
+        "Memilih warna topi keledar keselamatan di tapak",
+        "Memilih jenama jubin seramik untuk dipasang di bilik air",
+        "Memilih subkontraktor yang akan membekalkan kren menara"
+      ],
+      "answer": 0,
+      "exp_en": "Project selection filters competing investment proposals against strategic fit, financial return, and organizational capacity before engaging a Project Manager.",
+      "exp_bm": "Pemilihan projek menapis cadangan pelaburan yang bersaing berdasarkan kesesuaian strategik, pulangan kewangan, dan kapasiti organisasi sebelum melantik Pengurus Projek.",
+      "ref": "CCPM Module 02 (1.1 Definition of Project Initiation)"
+    },
+    {
+      "id": 6,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Which six core components must be included in a comprehensive 'Project Definition' according to CCPM Module 02?",
+      "q_bm": "Apakah enam komponen teras yang mesti terkandung dalam 'Pentakrifan Projek' (Project Definition) yang menyeluruh mengikut Modul 02 CCPM?",
+      "options_en": [
+        "Borehole logs, concrete cube results, rebar mill certs, slump tests, air quality, and noise readings",
+        "Project objectives, project scope, outline deliverables/outcomes, exclusions, constraints, and interfaces",
+        "Architect fee, engineer fee, QS fee, land tax, quit rent, and assessment rate",
+        "Tender bond, performance bond, retention sum, LAD rate, insurance policy, and final account"
+      ],
+      "options_bm": [
+        "Log lubang jara, keputusan kiub konkrit, sijil kilang keluli, ujian slump, kualiti udara, dan bacaan bunyi",
+        "Objektif projek, skop projek, garis kasar serahan/hasil, pengecualian, kekangan, dan antara muka (interfaces)",
+        "Yuran arkitek, yuran jurutera, yuran QS, cukai tanah, cukai pintu, dan kadar taksiran",
+        "Bon tender, bon pelaksanaan, wang tahanan, kadar LAD, polisi insurans, dan akaun akhir"
+      ],
+      "answer": 1,
+      "exp_en": "Defining objectives, scope, deliverables, exclusions, constraints, and interfaces upfront prevents scope creep and boundary disputes.",
+      "exp_bm": "Mentakrifkan objektif, skop, serahan, pengecualian, kekangan, dan antara muka sejak awal mengelakkan peluasan skop (scope creep) dan pertikaian sempadan kerja.",
+      "ref": "CCPM Module 02 (1.2.2 Project Definition)"
+    },
+    {
+      "id": 7,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Why is explicitly listing 'Exclusions' inside the Project Definition critical during initiation?",
+      "q_bm": "Mengapakah menyenaraikan 'Pengecualian' (Exclusions) secara eksplisit di dalam Pentakrifan Projek amat kritikal semasa fasa permulaan?",
+      "options_en": [
+        "To exempt the contractor from complying with OSHA 1994",
+        "To avoid preparing any drawings during design stage",
+        "To exclude the local authority from inspecting the site",
+        "To make clear what work or items are NOT included in the project scope/budget, preventing false stakeholder assumptions"
+      ],
+      "options_bm": [
+        "Untuk mengecualikan kontraktor daripada mematuhi OSHA 1994",
+        "Untuk mengelakkan penyediaan sebarang lukisan semasa peringkat reka bentuk",
+        "Untuk mengecualikan pihak berkuasa tempatan daripada memeriksa tapak",
+        "Untuk menjelaskan kerja atau item yang TIDAK termasuk dalam skop/bajet projek, sekali gus mengelakkan andaian palsu pihak berkepentingan"
+      ],
+      "answer": 3,
+      "exp_en": "Documenting exclusions (e.g., tenant interior fit-out or loose furniture excluded from base-build D&B scope) prevents costly commercial misunderstandings.",
+      "exp_bm": "Mendokumenkan pengecualian (contohnya ubah suai dalaman penyewa atau perabot longgar yang dikecualikan daripada skop asas D&B) mengelakkan salah faham komersial yang mahal.",
+      "ref": "CCPM Module 02 (1.2.2 Project Definition)"
+    },
+    {
+      "id": 8,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "What is a 'Statement of Need' (Statement of Requirement) in Project Initiation?",
+      "q_bm": "Apakah 'Penyataan Keperluan' (Statement of Need / Statement of Requirement) dalam Permulaan Projek?",
+      "options_en": [
+        "A detailed structural rebar bending schedule",
+        "An outline document defining the client's operational needs, existing/future premises requirements, allocated budget, assumed programme, and stakeholder benefits",
+        "A daily attendance sheet for general labourers",
+        "A list of defective items found at the end of the 24-month DLP"
+      ],
+      "options_bm": [
+        "Jadual lenturan bar tetulang struktur yang terperinci",
+        "Dokumen garis kasar yang mentakrifkan keperluan operasi klien, keperluan premis sedia ada/masa depan, bajet diperuntukkan, andaian program, dan manfaat kepada pihak berkepentingan",
+        "Lembaran kehadiran harian bagi buruh am",
+        "Senarai item kecacatan yang ditemui pada akhir DLP 24 bulan"
+      ],
+      "answer": 1,
+      "exp_en": "The Statement of Need captures business requirements, budget, assumed timeline, and expected benefits without premature technical design details.",
+      "exp_bm": "Penyataan Keperluan merangkumi keperluan perniagaan, bajet, andaian garis masa, dan manfaat yang dijangkakan tanpa perincian reka bentuk teknikal yang pramatang.",
+      "ref": "CCPM Module 02 (1.2.3 Statement of Need)"
+    },
+    {
+      "id": 9,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Which five elements should a Statement of Need typically contain according to CCPM Module 02?",
+      "q_bm": "Apakah lima elemen yang lazimnya terkandung dalam Penyataan Keperluan mengikut Modul 02 CCPM?",
+      "options_en": [
+        "Concrete mix ratios, steel yield strength, wind load, seismic zone, and soil bearing capacity",
+        "Bomba certificate, CCC Borang F, TNB meter reading, and IWK bill",
+        "Supplier bank accounts, worker passport numbers, crane serial numbers, and fuel receipts",
+        "Client's needs & operations, existing premises & future requirements, allocated budget, assumed programme, and project benefits to stakeholders"
+      ],
+      "options_bm": [
+        "Nisbah bancuhan konkrit, kekuatan alah keluli, beban angin, zon seismik, dan keupayaan galas tanah",
+        "Perakuan Bomba, CCC Borang F, bacaan meter TNB, dan bil IWK",
+        "Akaun bank pembekal, nombor pasport pekerja, nombor siri kren, dan resit bahan api",
+        "Keperluan & operasi klien, premis sedia ada & keperluan masa depan, bajet diperuntukkan, andaian program, dan manfaat projek kepada pihak berkepentingan"
+      ],
+      "answer": 3,
+      "exp_en": "These 5 business-focused items enable senior management to justify capital allocation before commissioning detailed architectural design.",
+      "exp_bm": "Lima item berfokuskan perniagaan ini membolehkan pengurusan atasan mewajarkan peruntukan modal sebelum memulakan reka bentuk seni bina terperinci.",
+      "ref": "CCPM Module 02 (1.2.3 Statement of Need)"
+    },
+    {
+      "id": 10,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "In Project Initiation, what does identifying 'Interfaces' in the Project Definition refer to?",
+      "q_bm": "Dalam Permulaan Projek, apakah yang dimaksudkan dengan mengenal pasti 'Antara Muka' (Interfaces) dalam Pentakrifan Projek?",
+      "options_en": [
+        "Only the type of fencing around the site canteen",
+        "Only the colour of computer screens in the site office",
+        "Only the brand of mobile phones used by site engineers",
+        "Dependencies and boundary interactions with adjacent properties, existing utilities, statutory authorities, other projects, and end-user operations"
+      ],
+      "options_bm": [
+        "Hanya jenis pagar di sekeliling kantin tapak",
+        "Hanya warna skrin komputer di pejabat tapak",
+        "Hanya jenama telefon bimbit yang digunakan oleh jurutera tapak",
+        "Kebergantungan dan interaksi sempadan dengan hartanah bersebelahan, utiliti sedia ada, pihak berkuasa berkanun, projek lain, dan operasi pengguna akhir"
+      ],
+      "answer": 3,
+      "exp_en": "Identifying physical, operational, and statutory interfaces early avoids unexpected clashes with neighbours, road networks, utilities, and phased handovers.",
+      "exp_bm": "Mengenal pasti antara muka fizikal, operasi, dan berkanun lebih awal mengelakkan pertembungan luar jangka dengan jiran, rangkaian jalan, utiliti, dan penyerahan berfasa.",
+      "ref": "CCPM Module 02 (1.2.2 Project Definition)"
+    },
+    {
+      "id": 11,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "In CCPM Module 02 (Figure 4.0), when the traditional 3 primary constraints (Time, Scope, Cost) are expanded into the modern 6 Project Constraints, what are the 6 constraints?",
+      "q_bm": "Dalam Modul 02 CCPM (Rajah 4.0), apabila 3 kekangan utama tradisional (Masa, Skop, Kos) diperluaskan kepada 6 Kekangan Projek moden, apakah 6 kekangan tersebut?",
+      "options_en": [
+        "Architect, Engineer, QS, Planner, Surveyor, and Contractor",
+        "Inception, Design, Tender, Construction, Handover, and Maintenance",
+        "Land, Labour, Capital, Entrepreneurship, Tax, and Inflation",
+        "Schedule, Scope, Budget, Risk, Resources, and Quality"
+      ],
+      "options_bm": [
+        "Arkitek, Jurutera, QS, Perancang, Juruukur, dan Kontraktor",
+        "Permulaan, Reka Bentuk, Tender, Pembinaan, Penyerahan, dan Penyenggaraan",
+        "Tanah, Buruh, Modal, Keusahawanan, Cukai, dan Inflasi",
+        "Jadual (Schedule), Skop (Scope), Bajet (Budget), Risiko (Risk), Sumber (Resources), dan Kualiti (Quality)"
+      ],
+      "answer": 3,
+      "exp_en": "Module 02 notes that 'Cost' evolves to 'Budget', 'Time' to 'Schedule', and three additional constraints are added: Risk, Resources, and Quality.",
+      "exp_bm": "Modul 02 menyatakan istilah 'Kos' berubah kepada 'Bajet', 'Masa' kepada 'Jadual', dan tiga kekangan tambahan disertakan: Risiko, Sumber, dan Kualiti.",
+      "ref": "CCPM Module 02 (1.2.4 Project Scope and Constraints)"
+    },
+    {
+      "id": 12,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "What is the primary purpose of a 'Project Brief' established during the Initiation Phase?",
+      "q_bm": "Apakah tujuan utama 'Ringkasan Projek' (Project Brief) yang diwujudkan semasa Fasa Permulaan?",
+      "options_en": [
+        "To list the daily wages of general workers",
+        "To outline the project objectives, background, governance framework, deliverables, milestones, risks, and criteria for the Steering Committee to decide whether to proceed",
+        "To serve as a monthly progress payment invoice",
+        "To replace the detailed structural engineering calculations"
+      ],
+      "options_bm": [
+        "Untuk menyenaraikan gaji harian pekerja am",
+        "Untuk menggariskan objektif projek, latar belakang, rangka kerja tadbir urus, serahan, pencapaian utama, risiko, dan kriteria bagi Jawatankuasa Pemandu memutuskan sama ada projek diteruskan",
+        "Untuk berfungsi sebagai invois bayaran kemajuan bulanan",
+        "Untuk menggantikan pengiraan kejuruteraan struktur terperinci"
+      ],
+      "answer": 1,
+      "exp_en": "The Project Brief serves as the foundational governance document enabling executive leadership/PMO to authorize moving into detailed planning and design.",
+      "exp_bm": "Project Brief berfungsi sebagai dokumen tadbir urus asas yang membolehkan kepimpinan eksekutif/PMO meluluskan peralihan ke peringkat perancangan dan reka bentuk terperinci.",
+      "ref": "CCPM Module 02 (1.2.5 Establish Project Brief)"
+    },
+    {
+      "id": 13,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which five supporting studies or reports typically feed information into the development of a comprehensive Project Brief?",
+      "q_bm": "Apakah lima kajian atau laporan sokongan yang lazimnya menyalurkan maklumat ke dalam pembangunan Ringkasan Projek (Project Brief) yang komprehensif?",
+      "options_en": [
+        "Borang F, Borang G1–G21, Fire Certificate, TNB Bill, and IWK Receipt",
+        "Feasibility Study Report, Value Management Report, Environmental Impact Statement, Stakeholder Impact Assessment, and Project Business Case",
+        "Daily Site Diary, Concrete Cube Log, Bar Bending Schedule, Delivery Orders, and Petty Cash Vouchers",
+        "As-Built Drawings, O&M Manuals, Spare Parts List, Warranty Cards, and Key Schedule"
+      ],
+      "options_bm": [
+        "Borang F, Borang G1–G21, Perakuan Bomba, Bil TNB, dan Resit IWK",
+        "Laporan Kajian Kebolehlaksanaan, Laporan Pengurusan Nilai, Penyataan Impak Alam Sekitar, Penilaian Impak Pihak Berkepentingan, dan Kes Perniagaan Projek",
+        "Diari Tapak Harian, Log Kiub Konkrit, Jadual Lenturan Besi, Pesanan Penghantaran, dan Baucar Tunai Runcit",
+        "Lukisan Siap Bina, Manual O&M, Senarai Alat Ganti, Kad Jaminan, dan Jadual Kunci"
+      ],
+      "answer": 1,
+      "exp_en": "Inputs from Feasibility, Value Management, Environmental, Stakeholder, and Business Case assessments ensure the Project Brief is commercially and technically sound.",
+      "exp_bm": "Input daripada penilaian Kebolehlaksanaan, Pengurusan Nilai, Alam Sekitar, Pihak Berkepentingan, dan Kes Perniagaan memastikan Project Brief kukuh dari segi komersial dan teknikal.",
+      "ref": "CCPM Module 02 (1.2.5 Establish Project Brief)"
+    },
+    {
+      "id": 14,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "How does a 'Design Brief' differ from a 'Project Brief' in CCPM Module 02?",
+      "q_bm": "Bagaimanakah 'Ringkasan Reka Bentuk' (Design Brief) berbeza daripada 'Ringkasan Projek' (Project Brief) dalam Modul 02 CCPM?",
+      "options_en": [
+        "The Project Brief defines overall project governance and business justification for initiation, whereas the Design Brief translates client vision, site data, technical/ICT/FF&E specs, and constraints into a guiding document for designers",
+        "The Project Brief is only for subcontractors while the Design Brief is for bank tellers",
+        "The Design Brief is prepared after the building is demolished",
+        "There is no difference; both are identical financial audit reports"
+      ],
+      "options_bm": [
+        "Project Brief mentakrifkan tadbir urus projek dan justifikasi perniagaan keseluruhan, manakala Design Brief menterjemahkan visi klien, data tapak, spesifikasi teknikal/ICT/FF&E, dan kekangan menjadi dokumen panduan pereka bentuk",
+        "Project Brief hanya untuk subkontraktor manakala Design Brief untuk juruwang bank",
+        "Design Brief disediakan selepas bangunan dirobohkan",
+        "Tiada perbezaan; kedua-duanya adalah laporan audit kewangan yang sama"
+      ],
+      "answer": 0,
+      "exp_en": "The Design Brief operationalizes the Project Brief for the design consultants, specifying functional, spatial, technical, site, and budget parameters.",
+      "exp_bm": "Design Brief mengoperasikan Project Brief untuk perunding reka bentuk dengan memperincikan parameter fungsi, ruang, teknikal, tapak, dan bajet.",
+      "ref": "CCPM Module 02 (1.2.5 & 1.2.6 Project vs. Design Brief)"
+    },
+    {
+      "id": 15,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which five essential elements must be included in a well-structured 'Design Brief' according to Section 1.2.6 of CCPM Module 02?",
+      "q_bm": "Apakah lima elemen penting yang mesti disertakan dalam 'Ringkasan Reka Bentuk' (Design Brief) yang tersusun mengikut Seksyen 1.2.6 Modul 02 CCPM?",
+      "options_en": [
+        "Only the site security guard shift roster",
+        "Only the architect's home address and phone number",
+        "Only the concrete supplier's price list",
+        "Client vision/mission/objectives, site/survey/ground info, technical/ICT/FF&E requirements, specialist component requirements, and planning/budget/programme/milestone requirements"
+      ],
+      "options_bm": [
+        "Hanya jadual syif pengawal keselamatan tapak",
+        "Hanya alamat rumah dan nombor telefon arkitek",
+        "Hanya senarai harga pembekal konkrit",
+        "Visi/misi/objektif klien, maklumat tapak/ukur/tanah, keperluan teknikal/ICT/FF&E, keperluan komponen pakar, dan keperluan perancangan/bajet/program/pencapaian utama"
+      ],
+      "answer": 3,
+      "exp_en": "A complete Design Brief gives architects and engineers clear client objectives, ground data, technical/ICT needs, specialist packages, and cost/time limits.",
+      "exp_bm": "Design Brief yang lengkap memberi arkitek dan jurutera objektif klien yang jelas, data tanah, keperluan teknikal/ICT, pakej pakar, serta had kos/masa.",
+      "ref": "CCPM Module 02 (1.2.6 Establish Design Brief)"
+    },
+    {
+      "id": 16,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which of the following is one of the five key prerequisites required BEFORE starting a project according to Section 1.2.5 of Module 02?",
+      "q_bm": "Antara berikut, yang manakah merupakan salah satu daripada lima prasyarat utama yang diperlukan SEBELUM memulakan projek mengikut Seksyen 1.2.5 Modul 02?",
+      "options_en": [
+        "Formal agreement/authorization to proceed from the Project Sponsor alongside understanding of the agreed proposal and corporate project management guidelines",
+        "Completion of roof waterproofing ponding tests",
+        "Final settlement of all subcontractor retention monies",
+        "Issuance of the Certificate of Making Good Defects"
+      ],
+      "options_bm": [
+        "Persetujuan/kebenaran rasmi untuk meneruskan projek daripada Penaja Projek di samping pemahaman cadangan yang dipersetujui dan garis panduan pengurusan projek korporat",
+        "Penyiapan ujian takungan kalis air bumbung",
+        "Penyelesaian akhir semua wang tahanan subkontraktor",
+        "Pengeluaran Perakuan Siap Membaiki Kecacatan"
+      ],
+      "answer": 0,
+      "exp_en": "Before initiating work, the CPM needs sponsor authorization, documented proposal scope, business unit alignment, and corporate governance guidelines.",
+      "exp_bm": "Sebelum memulakan kerja, CPM memerlukan kebenaran penaja, skop cadangan bertulis, penjajaran unit perniagaan, dan garis panduan tadbir urus korporat.",
+      "ref": "CCPM Module 02 (1.2.5 Key Points Before Starting)"
+    },
+    {
+      "id": 17,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Who is typically responsible for authoring the written 'Project Scope' statement during the initiation/early planning stage?",
+      "q_bm": "Siapakah yang lazimnya bertanggungjawab menggubal penyataan bertulis 'Skop Projek' (Project Scope) semasa peringkat permulaan/perancangan awal?",
+      "options_en": [
+        "The retail shop security guard",
+        "The site canteen operator",
+        "A well-versed construction professional, specifically the Construction Project Manager (CPM) in consultation with the Client and technical team",
+        "The ready-mix concrete truck driver"
+      ],
+      "options_bm": [
+        "Pengawal keselamatan kedai runcit",
+        "Pengusaha kantin tapak",
+        "Profesional pembinaan yang berpengalaman luas, khususnya Pengurus Projek Pembinaan (CPM) melalui rundingan bersama Klien dan pasukan teknikal",
+        "Pemandu lori konkrit siap bancuh"
+      ],
+      "answer": 2,
+      "exp_en": "The CPM translates the client's business needs into a clear, unambiguous written scope statement so the team knows exactly what must be delivered.",
+      "exp_bm": "CPM menterjemahkan keperluan perniagaan klien kepada penyataan skop bertulis yang jelas supaya pasukan mengetahui dengan tepat apa yang mesti diserahkan.",
+      "ref": "CCPM Module 02 (1.2.4 Project Scope and Constraints)"
+    },
+    {
+      "id": 18,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "In the 6-constraint project management model, how does an uncontrolled increase in 'Scope' affect the other constraints?",
+      "q_bm": "Dalam model pengurusan projek 6-kekangan, bagaimanakah peningkatan 'Skop' yang tidak terkawal mempengaruhi kekangan-kekangan lain?",
+      "options_en": [
+        "It automatically reduces both project cost and duration by half",
+        "It eliminates all construction risks",
+        "It has zero impact on resources or budget",
+        "It increases Schedule duration, requires higher Budget and Resources, and elevates Risk if Quality is to be maintained"
+      ],
+      "options_bm": [
+        "Ia secara automatik mengurangkan kos dan tempoh projek sebanyak separuh",
+        "Ia menghapuskan semua risiko pembinaan",
+        "Ia tidak memberi sebarang kesan kepada sumber atau bajet",
+        "Ia memanjangkan tempoh Jadual, memerlukan Bajet dan Sumber yang lebih tinggi, serta meningkatkan Risiko jika Kualiti ingin dikekalkan"
+      ],
+      "answer": 3,
+      "exp_en": "All six constraints are tightly interdependent; expanding scope without adjusting budget, schedule, or resources inevitably degrades quality or increases risk.",
+      "exp_bm": "Keenam-enam kekangan saling bergantung rapat; meluaskan skop tanpa melaraskan bajet, jadual, atau sumber pasti menjejaskan kualiti atau meningkatkan risiko.",
+      "ref": "CCPM Module 02 (1.2.4 Six Primary Constraints)"
+    },
+    {
+      "id": 19,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Why does CCPM Module 02 emphasize capturing 'Lessons Learned' frameworks inside the Project Brief right from the Initiation Phase?",
+      "q_bm": "Mengapakah Modul 02 CCPM menekankan penetapan rangka kerja merekod 'Pengajaran yang Diperoleh' (Lessons Learned) di dalam Project Brief sejak Fasa Permulaan lagi?",
+      "options_en": [
+        "Because lessons learned are required by Bomba to approve sprinkler pipes",
+        "So historical lessons from past projects inform early risk avoidance and new insights are systematically recorded at every phase gate",
+        "To replace the Bill of Quantities",
+        "To avoid holding site progress meetings"
+      ],
+      "options_bm": [
+        "Kerana pengajaran yang diperoleh diperlukan oleh Bomba untuk meluluskan paip pemercik air",
+        "Supaya pengajaran sejarah daripada projek terdahulu memandu pencegahan risiko awal dan pengetahuan baharu direkod secara sistematik pada setiap pintu fasa",
+        "Untuk menggantikan Senarai Kuantiti",
+        "Untuk mengelakkan mesyuarat kemajuan tapak"
+      ],
+      "answer": 1,
+      "exp_en": "Applying past lessons at initiation avoids repeating historical mistakes, while structured capture builds organizational maturity.",
+      "exp_bm": "Mengaplikasikan pengajaran lalu pada permulaan mengelakkan pengulangan kesilapan sejarah, manakala perekodan berstruktur membina kematangan organisasi.",
+      "ref": "CCPM Module 02 (1.2.5 Establish Project Brief)"
+    },
+    {
+      "id": 20,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "What is the key decision output expected from the Steering Committee / Executive Leadership at the conclusion of the Project Initiation / Brief stage?",
+      "q_bm": "Apakah output keputusan utama yang dijangkakan daripada Jawatankuasa Pemandu / Kepimpinan Eksekutif pada penghujung peringkat Permulaan Projek / Project Brief?",
+      "options_en": [
+        "Approval of the Final Account statement",
+        "Issuance of the Certificate of Practical Completion (CPC)",
+        "Release of the second half of retention money",
+        "A formal 'Go / No-Go' authorization decision to proceed with detailed design and project execution"
+      ],
+      "options_bm": [
+        "Kelulusan penyata Akaun Akhir",
+        "Pengeluaran Perakuan Siap Praktikal (CPC)",
+        "Pelepasan separuh kedua wang tahanan",
+        "Keputusan kebenaran rasmi 'Teruskan / Tidak Teruskan' (Go / No-Go) untuk melangkah ke reka bentuk terperinci dan pelaksanaan projek"
+      ],
+      "answer": 3,
+      "exp_en": "The initiation gate validates whether the project is viable and aligned with corporate strategy before committing major design and construction funds.",
+      "exp_bm": "Gerbang permulaan mengesahkan sama ada projek berdaya maju dan sejajar dengan strategi korporat sebelum meluluskan dana reka bentuk dan pembinaan yang besar.",
+      "ref": "CCPM Module 02 (1.2.5 Establish Project Brief)"
+    },
+    {
+      "id": 21,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "According to Section 2.1 of CCPM Module 02, what are the four (4) functional sub-teams that make up a complete Project Team?",
+      "q_bm": "Menurut Seksyen 2.1 Modul 02 CCPM, apakah empat (4) sub-pasukan fungsian yang membentuk sebuah Pasukan Projek yang lengkap?",
+      "options_en": [
+        "Design Team, Construction Team, Commercial Team, and Project Management Team",
+        "Piling Team, Concreting Team, Plastering Team, and Painting Team",
+        "Marketing Team, Sales Team, HR Team, and Payroll Team",
+        "Security Team, Cleaning Team, Catering Team, and Gardening Team"
+      ],
+      "options_bm": [
+        "Pasukan Reka Bentuk (Design), Pasukan Pembinaan (Construction), Pasukan Komersial (Commercial), dan Pasukan Pengurusan Projek (Project Management)",
+        "Pasukan Cerucuk, Pasukan Konkrit, Pasukan Melepa, dan Pasukan Mengecat",
+        "Pasukan Pemasaran, Pasukan Jualan, Pasukan Sumber Manusia, dan Pasukan Gaji",
+        "Pasukan Keselamatan, Pasukan Pembersihan, Pasukan Katering, dan Pasukan Landskap"
+      ],
+      "answer": 0,
+      "exp_en": "Module 02 divides project human resources into four complementary groups: Design, Construction, Commercial, and Project Management Teams.",
+      "exp_bm": "Modul 02 membahagikan sumber manusia projek kepada empat kumpulan saling melengkapi: Pasukan Reka Bentuk, Pembinaan, Komersial, dan Pengurusan Projek.",
+      "ref": "CCPM Module 02 (2.1 Introduction to Project Team)"
+    },
+    {
+      "id": 22,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "In CCPM Module 02 (Section 2.2c), which specialists typically comprise the 'Commercial Team' established at the early strategic planning stage to evaluate economic and financial feasibility?",
+      "q_bm": "Dalam Modul 02 CCPM (Seksyen 2.2c), pakar manakah yang lazimnya menganggotai 'Pasukan Komersial' (Commercial Team) pada peringkat awal perancangan strategik untuk menilai kebolehlaksanaan ekonomi dan kewangan?",
+      "options_en": [
+        "Bomba Inspector, DOSH Officer, and DOE Auditor",
+        "Financial Planning Consultant, Certified Public Accountant (CPA), Investment Banker, and Legal Adviser",
+        "Soil Driller, Laboratory Technician, and Land Surveyor",
+        "Tower Crane Operator, Bar Bender, Scaffolder, and Welder"
+      ],
+      "options_bm": [
+        "Pemeriksa Bomba, Pegawai DOSH, dan Juruaudit JAS",
+        "Perunding Perancangan Kewangan, Akauntan Awam Bertauliah (CPA), Jurubank Pelaburan, dan Penasihat Undang-Undang",
+        "Penggerudi Tanah, Juruteknik Makmal, dan Juruukur Tanah",
+        "Pengendali Kren Menara, Pembengkok Besi, Pemasang Perancah, dan Pengimpal"
+      ],
+      "answer": 1,
+      "exp_en": "At strategic inception, the Commercial Team structures project financing, tax/accounting feasibility, investment banking, and legal protection.",
+      "exp_bm": "Pada peringkat permulaan strategik, Pasukan Komersial menstrukturkan pembiayaan projek, kebolehlaksanaan cukai/perakaunan, perbankan pelaburan, dan perlindungan undang-undang.",
+      "ref": "CCPM Module 02 (2.2c Commercial Team)"
+    },
+    {
+      "id": 23,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "When a Project Management Team brings together specialists from multiple functional organizations (e.g., Design, Commercial, Construction, QHSE) under a CPM, what organizational structure is being utilized?",
+      "q_bm": "Apabila Pasukan Pengurusan Projek menghimpunkan pakar daripada pelbagai organisasi fungsian (cth. Reka Bentuk, Komersial, Pembinaan, QHSE) di bawah seorang CPM, struktur organisasi apakah yang digunakan?",
+      "options_en": [
+        "Matrix Management (Cross-Functional Team)",
+        "Sole Proprietorship",
+        "Informal Hobby Club",
+        "Purely Hierarchical Military Command"
+      ],
+      "options_bm": [
+        "Pengurusan Matriks (Pasukan Rentas Fungsi / Cross-Functional Team)",
+        "Milikan Tunggal",
+        "Kelab Hobi Tidak Rasmi",
+        "Rantaian Arahan Ketenteraan Tulen"
+      ],
+      "answer": 0,
+      "exp_en": "Module 02 notes that cross-functional teams drawn from multiple disciplines/organizations represent Matrix Management.",
+      "exp_bm": "Modul 02 menyatakan bahawa pasukan rentas fungsi yang dibentuk daripada pelbagai disiplin/organisasi mencerminkan Pengurusan Matriks.",
+      "ref": "CCPM Module 02 (2.2d Project Management Team)"
+    },
+    {
+      "id": 24,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "In Figure 5.0 of CCPM Module 02 (Typical Project Management Team), which five functional managers report directly under the Construction Project Manager (CPM)?",
+      "q_bm": "Dalam Rajah 5.0 Modul 02 CCPM (Pasukan Pengurusan Projek Tipikal), apakah lima pengurus fungsian yang melapor terus di bawah Pengurus Projek Pembinaan (CPM)?",
+      "options_en": [
+        "Bank Tellers, Insurance Agents, Real Estate Brokers, Auctioneers, and Valuers",
+        "Retail Store Managers, Cinema Managers, Valet Managers, Janitors, and Cashiers",
+        "Project Control Managers, Design Managers, Construction Managers, QHSE Managers, and Contract Managers",
+        "Customs Officers, Immigration Officers, Police Inspectors, Firemen, and Postmen"
+      ],
+      "options_bm": [
+        "Juruwang Bank, Ejen Insurans, Broker Hartanah, Pelelong, dan Penilai",
+        "Pengurus Kedai Runcit, Pengurus Pawagam, Pengurus Valet, Tukang Cuci, dan Juruwang",
+        "Pengurus Kawalan Projek, Pengurus Reka Bentuk, Pengurus Pembinaan, Pengurus QHSE, dan Pengurus Kontrak",
+        "Pegawai Kastam, Pegawai Imigresen, Inspektor Polis, Anggota Bomba, dan Posmen"
+      ],
+      "answer": 2,
+      "exp_en": "The typical PMT structure places Project Control, Design, Construction, QHSE, and Contract Managers under the CPM's coordination.",
+      "exp_bm": "Struktur PMT tipikal meletakkan Pengurus Kawalan Projek, Reka Bentuk, Pembinaan, QHSE, dan Kontrak di bawah penyelarasan CPM.",
+      "ref": "CCPM Module 02 (Figure 5.0 Typical PMT)"
+    },
+    {
+      "id": 25,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "In an owner-appointed CPM's scope of services for a Design-and-Build project (Section 2.2d), what is the CPM's key duty during 'Contractor Selection' (v)?",
+      "q_bm": "Dalam skop perkhidmatan CPM yang dilantik pemilik bagi projek Reka dan Bina (Seksyen 2.2d), apakah tugas utama CPM semasa 'Pemilihan Kontraktor' (v)?",
+      "options_en": [
+        "Review the Contractor's price proposal against approved schematics/details and establish an independent estimate as the basis for negotiation",
+        "Allow the contractor to charge any price without checking drawings",
+        "Sign blank cheques for the contractor",
+        "Eliminate all technical evaluation criteria"
+      ],
+      "options_bm": [
+        "Menyemak cadangan harga Kontraktor berbanding lukisan skematik/terperinci yang diluluskan dan menyediakan anggaran bebas sebagai asas rundingan",
+        "Membenarkan kontraktor mengenakan sebarang harga tanpa menyemak lukisan",
+        "Menandatangani cek kosong untuk kontraktor",
+        "Menghapuskan semua kriteria penilaian teknikal"
+      ],
+      "answer": 0,
+      "exp_en": "An independent estimate prepared against approved schematics provides an objective benchmark for commercial negotiation with the D&B contractor.",
+      "exp_bm": "Anggaran bebas yang disediakan berdasarkan pelan skematik yang diluluskan menjadi penanda aras objektif bagi rundingan komersial dengan kontraktor D&B.",
+      "ref": "CCPM Module 02 (2.2d Scope of CPM Services)"
+    },
+    {
+      "id": 26,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "During 'Construction Mobilization' (vii) in the CPM's Design-and-Build scope of services, which deliverables must the CPM verify before site works advance?",
+      "q_bm": "Semasa 'Mobilisasi Pembinaan' (vii) dalam skop perkhidmatan Reka dan Bina CPM, serahan manakah yang mesti disahkan oleh CPM sebelum kerja tapak diteruskan?",
+      "options_en": [
+        "Handover of retail keys to 200 shop tenants",
+        "Proper and timely delivery of preliminary works, site office/facilities, insurances, and performance bonds in accordance with the Contract",
+        "Issuance of the Certificate of Making Good Defects",
+        "Completion of 24-month DLP defect rectification"
+      ],
+      "options_bm": [
+        "Penyerahan kunci kedai kepada 200 penyewa kedai",
+        "Penyampaian kerja preliminari, pejabat/kemudahan tapak, insurans, dan bon pelaksanaan secara teratur dan tepat masa mengikut Kontrak",
+        "Pengeluaran Perakuan Siap Membaiki Kecacatan",
+        "Penyiapan pembaikan kecacatan DLP 24 bulan"
+      ],
+      "answer": 1,
+      "exp_en": "Verifying valid CAR/SOCSO insurances, performance bonds, hoarding, and site facilities protects the Employer from Day 1 of site possession.",
+      "exp_bm": "Mengesahkan insurans CAR/PERKESO yang sah, bon pelaksanaan, pagar adang, dan kemudahan tapak melindungi Majikan sejak Hari Pertama milik tapak.",
+      "ref": "CCPM Module 02 (2.2d Construction Mobilization)"
+    },
+    {
+      "id": 27,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "How should a CPM execute 'Payment Certification' (x) in a Design-and-Build project according to Module 02?",
+      "q_bm": "Bagaimanakah CPM perlu melaksanakan 'Perakuan Bayaran' (x) dalam projek Reka dan Bina mengikut Modul 02?",
+      "options_en": [
+        "Pay 100% of the contract sum in advance before piling starts",
+        "Certify payments based purely on telephone calls without site inspection",
+        "Ignore quality non-conformance reports when certifying payment",
+        "Verify the Contractor's monthly claim endorsed by the Consultant via joint site inspection, taking into account actual physical progress and quality records"
+      ],
+      "options_bm": [
+        "Membayar 100% jumlah kontrak terlebih dahulu sebelum kerja cerucuk bermula",
+        "Memperakui bayaran berdasarkan panggilan telefon semata-mata tanpa pemeriksaan tapak",
+        "Mengabaikan laporan ketidakpatuhan kualiti semasa memperakui bayaran",
+        "Mengesahkan tuntutan bulanan Kontraktor yang disokong Perunding melalui pemeriksaan tapak bersama, dengan mengambil kira kemajuan fizikal sebenar dan rekod kualiti"
+      ],
+      "answer": 3,
+      "exp_en": "Linking monthly payment verification to joint inspections and QA/QC records ensures the Client only pays for compliant, verified work.",
+      "exp_bm": "Menghubungkan pengesahan bayaran bulanan kepada pemeriksaan bersama dan rekod QA/QC memastikan Klien hanya membayar kerja yang patuh dan disahkan.",
+      "ref": "CCPM Module 02 (2.2d Payment Certification)"
+    },
+    {
+      "id": 28,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Which disciplines typically form the 'Design Team' listed in Section 2.2a of CCPM Module 02?",
+      "q_bm": "Disiplin manakah yang lazimnya membentuk 'Pasukan Reka Bentuk' (Design Team) yang disenaraikan dalam Seksyen 2.2a Modul 02 CCPM?",
+      "options_en": [
+        "Only crane riggers and concrete finishers",
+        "Only landscape gardeners and interior decorators",
+        "Town Planning, Architectural, CAAD/BIM, Civil & Structural (C&S), and Mechanical & Electrical (M&E)",
+        "Only criminal lawyers and tax accountants"
+      ],
+      "options_bm": [
+        "Hanya juruikat kren dan tukang kemasan konkrit",
+        "Hanya tukang kebun landskap dan penghias dalaman",
+        "Perancangan Bandar, Seni Bina, CAAD/BIM, Awam & Struktur (C&S), dan Mekanikal & Elektrikal (M&E)",
+        "Hanya peguam jenayah dan akauntan cukai"
+      ],
+      "answer": 2,
+      "exp_en": "Town Planners, Architects, C&S Engineers, M&E Engineers, and CAD/BIM specialists collaborate to produce statutory and construction drawings.",
+      "exp_bm": "Perancang Bandar, Arkitek, Jurutera C&S, Jurutera M&E, dan pakar CAD/BIM bekerjasama menghasilkan lukisan berkanun dan lukisan pembinaan.",
+      "ref": "CCPM Module 02 (2.2a Design Team)"
+    },
+    {
+      "id": 29,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "What is a core responsibility of every individual member of the Project Management Team listed in Section 2.2d?",
+      "q_bm": "Apakah tanggungjawab teras bagi setiap ahli individu Pasukan Pengurusan Projek yang disenaraikan dalam Seksyen 2.2d?",
+      "options_en": [
+        "Understanding assigned work, planning activities in detail, delivering within budget/time/quality, and proactively escalating scope, risk, or quality issues to the CPM",
+        "Working in isolation without communicating with other disciplines",
+        "Issuing verbal variation instructions directly to subcontractors without CPM knowledge",
+        "Waiting until the end of the project to report major delays"
+      ],
+      "options_bm": [
+        "Memahami kerja yang ditugaskan, merancang aktiviti secara terperinci, menyiapkannya dalam bajet/masa/kualiti, dan melaporkan isu skop, risiko, atau kualiti secara proaktif kepada CPM",
+        "Bekerja secara bersendirian tanpa berkomunikasi dengan disiplin lain",
+        "Mengeluarkan arahan perubahan lisan terus kepada subkontraktor tanpa pengetahuan CPM",
+        "Menunggu sehingga akhir projek untuk melaporkan kelewatan besar"
+      ],
+      "answer": 0,
+      "exp_en": "Proactive status communication and early escalation of scope, risk, and quality issues allow the CPM to intervene before deviations become irreversible.",
+      "exp_bm": "Komunikasi status secara proaktif dan eskalasi awal isu skop, risiko, dan kualiti membolehkan CPM bertindak sebelum sisihan menjadi tidak terkawal.",
+      "ref": "CCPM Module 02 (2.2d Project Management Team)"
+    },
+    {
+      "id": 30,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Why does the scope of services of an Owner's Construction Project Manager differ from that of a Contractor's Project Manager?",
+      "q_bm": "Mengapakah skop perkhidmatan Pengurus Projek Pembinaan Pemilik berbeza daripada skop Pengurus Projek Kontraktor?",
+      "options_en": [
+        "Because Owner Project Managers are not allowed to visit the site",
+        "Because Contractor Project Managers do not use schedules or budgets",
+        "Because their contractual relationships, risk allocations, and commercial objectives differ (Employer governance & value assurance vs. Contractor execution & margin delivery)",
+        "Because only one of them needs to follow Malaysian laws"
+      ],
+      "options_bm": [
+        "Kerana Pengurus Projek Pemilik tidak dibenarkan melawat tapak",
+        "Kerana Pengurus Projek Kontraktor tidak menggunakan jadual atau bajet",
+        "Kerana hubungan kontrak, pengagihan risiko, dan objektif komersial mereka berbeza (tadbir urus & jaminan nilai Majikan berbanding pelaksanaan & penyampaian margin Kontraktor)",
+        "Kerana hanya salah seorang daripada mereka perlu mematuhi undang-undang Malaysia"
+      ],
+      "answer": 2,
+      "exp_en": "An Owner's CPM protects the Client's business case, governance, and compliance, whereas a Contractor's PM focuses on safe, timely, profitable site delivery.",
+      "exp_bm": "CPM Pemilik melindungi kes perniagaan, tadbir urus, dan pematuhan Klien, manakala PM Kontraktor menumpukan pada penyampaian tapak yang selamat, tepat masa, dan menguntungkan.",
+      "ref": "CCPM Module 02 (2.2d Scope Variation)"
+    },
+    {
+      "id": 31,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Which five (5) methods of appointing professional consultants are taught in Section 2.3.1 of CCPM Module 02?",
+      "q_bm": "Apakah lima (5) kaedah pelantikan perunding profesional yang diajar dalam Seksyen 2.3.1 Modul 02 CCPM?",
+      "options_en": [
+        "Open Tender, Selective Tender, Negotiated Tender, Two-Stage Tender, and Serial Tender",
+        "Direct Appointment, Interview and Negotiation, Quality Based Selection (QBS), Fee Bidding, and Request for Proposal (RFP)",
+        "Analogous, Parametric, Bottom-Up, Three-Point PERT, and Reserve Analysis",
+        "Lottery Draw, Coin Toss, Social Media Poll, Walk-in Auction, and Barter Trade"
+      ],
+      "options_bm": [
+        "Tender Terbuka, Tender Terpilih, Tender Rundingan, Tender Dua Peringkat, dan Tender Bersiri",
+        "Pelantikan Terus (Direct Appointment), Temu Duga dan Rundingan, Pemilihan Berasaskan Kualiti (QBS), Bidaan Yuran (Fee Bidding), dan Permintaan Cadangan (RFP)",
+        "Analogi, Parametrik, Bawah-ke-Atas, Tiga-Titik PERT, dan Analisis Rizab",
+        "Cabutan Undi, Lambungan Syiling, Undian Media Sosial, Lelongan Terbuka, dan Sistem Barter"
+      ],
+      "answer": 1,
+      "exp_en": "Module 02 specifies 5 consultant selection routes: Direct Appointment, Interview & Negotiation, Quality Based Selection, Fee Bidding, and RFP.",
+      "exp_bm": "Modul 02 menetapkan 5 kaedah pemilihan perunding: Pelantikan Terus, Temu Duga & Rundingan, Pemilihan Berasaskan Kualiti, Bidaan Yuran, dan RFP.",
+      "ref": "CCPM Module 02 (2.3.1 Method of Appointment of Consultants)"
+    },
+    {
+      "id": 32,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "When is the 'Quality Based Selection (QBS)' method (such as a design competition) most appropriate for appointing consultants?",
+      "q_bm": "Bilakah kaedah 'Pemilihan Berasaskan Kualiti (QBS)' (seperti pertandingan reka bentuk) paling sesuai digunakan untuk melantik perunding?",
+      "options_en": [
+        "When the project is a simple temporary site toilet",
+        "When the client wants to hire an unregistered student",
+        "When no design drawings are needed at all",
+        "When overall project quality, architectural creativity, and technical expertise are the client's primary aim rather than lowest fee"
+      ],
+      "options_bm": [
+        "Apabila projek hanyalah tandas tapak sementara yang ringkas",
+        "Apabila klien ingin menggaji pelajar yang tidak berdaftar",
+        "Apabila tiada lukisan reka bentuk diperlukan sama sekali",
+        "Apabila kualiti projek keseluruhan, kreativiti seni bina, dan kepakaran teknikal menjadi matlamat utama klien berbanding yuran terendah"
+      ],
+      "answer": 3,
+      "exp_en": "QBS prioritizes technical skill, innovation, and track record first, followed by mutual fee/scope negotiation with the top-ranked firm.",
+      "exp_bm": "QBS mengutamakan kemahiran teknikal, inovasi, dan rekod prestasi terlebih dahulu, diikuti rundingan yuran/skop bersama firma terbaik.",
+      "ref": "CCPM Module 02 (2.3.1 Quality Based Selection Method)"
+    },
+    {
+      "id": 33,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the main advantage of the 'Direct Appointment Method' when engaging a known, experienced consultant?",
+      "q_bm": "Apakah kelebihan utama 'Kaedah Pelantikan Terus' (Direct Appointment Method) apabila melantik perunding yang dikenali dan berpengalaman?",
+      "options_en": [
+        "It exempts the consultant from BEM/LAM registration",
+        "It guarantees zero consultancy fees",
+        "It eliminates the need for a Consultancy Agreement",
+        "It is the least time-consuming appointment exercise, allowing rapid mobilization of trusted expertise"
+      ],
+      "options_bm": [
+        "Ia mengecualikan perunding daripada pendaftaran BEM/LAM",
+        "Ia menjamin yuran perundingan sifar",
+        "Ia menghapuskan keperluan Perjanjian Perundingan",
+        "Ia merupakan proses pelantikan yang paling menjimatkan masa, membolehkan mobilisasi kepakaran dipercayai dengan pantas"
+      ],
+      "answer": 3,
+      "exp_en": "Direct appointment saves procurement lead time when a private developer already has a proven, trusted consultant with relevant sector track record.",
+      "exp_bm": "Pelantikan terus menjimatkan masa perolehan apabila pemaju swasta sudah mempunyai perunding yang terbukti berwibawa dan berpengalaman dalam sektor berkaitan.",
+      "ref": "CCPM Module 02 (2.3.1 Direct Appointment Method)"
+    },
+    {
+      "id": 34,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What document is issued to prospective consultants under the 'Request for Proposal (RFP)' method so they can formulate tailored technical and commercial submissions?",
+      "q_bm": "Apakah dokumen yang dikeluarkan kepada bakal perunding di bawah kaedah 'Permintaan Cadangan (RFP)' supaya mereka dapat merangka cadangan teknikal dan komersial yang sesuai?",
+      "options_en": [
+        "The RFP document containing the strategic brief (client aspirations, budget, programme), required scope of services, and payment stages",
+        "The Final Account Statement",
+        "The Piling Penetration Record",
+        "The Certificate of Practical Completion"
+      ],
+      "options_bm": [
+        "Dokumen RFP yang mengandungi ringkasan strategik (aspirasi klien, bajet, program), skop perkhidmatan diperlukan, dan peringkat bayaran",
+        "Penyata Akaun Akhir",
+        "Rekod Penembusan Cerucuk",
+        "Perakuan Siap Praktikal"
+      ],
+      "answer": 0,
+      "exp_en": "An RFP packages the strategic brief, scope of services, payment milestones, and evaluation criteria for shortlisted consultants.",
+      "exp_bm": "RFP menghimpunkan ringkasan strategik, skop perkhidmatan, pencapaian bayaran, dan kriteria penilaian untuk perunding yang disenarai pendek.",
+      "ref": "CCPM Module 02 (2.3.1 Request for Proposal)"
+    },
+    {
+      "id": 35,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Which five key elements formalize a standard 'Consultancy Service Agreement' (Memorandum of Agreement) in Section 2.3.2 of Module 02?",
+      "q_bm": "Apakah lima elemen utama yang merasmikan 'Perjanjian Perkhidmatan Perundingan' (Memorandum of Agreement) standard dalam Seksyen 2.3.2 Modul 02?",
+      "options_en": [
+        "Memorandum of Agreement (articles/fees), Terms of Reference (TOR), Scope of Duties, Duration (including DLP), and Deliverables",
+        "Concrete slump, rebar diameter, brick strength, paint colour, and tile size",
+        "Mall opening hours, cinema ticket prices, parking rates, and tenant advertising rules",
+        "Worker canteen menu, bus schedule, uniform size, safety boot brand, and helmet colour"
+      ],
+      "options_bm": [
+        "Memorandum Perjanjian (artikel/yuran), Terma Rujukan (TOR), Skop Tugas, Tempoh (termasuk DLP), dan Serahan (Deliverables)",
+        "Kemerosotan konkrit, diameter keluli, kekuatan bata, warna cat, dan saiz jubin",
+        "Waktu operasi pusat beli-belah, harga tiket wayang, kadar parkir, dan peraturan iklan penyewa",
+        "Menu kantin pekerja, jadual bas, saiz pakaian seragam, jenama kasut keselamatan, dan warna topi"
+      ],
+      "answer": 0,
+      "exp_en": "Standard agreements issued by LAM, BEM, and BQSM define the Memorandum of Agreement, TOR, Scope of Duties, Duration (through DLP), and Deliverables.",
+      "exp_bm": "Perjanjian standard yang dikeluarkan oleh LAM, BEM, dan BQSM mentakrifkan Memorandum Perjanjian, TOR, Skop Tugas, Tempoh (sehingga tamat DLP), dan Serahan.",
+      "ref": "CCPM Module 02 (2.3.2 Consultancy Service Agreement)"
+    },
+    {
+      "id": 36,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "In Section 2.3.2e of Module 02, which deliverables are specifically attributed to the 'Quantity Surveyor (QS)' under a standard consultancy agreement?",
+      "q_bm": "Dalam Seksyen 2.3.2e Modul 02, serahan manakah yang secara khusus dipertanggungjawabkan kepada 'Juruukur Bahan (QS)' di bawah perjanjian perundingan standard?",
+      "options_en": [
+        "Preliminary Estimates, Cost Plan, Detail Estimates, Bill of Quantities (BQ), Tender/Contract Documents, Interim Payment Certificates, and Final Account",
+        "Soil Borehole Drilling and Laboratory Triaxial Testing",
+        "Architectural Concept Drawings and Facade 3D Perspectives",
+        "Reinforced Concrete Structural Design Calculations"
+      ],
+      "options_bm": [
+        "Anggaran Awalan, Pelan Kos, Anggaran Terperinci, Senarai Kuantiti (BQ), Dokumen Tender/Kontrak, Perakuan Bayaran Interim, dan Akaun Akhir",
+        "Penggerudian Lubang Jara Tanah dan Ujian Triaksial Makmal",
+        "Lukisan Konsep Seni Bina dan Perspektif 3D Fasad",
+        "Pengiraan Reka Bentuk Struktur Konkrit Bertetulang"
+      ],
+      "answer": 0,
+      "exp_en": "The QS manages financial and contractual documentation from Preliminary Estimates and Cost Plans through BQ, Interim Valuations, and Final Account.",
+      "exp_bm": "QS mengurus dokumentasi kewangan dan kontrak daripada Anggaran Awalan dan Pelan Kos hingga BQ, Penilaian Interim, dan Akaun Akhir.",
+      "ref": "CCPM Module 02 (2.3.2e Consultant Deliverables)"
+    },
+    {
+      "id": 37,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the normal contractual 'Duration' of a consultant's service agreement in a building project?",
+      "q_bm": "Apakah 'Tempoh' (Duration) kontrak biasa bagi perjanjian perkhidmatan perunding dalam projek bangunan?",
+      "options_en": [
+        "Only until the Development Order is submitted",
+        "Only until the roof slab is completed",
+        "Only for the first 30 days of piling",
+        "In reference to the entire contract period INCLUDING the Defects Liability Period (DLP) and Final Account close-out"
+      ],
+      "options_bm": [
+        "Hanya sehingga Kebenaran Merancang diserahkan",
+        "Hanya sehingga papak bumbung siap",
+        "Hanya bagi 30 hari pertama kerja cerucuk",
+        "Merujuk kepada keseluruhan tempoh kontrak TERMASUK Tempoh Tanggungan Kecacatan (DLP) dan penutupan Akaun Akhir"
+      ],
+      "answer": 3,
+      "exp_en": "Consultants remain retained through construction, Practical Completion, the 24-month DLP, CMGD issuance, and Final Account certification.",
+      "exp_bm": "Perunding kekal dilantik sepanjang pembinaan, Siap Praktikal, DLP 24 bulan, pengeluaran CMGD, dan perakuan Akaun Akhir.",
+      "ref": "CCPM Module 02 (2.3.2d Duration)"
+    },
+    {
+      "id": 38,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian statutory boards publish standard Memorandum of Agreement forms for Architects, Engineers, and Quantity Surveyors respectively?",
+      "q_bm": "Lembaga berkanun Malaysia manakah yang menerbitkan borang Memorandum Perjanjian standard masing-masing bagi Arkitek, Jurutera, dan Juruukur Bahan?",
+      "options_en": [
+        "BNM, EPF, and SOCSO",
+        "LAM (Board of Architects Malaysia), BEM (Board of Engineers Malaysia), and BQSM (Board of Quantity Surveyors Malaysia)",
+        "JPJ, JPN, and JIM",
+        "MCMC, TNB, and TM"
+      ],
+      "options_bm": [
+        "BNM, KWSP, dan PERKESO",
+        "LAM (Lembaga Arkitek Malaysia), BEM (Lembaga Jurutera Malaysia), dan BQSM (Lembaga Juruukur Bahan Malaysia)",
+        "JPJ, JPN, dan JIM",
+        "SKMM, TNB, dan TM"
+      ],
+      "answer": 1,
+      "exp_en": "LAM, BEM, and BQSM regulate professional registration, scale of fees, and standard Conditions of Engagement in Malaysia.",
+      "exp_bm": "LAM, BEM, dan BQSM mengawal selia pendaftaran profesional, skala yuran, dan Syarat Pelantikan standard di Malaysia.",
+      "ref": "CCPM Module 02 (2.3.2 Consultancy Service Agreement)"
+    },
+    {
+      "id": 39,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "When is the 'Fee Bidding Method' considered appropriate for appointing consultants according to Section 2.3.1(iv)?",
+      "q_bm": "Bilakah 'Kaedah Bidaan Yuran' (Fee Bidding Method) dianggap sesuai untuk melantik perunding mengikut Seksyen 2.3.1(iv)?",
+      "options_en": [
+        "When buying ready-mix concrete",
+        "When the client intends never to pay the consultant",
+        "When selecting general site labourers",
+        "When the scope of services is clearly defined or unique/specialized and competitive fee comparison is desired alongside capability verification"
+      ],
+      "options_bm": [
+        "Apabila membeli konkrit siap bancuh",
+        "Apabila klien berniat untuk tidak pernah membayar perunding",
+        "Apabila memilih buruh am tapak",
+        "Apabila skop perkhidmatan ditakrifkan dengan jelas atau unik/khusus dan perbandingan yuran yang kompetitif diingini di samping pengesahan keupayaan"
+      ],
+      "answer": 3,
+      "exp_en": "Fee bidding invites competitive fee proposals against a defined Terms of Reference while ensuring statutory scale compliance.",
+      "exp_bm": "Bidaan yuran menjemput cadangan yuran yang kompetitif berdasarkan Terma Rujukan yang jelas sambil memastikan pematuhan skala berkanun.",
+      "ref": "CCPM Module 02 (2.3.1 Fee Bidding Method)"
+    },
+    {
+      "id": 40,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Which additional specialist consultants (beyond Architect, C&S, M&E, and QS) are typically engaged on a major urban shopping centre project?",
+      "q_bm": "Perunding pakar tambahan manakah (selain Arkitek, C&S, M&E, dan QS) yang lazimnya dilantik bagi projek pusat beli-belah bandar berskala besar?",
+      "options_en": [
+        "Only a wedding planner and event DJ",
+        "Only a marine biologist and deep-sea diver",
+        "Town Planner, Licensed Land Surveyor, Traffic Consultant, Geotechnical Specialist, Environmental/Acoustic Consultant, and Landscape Architect",
+        "Only a bakery chef and florist"
+      ],
+      "options_bm": [
+        "Hanya perancang perkahwinan dan DJ majlis",
+        "Hanya ahli biologi marin dan penyelam laut dalam",
+        "Perancang Bandar, Juruukur Tanah Berlesen, Perunding Trafik, Pakar Geoteknikal, Perunding Alam Sekitar/Akustik, dan Arkitek Landskap",
+        "Hanya tukang masak pastri dan penggubah bunga"
+      ],
+      "answer": 2,
+      "exp_en": "Urban retail malls require Town Planners (for DO), Licensed Land Surveyors (pre-comp/setting out), Traffic Engineers (TIA), and Geotechnical/Environmental specialists.",
+      "exp_bm": "Pusat beli-belah bandar memerlukan Perancang Bandar (untuk DO), Juruukur Tanah Berlesen (pra-hitungan/pemancangan), Jurutera Trafik (TIA), dan pakar Geoteknikal/Alam Sekitar.",
+      "ref": "CCPM Module 02 (2.3.2 Specialist Consultants)"
+    },
+    {
+      "id": 41,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Which seven (7) particulars require direct observation and attention during a preliminary 'Site Inspection / Visit' according to Section 3.1.1 of Module 02?",
+      "q_bm": "Apakah tujuh (7) perkara yang memerlukan pemerhatian dan perhatian langsung semasa 'Lawatan / Pemeriksaan Tapak' awal mengikut Seksyen 3.1.1 Modul 02?",
+      "options_en": [
+        "Stock market index, gold price, currency exchange rate, bank base rate, GDP growth, CPI inflation, and export volume",
+        "Retail tenant names, cinema showtimes, parking ticket design, uniform colours, music playlist, Wi-Fi password, and logo font",
+        "Concrete cube strength, rebar tensile test, weld X-ray, paint thickness, tile adhesion, lift speed, and chiller COP",
+        "Location of site, size & zoning, access to/from site, natural character, man-made structures, vehicular/human/animal movement, and availability of utilities"
+      ],
+      "options_bm": [
+        "Indeks pasaran saham, harga emas, kadar tukaran mata wang, kadar asas bank, pertumbuhan KDNK, inflasi IHP, dan volum eksport",
+        "Nama penyewa runcit, waktu tayangan wayang, reka bentuk tiket parkir, warna pakaian seragam, senarai muzik, kata laluan Wi-Fi, dan fon logo",
+        "Kekuatan kiub konkrit, ujian tegangan keluli, X-ray kimpalan, ketebalan cat, lekatan jubin, kelajuan lif, dan COP chiller",
+        "Lokasi tapak, saiz & pengezonan, laluan keluar/masuk tapak, ciri semula jadi, struktur buatan manusia, pergerakan kenderaan/manusia/haiwan, dan ketersediaan utiliti"
+      ],
+      "answer": 3,
+      "exp_en": "These 7 physical site inspection items establish immediate logistical, access, boundary, topographical, and utility constraints.",
+      "exp_bm": "Tujuh item pemeriksaan fizikal tapak ini mengenal pasti kekangan logistik, laluan masuk, sempadan, topografi, dan utiliti dengan serta-merta.",
+      "ref": "CCPM Module 02 (3.1.1 Site Inspection Particulars)"
+    },
+    {
+      "id": 42,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Which British Standard / Code of Practice is specifically cited in Section 3.1.1 of CCPM Module 02 as the benchmark guideline for planning and executing Site Investigations?",
+      "q_bm": "Standard British / Kod Amalan manakah yang dirujuk secara khusus dalam Seksyen 3.1.1 Modul 02 CCPM sebagai garis panduan penanda aras untuk merancang dan melaksanakan Penyiasatan Tapak?",
+      "options_en": [
+        "BS 5930 (Code of Practice for Ground Investigations)",
+        "IEC 60364 (Low-Voltage Electrical Installations)",
+        "ISO 14001 (Environmental Management Systems)",
+        "BS 476 (Fire Tests on Building Materials)"
+      ],
+      "options_bm": [
+        "BS 5930 (Kod Amalan bagi Penyiasatan Tanah)",
+        "IEC 60364 (Pemasangan Elektrik Voltan Rendah)",
+        "ISO 14001 (Sistem Pengurusan Alam Sekitar)",
+        "BS 476 (Ujian Kebakaran ke atas Bahan Binaan)"
+      ],
+      "answer": 0,
+      "exp_en": "BS 5930 provides the standard engineering framework for desk studies, borehole spacing, sampling, in-situ SPT/vane tests, and groundwater observations.",
+      "exp_bm": "BS 5930 menyediakan rangka kerja kejuruteraan standard bagi kajian meja, jarak lubang jara, pensampelan, ujian in-situ SPT/vane, dan pemerhatian air bawah tanah.",
+      "ref": "CCPM Module 02 (3.1.1 Soil Investigation Planning)"
+    },
+    {
+      "id": 43,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "In Section 3.1.2b of Module 02, what are the two stages of Sub-Surface Investigation typically carried out on major construction projects?",
+      "q_bm": "Dalam Seksyen 3.1.2b Modul 02, apakah dua peringkat Penyiasatan Bawah Permukaan (Sub-Surface Investigation) yang lazimnya dijalankan pada projek pembinaan utama?",
+      "options_en": [
+        "Pre-DLP Investigation and Post-DLP Investigation",
+        "Preliminary Subsurface Investigation (to confirm layout/formation levels) and Detailed Subsurface Investigation (to obtain refined soil profile & parameters for optimum foundation design)",
+        "Tender Advertising Investigation and Brochure Printing Investigation",
+        "Demolition Investigation and Painting Investigation"
+      ],
+      "options_bm": [
+        "Penyiasatan Pra-DLP dan Penyiasatan Pasca-DLP",
+        "Penyiasatan Bawah Permukaan Awalan (mengesahkan susun atur/aras formasi) dan Penyiasatan Bawah Permukaan Terperinci (mendapatkan profil tanah & parameter terperinci bagi reka bentuk asas optimum)",
+        "Penyiasatan Pengiklanan Tender dan Penyiasatan Pencetakan Risalah",
+        "Penyiasatan Perobohan dan Penyiasatan Mengecat"
+      ],
+      "answer": 1,
+      "exp_en": "Preliminary SI guides master layout and formation levels, while Detailed SI provides exact SPT N-values, rock coring (RQD), and shear strength for piling design.",
+      "exp_bm": "SI Awalan memandu susun atur induk dan aras formasi, manakala SI Terperinci membekalkan nilai-N SPT tepat, teras batuan (RQD), dan kekuatan ricih bagi reka bentuk cerucuk.",
+      "ref": "CCPM Module 02 (3.1.2b Sub-Surface Investigation)"
+    },
+    {
+      "id": 44,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "How does borehole spacing and location strategy differ between a linear 'Road Alignment' project and a localized 'Building' project according to Section 3.1.2b?",
+      "q_bm": "Bagaimanakah strategi jarak dan lokasi lubang jara (borehole) berbeza antara projek linear 'Jajaran Jalan' dengan projek 'Bangunan' setempat mengikut Seksyen 3.1.2b?",
+      "options_en": [
+        "Subsoil conditions along a road alignment are highly sensitive to changing regional geology, requiring spacing closely tied to detailed route geology compared to localized building grids",
+        "Road alignments never require any boreholes",
+        "Buildings require boreholes spaced 50 kilometres apart",
+        "Both use identical single-borehole rules regardless of size"
+      ],
+      "options_bm": [
+        "Keadaan tanah bawah di sepanjang jajaran jalan amat sensitif terhadap perubahan geologi serantau, memerlukan jarak berkait rapat dengan geologi laluan terperinci berbanding grid bangunan setempat",
+        "Jajaran jalan tidak pernah memerlukan sebarang lubang jara",
+        "Bangunan memerlukan lubang jara berjarak 50 kilometer antara satu sama lain",
+        "Kedua-duanya menggunakan peraturan satu lubang jara yang sama tanpa mengira saiz"
+      ],
+      "answer": 0,
+      "exp_en": "Linear infrastructure traverses varied geological formations, whereas building SI concentrates boreholes across the structural footprint and heavy load zones.",
+      "exp_bm": "Infrastruktur linear merentasi pelbagai formasi geologi, manakala SI bangunan menumpukan lubang jara merentasi tapak struktur dan zon beban berat.",
+      "ref": "CCPM Module 02 (3.1.2b Borehole Spacing)"
+    },
+    {
+      "id": 45,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Why are 'Soil Classification Tests' highlighted in Section 3.1.2b as among the most important laboratory soil tests?",
+      "q_bm": "Mengapakah 'Ujian Pengelasan Tanah' (Soil Classification Tests) ditekankan dalam Seksyen 3.1.2b sebagai antara ujian makmal tanah yang paling penting?",
+      "options_en": [
+        "Because they determine the retail rental rate per square foot",
+        "Because strong empirical correlations exist between basic soil classification properties (particle size, Atterberg limits) and probable engineering behaviour under foundation loading",
+        "Because they replace the need for structural steel",
+        "Because they tell the architect what colour to paint the lobby"
+      ],
+      "options_bm": [
+        "Kerana ia menentukan kadar sewa runcit setiap kaki persegi",
+        "Kerana wujud korelasi empirikal yang kukuh antara sifat asas pengelasan tanah (saiz zarah, had Atterberg) dengan jangkaan kelakuan kejuruteraan di bawah beban asas",
+        "Kerana ia menggantikan keperluan keluli struktur",
+        "Kerana ia memberitahu arkitek warna cat untuk lobi"
+      ],
+      "answer": 1,
+      "exp_en": "Particle size distribution, moisture content, and Atterberg limits enable engineers to classify strata and predict settlement, swelling, and shear behavior.",
+      "exp_bm": "Taburan saiz zarah, kandungan lembapan, dan had Atterberg membolehkan jurutera mengelaskan lapisan tanah serta meramal enapan, pengembangan, dan kelakuan ricih.",
+      "ref": "CCPM Module 02 (3.1.2b Soil Classification Tests)"
+    },
+    {
+      "id": 46,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the key difference between 'Surface Investigation' and 'Sub-Surface Investigation' during site due diligence?",
+      "q_bm": "Apakah perbezaan utama antara 'Penyiasatan Permukaan' (Surface Investigation) dengan 'Penyiasatan Bawah Permukaan' (Sub-Surface Investigation) semasa ketekunan wajar tapak?",
+      "options_en": [
+        "Surface investigation uses satellites only, while sub-surface investigation uses drones only",
+        "Surface investigation assesses visible terrain, vegetation, swamps, surface runoff, and exposed strata via walkover inspection, whereas sub-surface investigation uses boring, sampling, and testing to determine underground stratigraphy and groundwater",
+        "Surface investigation is done after handover, while sub-surface is done during tender",
+        "There is no difference between them"
+      ],
+      "options_bm": [
+        "Penyiasatan permukaan hanya menggunakan satelit, manakala bawah permukaan hanya menggunakan dron",
+        "Penyiasatan permukaan menilai rupa bumi kelihatan, tumbuhan, paya, larian air permukaan, dan strata terdedah melalui lawatan tapak, manakala penyiasatan bawah permukaan menggunakan penggerudian, pensampelan, dan ujian untuk menentukan stratigrafi bawah tanah serta air bumi",
+        "Penyiasatan permukaan dibuat selepas serahan, manakala bawah permukaan dibuat semasa tender",
+        "Tiada perbezaan antara kedua-duanya"
+      ],
+      "answer": 1,
+      "exp_en": "Both surface walkover observations and sub-surface borehole data are combined to build a complete geotechnical model of the site.",
+      "exp_bm": "Kedua-dua pemerhatian lawatan permukaan dan data lubang jara bawah permukaan digabungkan untuk membina model geoteknikal tapak yang lengkap.",
+      "ref": "CCPM Module 02 (3.1.2a & 3.1.2b)"
+    },
+    {
+      "id": 47,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Which seven (7) planning steps must be established when scoping a Soil Investigation programme according to Section 3.1.1?",
+      "q_bm": "Apakah tujuh (7) langkah perancangan yang mesti ditetapkan semasa menskopkan program Penyiasatan Tanah mengikut Seksyen 3.1.1?",
+      "options_en": [
+        "Only checking Google Street View from the office",
+        "Only measuring the height of nearby trees",
+        "Estimated cost/time, frequency/types of in-situ tests/samples, supervision extent, number/location of boreholes, BS 5930 methods, special site precautions, and laboratory testing scheme",
+        "Only asking the excavator operator where to dig"
+      ],
+      "options_bm": [
+        "Hanya menyemak Google Street View dari pejabat",
+        "Hanya mengukur ketinggian pokok berhampiran",
+        "Anggaran kos/masa, kekerapan/jenis ujian in-situ & sampel, tahap penyeliaan, bilangan/lokasi lubang jara, kaedah BS 5930, langkah berjaga-jaga khas, dan skim ujian makmal",
+        "Hanya bertanya kepada pengendali jengkaut di mana hendak menggali"
+      ],
+      "answer": 2,
+      "exp_en": "Proper SI scoping ensures sufficient borehole depth, accurate SPT/coring intervals, qualified supervision, and targeted lab tests within budget.",
+      "exp_bm": "Penskopan SI yang teratur memastikan kedalaman lubang jara mencukupi, selang SPT/penggerudian teras tepat, penyeliaan bertauliah, dan ujian makmal bersasar dalam bajet.",
+      "ref": "CCPM Module 02 (3.1.1 Scoping Soil Investigation)"
+    },
+    {
+      "id": 48,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Why must a Geotechnical Engineer check for discrepancies or contradictions across field bore-logs and laboratory test results?",
+      "q_bm": "Mengapakah Jurutera Geoteknikal mesti menyemak percanggahan atau ketidakseragaman antara log lubang jara lapangan dengan keputusan ujian makmal?",
+      "options_en": [
+        "To detect sample disturbance, logging errors, or localized geological anomalies (such as karst cavities or boulders) before finalizing foundation design",
+        "To delay the project intentionally",
+        "To avoid submitting plans to DBKL",
+        "To increase the printing cost of the report"
+      ],
+      "options_bm": [
+        "Untuk mengesan gangguan sampel, ralat pengelogan, atau anomali geologi setempat (seperti rongga batu kapur atau batu tongkol) sebelum memuktamadkan reka bentuk asas",
+        "Untuk melambatkan projek secara sengaja",
+        "Untuk mengelak menyerahkan pelan kepada DBKL",
+        "Untuk meningkatkan kos pencetakan laporan"
+      ],
+      "answer": 0,
+      "exp_en": "Cross-checking field SPT blow counts against lab classifications prevents misinterpreting corestone boulders as sound bedrock.",
+      "exp_bm": "Semakan silang kiraan hentaman SPT lapangan dengan pengelasan makmal mengelakkan salah tafsir batu tongkol (corestone) sebagai batuan dasar yang kukuh.",
+      "ref": "CCPM Module 02 (3.1.2b Analysis of SI Results)"
+    },
+    {
+      "id": 49,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the role of groundwater level monitoring (e.g., via standpipe piezometers) during sub-surface site investigation?",
+      "q_bm": "Apakah peranan pemantauan paras air bawah tanah (cth. melalui piezometer paip tegak) semasa penyiasatan tapak bawah permukaan?",
+      "options_en": [
+        "To measure daily rainfall in millimetres",
+        "To determine hydrostatic uplift pressure on basement slabs, dewatering requirements during excavation, and groundwater aggressiveness (sulphate/chloride) on concrete piles",
+        "To supply drinking water to the shopping mall food court",
+        "To test fire sprinkler water pressure"
+      ],
+      "options_bm": [
+        "Untuk mengukur hujan harian dalam milimeter",
+        "Untuk menentukan tekanan apungan hidrostatik pada papak besmen, keperluan penyahairan semasa pengorekan, dan keagresifan air bumi (sulfat/klorida) terhadap cerucuk konkrit",
+        "Untuk membekalkan air minuman ke medan selera pusat beli-belah",
+        "Untuk menguji tekanan air pemercik kebakaran"
+      ],
+      "answer": 1,
+      "exp_en": "High water tables in Kuala Lumpur directly govern retaining wall design, basement waterproofing, buoyancy checks, and cement type selection.",
+      "exp_bm": "Paras air bawah tanah yang tinggi di Kuala Lumpur menentukan secara langsung reka bentuk dinding penahan, kalis air besmen, semakan keapungan, dan pemilihan jenis simen.",
+      "ref": "CCPM Module 02 (3.1.2c Soil & Groundwater Conditions)"
+    },
+    {
+      "id": 50,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Where should the completed and endorsed Site Investigation Report be lodged, and who relies on it most directly?",
+      "q_bm": "Di manakah Laporan Penyiasatan Tapak yang lengkap dan disahkan perlu disimpan, dan siapakah yang paling bergantung kepadanya secara langsung?",
+      "options_en": [
+        "Lodged and filed in the Project Implementer's / CPM office to guide C&S and Geotechnical designers in establishing safe foundation and earthwork parameters",
+        "Discarded immediately after drilling finishes",
+        "Locked away secretly so engineers cannot read it",
+        "Sent only to the mall's future cleaning contractor"
+      ],
+      "options_bm": [
+        "Disimpan dan difailkan di pejabat Pelaksana Projek / CPM untuk memandu pereka C&S dan Geoteknikal dalam menetapkan parameter asas dan kerja tanah yang selamat",
+        "Dibuang serta-merta selepas penggerudian selesai",
+        "Dikunci secara rahsia supaya jurutera tidak dapat membacanya",
+        "Dihantar hanya kepada kontraktor pembersihan pusat beli-belah pada masa depan"
+      ],
+      "answer": 0,
+      "exp_en": "The SI report is a foundational design input filed centrally for C&S engineers, tenderers, and statutory submissions (such as JMG/DBKL).",
+      "exp_bm": "Laporan SI ialah input reka bentuk asas yang difailkan secara berpusat untuk jurutera C&S, petender, dan penyerahan berkanun (seperti JMG/DBKL).",
+      "ref": "CCPM Module 02 (3.1.5 Site Investigation Report)"
+    },
+    {
+      "id": 51,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian utility and drainage authorities must be consulted during site investigation to locate existing underground cables, gas pipes, water mains, sewers, and flood levels (Section 3.1.3)?",
+      "q_bm": "Pihak berkuasa utiliti dan saliran Malaysia manakah yang mesti dirujuk semasa penyiasatan tapak untuk mengesan kabel bawah tanah, paip gas, paip air utama, pembetung, dan aras banjir sedia ada (Seksyen 3.1.3)?",
+      "options_en": [
+        "Only Kementerian Pelancongan and Kraftangan Malaysia",
+        "Only Jabatan Penjara and Jabatan Kastam",
+        "TNB (electricity), PETRONAS (gas), Air Selangor/SYABAS (water), Telekom Malaysia (telecoms), Indah Water Konsortium (sewerage), and JPS (rivers/flood levels)",
+        "Only Jabatan Muzium and Jabatan Perhutanan"
+      ],
+      "options_bm": [
+        "Hanya Kementerian Pelancongan dan Kraftangan Malaysia",
+        "Hanya Jabatan Penjara dan Jabatan Kastam",
+        "TNB (elektrik), PETRONAS (gas), Air Selangor/SYABAS (air), Telekom Malaysia (telekomunikasi), Indah Water Konsortium (pembetungan), dan JPS (sungai/aras banjir)",
+        "Hanya Jabatan Muzium dan Jabatan Perhutanan"
+      ],
+      "answer": 2,
+      "exp_en": "Consulting all service providers and verifying with Ground Penetrating Radar (GPR) / trial trenches prevents catastrophic utility strikes during piling.",
+      "exp_bm": "Merujuk semua penyedia perkhidmatan dan mengesahkannya melalui Radar Penembusan Tanah (GPR) / parit cubaan mengelakkan kerosakan utiliti kritikal semasa kerja cerucuk.",
+      "ref": "CCPM Module 02 (3.1.3 Existing Utilities)"
+    },
+    {
+      "id": 52,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "What is 'Ordinance Datum' (Mean Sea Level reference) used for when consulting Jabatan Pengairan dan Saliran (JPS) records during site investigation?",
+      "q_bm": "Apakah kegunaan 'Datum Ordinan' (rujukan Aras Laut Min) apabila merujuk rekod Jabatan Pengairan dan Saliran (JPS) semasa penyiasatan tapak?",
+      "options_en": [
+        "To determine the weight of steel reinforcement",
+        "To calculate the retail rent of upper-floor shops",
+        "To set the speed of passenger lifts",
+        "To establish known historical flood levels relative to site ground levels so minimum platform and basement crest levels are designed safely above flood risk"
+      ],
+      "options_bm": [
+        "Untuk menentukan berat tetulang keluli",
+        "Untuk mengira sewa runcit kedai tingkat atas",
+        "Untuk menetapkan kelajuan lif penumpang",
+        "Untuk menentukan aras banjir sejarah yang diketahui berbanding aras tanah tapak supaya aras platform minimum dan puncak besmen direka selamat daripada risiko banjir"
+      ],
+      "answer": 3,
+      "exp_en": "Relating historical flood levels to Ordinance Datum ensures the Minimum Platform Level (MPL) protects the mall and underground parking from flash floods.",
+      "exp_bm": "Menghubungkan aras banjir sejarah kepada Datum Ordinan memastikan Aras Platform Minimum (MPL) melindungi pusat beli-belah dan parkir bawah tanah daripada banjir kilat.",
+      "ref": "CCPM Module 02 (3.1.3 Flood Levels & Ordinance Datum)"
+    },
+    {
+      "id": 53,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "According to Section 3.1.4 of Module 02, what valuable information can 'Historical Reports' and Local Authority archives provide before site development begins?",
+      "q_bm": "Menurut Seksyen 3.1.4 Modul 02, apakah maklumat berharga yang boleh dibekalkan oleh 'Laporan Sejarah' (Historical Reports) dan arkib Pihak Berkuasa Tempatan sebelum pembangunan tapak bermula?",
+      "options_en": [
+        "The exact number of cars sold in Malaysia next year",
+        "100-year meteorological rainfall/temperature patterns, buried old basements/foundations, Tree Preservation Orders, Listed Buildings, public rights of way, and utility easements",
+        "Future cinema box-office ticket sales",
+        "Personal bank balances of future shoppers"
+      ],
+      "options_bm": [
+        "Bilangan tepat kereta yang terjual di Malaysia tahun hadapan",
+        "Corak hujan/suhu meteorologi 100 tahun, ruang bawah tanah/asas lama tertimbus, Perintah Pemeliharaan Pokok, Bangunan Warisan, hak lalu lintas awam, dan ismen utiliti",
+        "Jualan tiket pecah panggung pawagam pada masa hadapan",
+        "Baki akaun bank peribadi pembeli pada masa hadapan"
+      ],
+      "answer": 1,
+      "exp_en": "Historical records uncover hidden underground obstructions (old basements, piles, wells) and legal restrictions (easements, Tree Preservation Orders) before excavation.",
+      "exp_bm": "Rekod sejarah mendedahkan halangan bawah tanah tersembunyi (besmen lama, cerucuk, perigi) dan sekatan undang-undang (ismen, Perintah Pemeliharaan Pokok) sebelum pengorekan.",
+      "ref": "CCPM Module 02 (3.1.4 Historical Report)"
+    },
+    {
+      "id": 54,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "What is a utility 'Easement' (or Reserve) running across a development site, and how does it constrain building layout?",
+      "q_bm": "Apakah 'Ismen' (Easement) atau Rizab utiliti yang merentasi tapak pembangunan, dan bagaimanakah ia mengehadkan susun atur bangunan?",
+      "options_en": [
+        "A bonus floor area granted free by the city council",
+        "A legal right-of-way for major infrastructure (e.g., trunk water main, sewer, or HV cable) over which permanent building construction is prohibited unless formally diverted",
+        "A permit to block public highways without notice",
+        "A discount on cement prices"
+      ],
+      "options_bm": [
+        "Keluasan lantai bonus yang diberikan percuma oleh majlis bandaraya",
+        "Hak laluan sah bagi infrastruktur utama (cth. paip air utama, pembetung, atau kabel voltan tinggi) di mana pembinaan bangunan kekal dilarang kecuali dialihkan secara rasmi",
+        "Permit untuk menyekat lebuh raya awam tanpa notis",
+        "Diskaun ke atas harga simen"
+      ],
+      "answer": 1,
+      "exp_en": "Building over a trunk water main or sewer easement without authority approval and diversion is illegal and risks structural collapse.",
+      "exp_bm": "Membina bangunan di atas ismen paip air utama atau pembetung tanpa kelulusan dan pengalihan pihak berkuasa adalah menyalahi undang-undang serta berisiko runtuh.",
+      "ref": "CCPM Module 02 (3.1.4 Covenants & Easements)"
+    },
+    {
+      "id": 55,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Which five standard sections make up a properly prepared Soil Investigation Report according to Section 3.1.2c of CCPM Module 02?",
+      "q_bm": "Apakah lima bahagian standard yang membentuk Laporan Penyiasatan Tanah yang disediakan dengan teratur mengikut Seksyen 3.1.2c Modul 02 CCPM?",
+      "options_en": [
+        "Tender Notice, Form of Tender, Bank Guarantee, Interim Certificate, and Final Account",
+        "Executive Summary, Marketing Plan, Sales Brochure, Tenant Lease Agreement, and Grand Opening Speech",
+        "Introduction, Description of Site Condition, Geology of the Site, Soil Conditions (drawings, field/lab results, groundwater), and Appendices (borehole logs & lab sheets)",
+        "Safety Policy, Toolbox Talk Attendance, Accident Form, First Aid List, and Fire Drill Log"
+      ],
+      "options_bm": [
+        "Notis Tender, Borang Tender, Jaminan Bank, Perakuan Interim, dan Akaun Akhir",
+        "Ringkasan Eksekutif, Pelan Pemasaran, Risalah Jualan, Perjanjian Sewa Penyewa, dan Ucapan Perasmian",
+        "Pengenalan, Perihalan Keadaan Tapak, Geologi Tapak, Keadaan Tanah (lukisan, keputusan lapangan/makmal, air bumi), dan Lampiran (log lubang jara & helaian makmal)",
+        "Polisi Keselamatan, Kehadiran Taklimat Toolbox, Borang Kemalangan, Senarai Pertolongan Cemas, dan Log Latihan Kebakaran"
+      ],
+      "answer": 2,
+      "exp_en": "Separating factual narrative, geology, generalized subsoil profiles, and raw borehole/lab appendices ensures clear engineering interpretation.",
+      "exp_bm": "Memisahkan naratif fakta, geologi, profil tanah bawah umum, dan lampiran log lubang jara/makmal mentah memastikan tafsiran kejuruteraan yang jelas.",
+      "ref": "CCPM Module 02 (3.1.2c Soil Investigation Report Structure)"
+    },
+    {
+      "id": 56,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Why should a CPM examine 100-year meteorological rainfall records during the Initiation / Site Investigation stage in Kuala Lumpur?",
+      "q_bm": "Mengapakah CPM perlu meneliti rekod hujan meteorologi 100 tahun semasa peringkat Permulaan / Penyiasatan Tapak di Kuala Lumpur?",
+      "options_en": [
+        "To decide what colour uniforms workers should wear",
+        "To size temporary silt traps/sediment basins to JPS MSMA storm standards, design permanent roof/surface drainage, and allow realistic wet-weather float in the programme",
+        "To predict the exact hour it will rain two years from now",
+        "To avoid installing roof gutters"
+      ],
+      "options_bm": [
+        "Untuk menentukan warna pakaian seragam yang perlu dipakai pekerja",
+        "Untuk mensaizkan perangkap kelodak sementara mengikut standard ribut JPS MSMA, mereka bentuk saliran bumbung/permukaan kekal, dan memperuntukkan apungan cuaca hujan yang realistik dalam jadual",
+        "Untuk meramalkan jam tepat hujan akan turun dua tahun dari sekarang",
+        "Untuk mengelakkan pemasangan talang bumbung"
+      ],
+      "answer": 1,
+      "exp_en": "Kuala Lumpur experiences intense inter-monsoon convective storms; rainfall intensity data governs MSMA stormwater detention sizing and earthworks scheduling.",
+      "exp_bm": "Kuala Lumpur mengalami ribut perolakan antara monsun yang lebat; data keamatan hujan menentukan saiz kolam takungan ribut MSMA dan penjadualan kerja tanah.",
+      "ref": "CCPM Module 02 (3.1.4 Meteorological Records)"
+    },
+    {
+      "id": 57,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "What is a 'Tree Preservation Order' (TPO) mentioned in Section 3.1.4 of Module 02, and why must it be checked before site clearing?",
+      "q_bm": "Apakah 'Perintah Pemeliharaan Pokok' (Tree Preservation Order - TPO) yang disebut dalam Seksyen 3.1.4 Modul 02, dan mengapakah ia mesti disemak sebelum pembersihan tapak?",
+      "options_en": [
+        "A landscaping discount voucher",
+        "A statutory order under Town and Country Planning legislation prohibiting the felling or lopping of designated mature trees without written Local Authority consent",
+        "A rule requiring all trees on site to be cut down within 24 hours",
+        "A permit to sell timber logs overseas"
+      ],
+      "options_bm": [
+        "Baucar diskaun landskap",
+        "Perintah berkanun di bawah perundangan Perancangan Bandar dan Desa yang melarang penebangan atau pemangkasan pokok matang yang ditetapkan tanpa kebenaran bertulis Pihak Berkuasa Tempatan",
+        "Peraturan yang mewajibkan semua pokok di tapak ditebang dalam masa 24 jam",
+        "Permit untuk menjual kayu balak ke luar negara"
+      ],
+      "answer": 1,
+      "exp_en": "Felling protected trees subject to a TPO under Act 172 / Act 267 carries heavy statutory fines and delays Development Order clearance.",
+      "exp_bm": "Menebang pokok terlindung di bawah TPO mengikut Akta 172 / Akta 267 boleh dikenakan denda berkanun yang berat dan melewatkan pelepasan Kebenaran Merancang.",
+      "ref": "CCPM Module 02 (3.1.4 Tree Preservation Orders)"
+    },
+    {
+      "id": 58,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "During site reconnaissance, why must 'Public Rights of Way' and pedestrian footpaths crossing or bordering the site be accurately surveyed?",
+      "q_bm": "Semasa tinjauan tapak, mengapakah 'Hak Lalu Lintas Awam' (Public Rights of Way) dan laluan pejalan kaki yang merentasi atau bersempadan dengan tapak mesti diukur dengan tepat?",
+      "options_en": [
+        "Because public access cannot be arbitrarily blocked without formal diversion approval, and safe pedestrian segregation must be planned before erecting hoarding",
+        "Because surveyors get paid per pedestrian counted",
+        "Because pedestrians are allowed to walk freely under suspended crane loads",
+        "Because public footpaths belong to the main contractor forever"
+      ],
+      "options_bm": [
+        "Kerana laluan awam tidak boleh disekat sewenang-wenangnya tanpa kelulusan pengalihan rasmi, dan pengasingan pejalan kaki yang selamat mesti dirancang sebelum memasang pagar adang",
+        "Kerana juruukur dibayar mengikut bilangan pejalan kaki yang dikira",
+        "Kerana pejalan kaki dibenarkan berjalan bebas di bawah beban kren yang tergantung",
+        "Kerana laluan pejalan kaki awam menjadi milik kontraktor utama selama-lamanya"
+      ],
+      "answer": 0,
+      "exp_en": "Maintaining safe, legally approved public walkways protects community safety and prevents municipal enforcement orders.",
+      "exp_bm": "Mengekalkan laluan awam yang selamat dan diluluskan secara sah melindungi keselamatan komuniti serta mengelakkan perintah penguatkuasaan majlis.",
+      "ref": "CCPM Module 02 (3.1.4 Public Rights of Way)"
+    },
+    {
+      "id": 59,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Which non-destructive geophysical method is commonly paired with trial trenches during utility mapping to detect buried metallic and non-metallic pipes?",
+      "q_bm": "Kaedah geofizik tanpa musnah manakah yang lazimnya digabungkan dengan parit cubaan (trial trenches) semasa pemetaan utiliti untuk mengesan paip logam dan bukan logam yang tertimbus?",
+      "options_en": [
+        "Ground Penetrating Radar (GPR) and Electromagnetic Location (EML)",
+        "Air Quality High-Volume Sampling",
+        "Ultrasonic Concrete Cube Crushing",
+        "Sound Level Decibel Metering"
+      ],
+      "options_bm": [
+        "Radar Penembusan Tanah (GPR) dan Pengesanan Elektromagnetik (EML)",
+        "Pensampelan Udara Isipadu Tinggi",
+        "Ujian Mampatan Kiub Konkrit Ultrasonik",
+        "Meter Desibel Tahap Bunyi"
+      ],
+      "answer": 0,
+      "exp_en": "GPR + EML scanning verified by hand-dug trial pits accurately locates live TNB, TM, water, and gas services prior to piling.",
+      "exp_bm": "Imbasan GPR + EML yang disahkan melalui lubang cubaan gali tangan mengesan perkhidmatan hidup TNB, TM, air, dan gas dengan tepat sebelum kerja cerucuk.",
+      "ref": "CCPM Module 02 — Modern Utility Detection"
+    },
+    {
+      "id": 60,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "How do 'Restrictive Covenants' on a land title impact project initiation if discovered during legal due diligence?",
+      "q_bm": "Bagaimanakah 'Kovenan Sekatan' (Restrictive Covenants) pada hakmilik tanah mempengaruhi permulaan projek jika ditemui semasa ketekunan wajar perundangan?",
+      "options_en": [
+        "They exempt the project from Fire Services Act 1988",
+        "They have zero legal effect in Malaysia",
+        "They automatically double the contractor's profit margin",
+        "They legally restrict building height, land use, setback, or density, requiring legal variation/consent before the proposed development can proceed"
+      ],
+      "options_bm": [
+        "Ia mengecualikan projek daripada Akta Perkhidmatan Bomba 1988",
+        "Ia tidak mempunyai sebarang kesan undang-undang di Malaysia",
+        "Ia secara automatik menggandakan margin keuntungan kontraktor",
+        "Ia mengehadkan ketinggian bangunan, kegunaan tanah, anjakan, atau kepadatan secara sah, memerlukan pindaan/persetujuan undang-undang sebelum pembangunan cadangan boleh diteruskan"
+      ],
+      "answer": 3,
+      "exp_en": "Title search and covenant verification during initiation prevent designing a 7-storey mall on land restricted to low-rise or non-commercial use.",
+      "exp_bm": "Carian hakmilik dan pengesahan kovenan semasa permulaan mengelakkan reka bentuk pusat beli-belah 7 tingkat di atas tanah yang terhad kepada kegunaan rendah atau bukan komersial.",
+      "ref": "CCPM Module 02 (3.1.4 Restrictive Covenants)"
+    },
+    {
+      "id": 61,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "According to Section 3.2.1 of CCPM Module 02, what are the six (6) core areas typically assessed in a construction Feasibility Study?",
+      "q_bm": "Menurut Seksyen 3.2.1 Modul 02 CCPM, apakah enam (6) bidang teras yang lazimnya dinilai dalam Kajian Kebolehlaksanaan (Feasibility Study) pembinaan?",
+      "options_en": [
+        "Technical capability, Budget/financial resources, Legal requirements, Risk associated with the project, Operation feasibility, and Time",
+        "Bricklaying, plastering, tiling, painting, plumbing, and wiring",
+        "Tender opening, tender evaluation, letter of award, performance bond, interim certificate, and final account",
+        "Logo design, staff uniform, pantry snacks, parking ticket colour, background music, and air freshener"
+      ],
+      "options_bm": [
+        "Keupayaan teknikal, Bajet/sumber kewangan, Keperluan perundangan, Risiko berkaitan projek, Kebolehlaksanaan operasi, dan Masa",
+        "Mengikat bata, melepa, memasang jubin, mengecat, perpaipan, dan pendawaian",
+        "Pembukaan tender, penilaian tender, surat setuju terima, bon pelaksanaan, perakuan interim, dan akaun akhir",
+        "Reka bentuk logo, pakaian seragam staf, snek pantri, warna tiket parkir, muzik latar, dan penyegar udara"
+      ],
+      "answer": 0,
+      "exp_en": "Evaluating Technical, Financial, Legal, Risk, Operational, and Time feasibility establishes whether the project is viable before major capital commitment.",
+      "exp_bm": "Menilai kebolehlaksanaan Teknikal, Kewangan, Perundangan, Risiko, Operasi, dan Masa menentukan sama ada projek berdaya maju sebelum komitmen modal besar.",
+      "ref": "CCPM Module 02 (3.2.1 Feasibility Study Areas)"
+    },
+    {
+      "id": 62,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Which five (5) organizational benefits of conducting a thorough Feasibility Study are highlighted in Section 3.2.1 of Module 02?",
+      "q_bm": "Apakah lima (5) manfaat organisasi daripada menjalankan Kajian Kebolehlaksanaan yang teliti seperti yang ditekankan dalam Seksyen 3.2.1 Modul 02?",
+      "options_en": [
+        "Allowing construction without building plans",
+        "Guaranteeing zero rainfall during construction",
+        "Improving project team focus, identifying opportunities, providing valuable decision-making info, narrowing down alternatives, and identifying valid reasons to commence",
+        "Eliminating the need for site safety officers"
+      ],
+      "options_bm": [
+        "Membenarkan pembinaan tanpa pelan bangunan",
+        "Menjamin tiada hujan langsung semasa pembinaan",
+        "Meningkatkan fokus pasukan projek, mengenal pasti peluang, membekalkan maklumat bernilai untuk keputusan, mengecilkan pilihan alternatif, dan mengenal pasti sebab sah untuk memulakan projek",
+        "Menghapuskan keperluan pegawai keselamatan tapak"
+      ],
+      "answer": 2,
+      "exp_en": "A structured feasibility study filters out unviable options early and aligns stakeholders around a validated business case.",
+      "exp_bm": "Kajian kebolehlaksanaan berstruktur menapis pilihan yang tidak berdaya maju lebih awal dan menyelaraskan pihak berkepentingan di sekitar kes perniagaan yang disahkan.",
+      "ref": "CCPM Module 02 (3.2.1 Benefits of Feasibility Study)"
+    },
+    {
+      "id": 63,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Which six (6) elements must the Construction Project Manager address when specifying the 'Procurement Strategy' at the Business Case stage (Section 3.2.1)?",
+      "q_bm": "Apakah enam (6) elemen yang mesti ditangani oleh Pengurus Projek Pembinaan apabila menetapkan 'Strategi Perolehan' pada peringkat Kes Perniagaan (Seksyen 3.2.1)?",
+      "options_en": [
+        "Only choosing the cheapest paint brand",
+        "Only deciding the site canteen opening hours",
+        "Funding processes, contract procurement framework, contracting strategy, financing constraints/spending caps, risk/contingency drawdown processes, and security/IP issues",
+        "Only selecting security guard uniforms"
+      ],
+      "options_bm": [
+        "Hanya memilih jenama cat paling murah",
+        "Hanya menentukan waktu operasi kantin tapak",
+        "Proses pembiayaan, rangka kerja perolehan kontrak, strategi berkontrak, kekangan pembiayaan/had perbelanjaan, proses pengeluaran risiko/luar jangka, dan isu keselamatan/harta intelek",
+        "Hanya memilih pakaian seragam pengawal keselamatan"
+      ],
+      "answer": 2,
+      "exp_en": "Defining funding approvals, contract route (e.g., Traditional vs. D&B), spending caps, and contingency drawdown rules at business case stage prevents commercial bottlenecks.",
+      "exp_bm": "Mentakrifkan kelulusan pembiayaan, laluan kontrak (cth. Tradisional lwn. D&B), had perbelanjaan, dan peraturan pengeluaran luar jangka pada peringkat kes perniagaan mengelakkan kesesakan komersial.",
+      "ref": "CCPM Module 02 (3.2.1 Procurement Strategy)"
+    },
+    {
+      "id": 64,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Which modern construction technologies and sustainability initiatives are explicitly listed in Section 3.2.1(d) for evaluation during the Feasibility Study?",
+      "q_bm": "Teknologi pembinaan moden dan inisiatif kemampanan manakah yang disenaraikan secara eksplisit dalam Seksyen 3.2.1(d) untuk dinilai semasa Kajian Kebolehlaksanaan?",
+      "options_en": [
+        "Asbestos roofing sheets and lead water pipes",
+        "Typewriters, carbon paper, slide rules, and telegrams",
+        "Coal-fired steam engines and horse-drawn carts",
+        "Sustainability (Green & Blue initiatives), Industrialized Building System (IBS), Building Information Modelling (BIM), GIS, Drones, and Building Automation Systems (BAS)"
+      ],
+      "options_bm": [
+        "Kepingan bumbung asbestos dan paip air plumbum",
+        "Mesin taip, kertas karbon, pembaris gelongsor, dan telegram",
+        "Enjin stim arang batu dan kereta kuda",
+        "Kemampanan (inisiatif Hijau & Biru), Sistem Binaan Berindustri (IBS), Pemodelan Maklumat Bangunan (BIM), GIS, Dron, dan Sistem Automasi Bangunan (BAS)"
+      ],
+      "answer": 3,
+      "exp_en": "Evaluating BIM, IBS, green building certifications, and BAS during feasibility ensures capital budget and brief requirements support modern delivery.",
+      "exp_bm": "Menilai BIM, IBS, pensijilan bangunan hijau, dan BAS semasa kebolehlaksanaan memastikan bajet modal dan keperluan ringkasan menyokong penyampaian moden.",
+      "ref": "CCPM Module 02 (3.2.1d Technology & Sustainability)"
+    },
+    {
+      "id": 65,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "In sustainability planning during project initiation, what do 'Green' and 'Blue' initiatives refer to?",
+      "q_bm": "Dalam perancangan kemampanan semasa permulaan projek, apakah yang dirujuk oleh inisiatif 'Hijau' (Green) dan 'Biru' (Blue)?",
+      "options_en": [
+        "Importing green tiles and blue glass only",
+        "'Green' refers to energy efficiency, low-carbon materials, and vegetation/ecosystems; 'Blue' refers to sustainable water management, rainwater harvesting, and stormwater retention",
+        "Hiring workers wearing green shirts and blue trousers",
+        "Painting walls green and ceilings blue"
+      ],
+      "options_bm": [
+        "Mengimport jubin hijau dan kaca biru sahaja",
+        "'Hijau' merujuk kepada kecekapan tenaga, bahan rendah karbon, dan tumbuhan/ekosistem; 'Biru' merujuk kepada pengurusan air mampan, penuaian air hujan, dan takungan air ribut",
+        "Menggaji pekerja memakai baju hijau dan seluar biru",
+        "Mengecat dinding warna hijau dan siling warna biru"
+      ],
+      "answer": 1,
+      "exp_en": "Green-Blue infrastructure integrates energy/carbon reduction (MyCREST/GBI) with MSMA water-sensitive urban drainage and rainwater harvesting.",
+      "exp_bm": "Infrastruktur Hijau-Biru menggabungkan pengurangan tenaga/karbon (MyCREST/GBI) dengan saliran bandar peka air MSMA dan penuaian air hujan.",
+      "ref": "CCPM Module 02 (3.2.1d Green & Blue Initiatives)"
+    },
+    {
+      "id": 66,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Why should 'Operation Feasibility' be evaluated during the early Feasibility Study of a commercial shopping centre?",
+      "q_bm": "Mengapakah 'Kebolehlaksanaan Operasi' (Operation Feasibility) perlu dinilai semasa Kajian Kebolehlaksanaan awal bagi sesebuah pusat beli-belah komersial?",
+      "options_en": [
+        "To verify if tower cranes can lift 10 tonnes",
+        "To check whether the concrete mixer works properly",
+        "To test soil bearing capacity at 20m depth",
+        "To verify that once built, the facility can be staffed, maintained, leased, and operated profitably within projected lifecycle OPEX and shopper footfall"
+      ],
+      "options_bm": [
+        "Untuk mengesahkan sama ada kren menara boleh mengangkat 10 tan",
+        "Untuk menyemak sama ada pembancuh konkrit berfungsi dengan baik",
+        "Untuk menguji keupayaan galas tanah pada kedalaman 20m",
+        "Untuk mengesahkan bahawa setelah siap dibina, fasiliti tersebut boleh dikendalikan, disenggara, disewakan, dan dioperasikan secara menguntungkan dalam unjuran OPEX kitaran hayat dan kehadiran pengunjung"
+      ],
+      "answer": 3,
+      "exp_en": "A technically buildable mall that cannot attract tenants or suffers unsustainable cooling/maintenance costs fails operational feasibility.",
+      "exp_bm": "Pusat beli-belah yang boleh dibina secara teknikal tetapi gagal menarik penyewa atau menanggung kos penyejukan/penyenggaraan tidak mampan adalah gagal kebolehlaksanaan operasi.",
+      "ref": "CCPM Module 02 (3.2.1 Operation Feasibility)"
+    },
+    {
+      "id": 67,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "How should Feasibility Study findings be documented and stored according to Section 3.2.1 of CCPM Module 02?",
+      "q_bm": "Bagaimanakah penemuan Kajian Kebolehlaksanaan perlu didokumenkan dan disimpan mengikut Seksyen 3.2.1 Modul 02 CCPM?",
+      "options_en": [
+        "In a structured, shareable format named consistently with long-term project and operational needs so the client can make an informed stage-gate decision",
+        "Published anonymously on social media",
+        "Kept exclusively in one consultant's personal mobile phone",
+        "Written informally on loose sticky notes and thrown away"
+      ],
+      "options_bm": [
+        "Dalam format berstruktur yang mudah dikongsi dan dinamakan secara konsisten mengikut keperluan jangka panjang projek serta operasi supaya klien dapat membuat keputusan pintu peringkat yang tepat",
+        "Diterbitkan secara tanpa nama di media sosial",
+        "Disimpan secara eksklusif di dalam telefon bimbit peribadi seorang perunding sahaja",
+        "Ditulis secara tidak rasmi di atas nota pelekat dan dibuang"
+      ],
+      "answer": 0,
+      "exp_en": "Consistent document naming and structured reporting enable seamless handover from initiation to design, procurement, and future facilities management.",
+      "exp_bm": "Penamaan dokumen yang konsisten dan pelaporan berstruktur membolehkan peralihan lancar daripada permulaan kepada reka bentuk, perolehan, dan pengurusan fasiliti masa depan.",
+      "ref": "CCPM Module 02 (3.2.1 Documentation Standards)"
+    },
+    {
+      "id": 68,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "What is 'Portfolio and Programme Consideration' during a project feasibility study (Section 3.2.1g)?",
+      "q_bm": "Apakah 'Pertimbangan Portfolio dan Program' semasa kajian kebolehlaksanaan projek (Seksyen 3.2.1g)?",
+      "options_en": [
+        "Counting the number of bricks on a pallet",
+        "Choosing the font style for the project brochure",
+        "Evaluating how the proposed project competes for capital, management bandwidth, and market demand alongside the developer's other ongoing or planned projects",
+        "Scheduling the daily lunch break of site workers"
+      ],
+      "options_bm": [
+        "Mengira bilangan batu bata di atas palet",
+        "Memilih gaya fon untuk risalah projek",
+        "Menilai bagaimana projek cadangan bersaing untuk mendapatkan modal, kapasiti pengurusan, dan permintaan pasaran di samping projek-projek lain pemaju yang sedang berjalan atau dirancang",
+        "Menjadualkan waktu rehat makan tengah hari pekerja tapak"
+      ],
+      "answer": 2,
+      "exp_en": "Assessing portfolio interdependencies prevents over-stretching corporate cash flow and senior project management talent across concurrent developments.",
+      "exp_bm": "Menilai saling kebergantungan portfolio mengelakkan tekanan berlebihan ke atas aliran tunai korporat dan bakat pengurusan projek kanan merentasi pembangunan serentak.",
+      "ref": "CCPM Module 02 (3.2.1g Portfolio & Programme)"
+    },
+    {
+      "id": 69,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Why is 'Intellectual Property (IP) and Information Security' included as a procurement strategy consideration at the business case stage?",
+      "q_bm": "Mengapakah 'Harta Intelek (IP) dan Keselamatan Maklumat' dimasukkan sebagai pertimbangan strategi perolehan pada peringkat kes perniagaan?",
+      "options_en": [
+        "To hide building plans from DBKL",
+        "To avoid paying CIDB levy",
+        "To protect proprietary commercial leasing data, confidential cost budgets, and architectural/BIM design ownership across consultants and contractors",
+        "To prevent workers from wearing safety harnesses"
+      ],
+      "options_bm": [
+        "Untuk menyembunyikan pelan bangunan daripada DBKL",
+        "Untuk mengelak membayar levi CIDB",
+        "Untuk melindungi data penyewaan komersial proprietari, bajet kos sulit, dan pemilikan reka bentuk seni bina/BIM merentasi perunding dan kontraktor",
+        "Untuk menghalang pekerja daripada memakai abah-abah keselamatan"
+      ],
+      "answer": 2,
+      "exp_en": "Clear IP ownership clauses ensure the developer retains legal rights to use, modify, and operate BIM models and design drawings post-handover.",
+      "exp_bm": "Klausa pemilikan IP yang jelas memastikan pemaju mengekalkan hak undang-undang untuk menggunakan, mengubah suai, dan mengendalikan model BIM serta lukisan reka bentuk selepas serahan.",
+      "ref": "CCPM Module 02 (3.2.1f Security & IP Rights)"
+    },
+    {
+      "id": 70,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the relationship between a 'Business Case' and a 'Feasibility Study' during Project Initiation?",
+      "q_bm": "Apakah hubungan antara 'Kes Perniagaan' (Business Case) dengan 'Kajian Kebolehlaksanaan' (Feasibility Study) semasa Permulaan Projek?",
+      "options_en": [
+        "The Feasibility Study tests technical, financial, legal, and operational viability of options, providing the evidence base that justifies and refines the Business Case",
+        "The Business Case is written by the piling subcontractor",
+        "They are completely unrelated documents used only after building demolition",
+        "The Feasibility Study is only conducted after Practical Completion"
+      ],
+      "options_bm": [
+        "Kajian Kebolehlaksanaan menguji daya maju teknikal, kewangan, perundangan, dan operasi bagi pilihan-pilihan yang ada, membekalkan asas bukti yang mewajarkan dan memurnikan Kes Perniagaan",
+        "Kes Perniagaan ditulis oleh subkontraktor cerucuk",
+        "Kedua-duanya ialah dokumen yang langsung tidak berkaitan dan hanya digunakan selepas perobohan bangunan",
+        "Kajian Kebolehlaksanaan hanya dijalankan selepas Siap Praktikal"
+      ],
+      "answer": 0,
+      "exp_en": "Feasibility analysis provides objective data on cost, risk, and options so the Business Case accurately demonstrates return on investment.",
+      "exp_bm": "Analisis kebolehlaksanaan membekalkan data objektif mengenai kos, risiko, dan pilihan supaya Kes Perniagaan membuktikan pulangan pelaburan dengan tepat.",
+      "ref": "CCPM Module 02 (3.2.1 Feasibility & Business Case)"
+    },
+    {
+      "id": 71,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Under which section of the Environmental Quality Act 1974 (Act 127) is an Environmental Impact Assessment (EIA) a mandatory statutory requirement for prescribed activities?",
+      "q_bm": "Di bawah seksyen manakah dalam Akta Kualiti Alam Sekeliling 1974 (Akta 127) Penilaian Impak Alam Sekitar (EIA) merupakan keperluan berkanun wajib bagi aktiviti yang ditetapkan?",
+      "options_en": [
+        "Section 35 of CIPAA 2012",
+        "Section 25 of the CIDB Act 1994",
+        "Section 70 of the Street, Drainage and Building Act 1974",
+        "Section 34A of the Environmental Quality Act 1974"
+      ],
+      "options_bm": [
+        "Seksyen 35 CIPAA 2012",
+        "Seksyen 25 Akta CIDB 1994",
+        "Seksyen 70 Akta Jalan, Parit dan Bangunan 1974",
+        "Seksyen 34A Akta Kualiti Alam Sekeliling 1974"
+      ],
+      "answer": 3,
+      "exp_en": "Section 34A of EQA 1974 prohibits commencing any prescribed activity (under the EIA Order 2015) until the Director General of DOE approves the EIA report.",
+      "exp_bm": "Seksyen 34A EQA 1974 melarang memulakan sebarang aktiviti ditetapkan (di bawah Perintah EIA 2015) sehingga Ketua Pengarah JAS meluluskan laporan EIA.",
+      "ref": "CCPM Module 02 (3.2.2 Environmental Impact Assessment)"
+    },
+    {
+      "id": 72,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Why must an Environmental Impact Assessment (EIA) be conducted PRIOR to project approval and physical implementation (Section 3.2.2)?",
+      "q_bm": "Mengapakah Penilaian Impak Alam Sekitar (EIA) mesti dijalankan SEBELUM kelulusan projek dan pelaksanaan fizikal (Seksyen 3.2.2)?",
+      "options_en": [
+        "To test the strength of steel reinforcement bars",
+        "To identify, predict, and communicate environmental impacts early so mitigating measures are built into design before irreversible damage or costly remedial works occur",
+        "To calculate the contractor's corporate income tax",
+        "To replace the need for Bomba fire plan approval"
+      ],
+      "options_bm": [
+        "Untuk menguji kekuatan bar tetulang keluli",
+        "Untuk mengenal pasti, meramal, dan menyampaikan impak alam sekitar lebih awal supaya langkah mitigasi diterapkan dalam reka bentuk sebelum kerosakan kekal atau kerja pemulihan mahal berlaku",
+        "Untuk mengira cukai pendapatan korporat kontraktor",
+        "Untuk menggantikan keperluan kelulusan pelan kebakaran Bomba"
+      ],
+      "answer": 1,
+      "exp_en": "Early EIA integration avoids environmentally unsuitable layouts and embeds mitigation costs into the initial project budget.",
+      "exp_bm": "Integrasi EIA awal mengelakkan susun atur yang tidak sesuai dengan alam sekitar dan memasukkan kos mitigasi ke dalam bajet projek permulaan.",
+      "ref": "CCPM Module 02 (3.2.2 EIA Purpose)"
+    },
+    {
+      "id": 73,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "What are the four (4) main functions of a Traffic Impact Assessment (TIA) outlined in Section 3.2.3 of CCPM Module 02?",
+      "q_bm": "Apakah empat (4) fungsi utama Penilaian Impak Trafik (TIA) yang digariskan dalam Seksyen 3.2.3 Modul 02 CCPM?",
+      "options_en": [
+        "Design interior retail shopfronts, select escalator music, price parking tickets, and hire valet drivers",
+        "Test concrete cube strength, check rebar spacing, measure slab thickness, and inspect roof trusses",
+        "Audit subcontractor payroll, verify green cards, check crane PMA, and issue safety boots",
+        "Determine existing/future baseline traffic, estimate trip generation of the proposed development, assess additional traffic impact on road networks, and identify roadway/site-access improvements"
+      ],
+      "options_bm": [
+        "Mereka bentuk bahagian hadapan kedai runcit, memilih muzik eskalator, menetapkan harga tiket parkir, dan menggaji pemandu valet",
+        "Menguji kekuatan kiub konkrit, menyemak jarak tetulang, mengukur ketebalan papak, dan memeriksa kekuda bumbung",
+        "Mengaudit gaji subkontraktor, mengesahkan kad hijau, menyemak PMA kren, dan mengeluarkan kasut keselamatan",
+        "Menentukan trafik asas sedia ada/masa depan, menganggar penjanaan perjalanan pembangunan cadangan, menilai impak trafik tambahan pada rangkaian jalan, dan mengenal pasti penambahbaikan jalan/akses tapak"
+      ],
+      "answer": 3,
+      "exp_en": "For a 1,300-parking-bay shopping centre in Setiawangsa, TIA is essential for DBKL Development Order approval to prevent junction gridlock.",
+      "exp_bm": "Bagi pusat beli-belah berkapasiti 1,300 petak parkir di Setiawangsa, TIA adalah penting bagi kelulusan Kebenaran Merancang DBKL untuk mengelakkan kesesakan simpang.",
+      "ref": "CCPM Module 02 (3.2.3 Traffic Impact Assessment)"
+    },
+    {
+      "id": 74,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "According to Section 3.2.4 of CCPM Module 02, what are the five (5) overlapping categories of social impacts evaluated in a Social Impact Assessment (SIA)?",
+      "q_bm": "Menurut Seksyen 3.2.4 Modul 02 CCPM, apakah lima (5) kategori impak sosial yang bertindih yang dinilai dalam Penilaian Impak Sosial (SIA)?",
+      "options_en": [
+        "Piling, Excavation, Concreting, Plastering, and Painting impacts",
+        "Concrete, Steel, Timber, Glass, and Aluminium impacts",
+        "Lifestyle impacts, Cultural impacts, Community impacts, Quality of life impacts, and Health impacts",
+        "Tender, Award, Mobilization, Handover, and DLP impacts"
+      ],
+      "options_bm": [
+        "Impak Cerucuk, Pengorekan, Konkrit, Melepa, dan Mengecat",
+        "Impak Konkrit, Keluli, Kayu, Kaca, dan Aluminium",
+        "Impak gaya hidup (Lifestyle), Impak budaya (Cultural), Impak komuniti (Community), Impak kualiti hidup (Quality of life), dan Impak kesihatan (Health)",
+        "Impak Tender, Penganugerahan, Mobilisasi, Penyerahan, dan DLP"
+      ],
+      "answer": 2,
+      "exp_en": "SIA evaluates how a major project alters local community cohesion, lifestyle, cultural heritage, livability/security, and physical/mental well-being.",
+      "exp_bm": "SIA menilai bagaimana projek besar mengubah kesepaduan komuniti tempatan, gaya hidup, warisan budaya, keselesaan/keselamatan, dan kesejahteraan fizikal/mental.",
+      "ref": "CCPM Module 02 (3.2.4 Social Impact Assessment)"
+    },
+    {
+      "id": 75,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "In Malaysia (Section 3.2.4 of Module 02), what are the two (2) types of Social Impact Assessment (SIA) reports based on the scale of social impact?",
+      "q_bm": "Di Malaysia (Seksyen 3.2.4 Modul 02), apakah dua (2) jenis laporan Penilaian Impak Sosial (SIA) berdasarkan skala impak sosial?",
+      "options_en": [
+        "Structural SIA Report and Electrical SIA Report",
+        "General SIA Report (incorporated inside the Development Proposal Report — DRP for minor impacts) and Detailed SIA Report (a stand-alone report for major impacts requiring extensive negotiation)",
+        "Daily SIA Report and Hourly SIA Report",
+        "Draft Brochure SIA and Final Receipt SIA"
+      ],
+      "options_bm": [
+        "Laporan SIA Struktur dan Laporan SIA Elektrikal",
+        "Laporan SIA Umum (digabungkan dalam Laporan Cadangan Pemajuan — LCP/DRP bagi impak kecil) dan Laporan SIA Terperinci (laporan berasingan bagi impak besar yang memerlukan rundingan meluas)",
+        "Laporan SIA Harian dan Laporan SIA Setiap Jam",
+        "SIA Risalah Draf dan SIA Resit Akhir"
+      ],
+      "answer": 1,
+      "exp_en": "Projects with manageable local impacts include SIA within the Development Proposal Report (DRP), whereas major transformative projects require a stand-alone Detailed SIA.",
+      "exp_bm": "Projek dengan impak tempatan terkawal memasukkan SIA dalam Laporan Cadangan Pemajuan (DRP), manakala projek berimpak besar memerlukan Laporan SIA Terperinci yang berasingan.",
+      "ref": "CCPM Module 02 (3.2.4 Types of SIA Report)"
+    },
+    {
+      "id": 76,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Town and Country Planning Act 1976 (Act 172, Section 20B), which Malaysian planning body reviews major development proposals requiring Social Impact Assessments (SIA)?",
+      "q_bm": "Di bawah Akta Perancangan Bandar dan Desa 1976 (Akta 172, Seksyen 20B), badan perancangan Malaysia manakah yang menyemak cadangan pemajuan utama yang memerlukan Penilaian Impak Sosial (SIA)?",
+      "options_en": [
+        "Lembaga Getah Malaysia",
+        "Suruhanjaya Pilihan Raya (SPR)",
+        "Jabatan Kastam Diraja Malaysia",
+        "PLANMalaysia (Jabatan Perancangan Bandar dan Desa) / National Physical Planning Council (MPFN) and State Planning Committees"
+      ],
+      "options_bm": [
+        "Lembaga Getah Malaysia",
+        "Suruhanjaya Pilihan Raya (SPR)",
+        "Jabatan Kastam Diraja Malaysia",
+        "PLANMalaysia (Jabatan Perancangan Bandar dan Desa) / Majlis Perancang Fizikal Negara (MPFN) dan Jawatankuasa Perancang Negeri"
+      ],
+      "answer": 3,
+      "exp_en": "PLANMalaysia enforces the Manual Penyediaan Laporan Penilaian Impak Sosial (SIA) under Act 172 alongside Local Planning Authorities.",
+      "exp_bm": "PLANMalaysia menguatkuasakan Manual Penyediaan Laporan Penilaian Impak Sosial (SIA) di bawah Akta 172 bersama Pihak Berkuasa Perancang Tempatan.",
+      "ref": "CCPM Module 02 (3.2.4 SIA Regulatory Framework)"
+    },
+    {
+      "id": 77,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Who typically prepares a Traffic Impact Assessment (TIA) for a proposed commercial development?",
+      "q_bm": "Siapakah yang lazimnya menyediakan Penilaian Impak Trafik (TIA) bagi sesuatu cadangan pembangunan komersial?",
+      "options_en": [
+        "The retail mall security supervisor",
+        "The interior curtain supplier",
+        "Qualified Traffic Engineers or Town/Traffic Planners appointed by the developer",
+        "The site concrete batching plant operator"
+      ],
+      "options_bm": [
+        "Penyelia keselamatan pusat beli-belah",
+        "Pembekal langsir dalaman",
+        "Jurutera Trafik atau Perancang Bandar/Trafik bertauliah yang dilantik oleh pemaju",
+        "Pengendali loji bancuhan konkrit tapak"
+      ],
+      "answer": 2,
+      "exp_en": "Registered Traffic Engineers conduct peak-hour junction counts, trip generation modeling, and swept-path/signalization recommendations.",
+      "exp_bm": "Jurutera Trafik berdaftar menjalankan bancian simpang waktu puncak, pemodelan penjanaan perjalanan, dan cadangan laluan/lampu isyarat.",
+      "ref": "CCPM Module 02 (3.2.3 TIA Preparation)"
+    },
+    {
+      "id": 78,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "How can a Traffic Impact Assessment (TIA) directly influence the site layout plan of a 1,300-bay shopping centre during Project Initiation?",
+      "q_bm": "Bagaimanakah Penilaian Impak Trafik (TIA) boleh mempengaruhi secara langsung pelan susun atur tapak pusat beli-belah 1,300 petak parkir semasa Permulaan Projek?",
+      "options_en": [
+        "By determining the strength of foundation concrete",
+        "By selecting the colour of shopping trolleys",
+        "By setting the salaries of mall cleaners",
+        "By determining the optimal location of ingress/egress gates, deceleration lanes, internal queue storage lengths, and separation of service trucks from shopper cars"
+      ],
+      "options_bm": [
+        "Dengan menentukan kekuatan konkrit asas",
+        "Dengan memilih warna troli beli-belah",
+        "Dengan menetapkan gaji tukang cuci pusat beli-belah",
+        "Dengan menentukan lokasi optimum pintu masuk/keluar, lorong nyahpecutan, panjang ruang menunggu dalaman, dan pengasingan lori servis daripada kereta pengunjung"
+      ],
+      "answer": 3,
+      "exp_en": "TIA findings directly shape road widening setbacks, access throat length, and ramp geometry before architectural plans are frozen.",
+      "exp_bm": "Penemuan TIA membentuk secara langsung anjakan pelebaran jalan, panjang laluan masuk, dan geometri tanjakan sebelum pelan seni bina dibekukan.",
+      "ref": "CCPM Module 02 (3.2.3 TIA Impact on Site Plan)"
+    },
+    {
+      "id": 79,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Why does CCPM Module 02 note that stakeholder and statutory consultations during the Feasibility Study should be documented transparently?",
+      "q_bm": "Mengapakah Modul 02 CCPM menyatakan bahawa rundingan pihak berkepentingan dan agensi berkanun semasa Kajian Kebolehlaksanaan perlu didokumenkan secara telus?",
+      "options_en": [
+        "To replace the need for a Quantity Surveyor",
+        "To avoid obtaining Development Order approval",
+        "To record agency conditions, community concerns, and agreed mitigation commitments so they are tracked into design and tender documents",
+        "To blame external agencies if the contractor is late"
+      ],
+      "options_bm": [
+        "Untuk menggantikan keperluan Juruukur Bahan",
+        "Untuk mengelak memperoleh kelulusan Kebenaran Merancang",
+        "Untuk merekod syarat agensi, kebimbangan komuniti, dan komitmen mitigasi yang dipersetujui supaya ia dijejak masuk ke dalam dokumen reka bentuk dan tender",
+        "Untuk menyalahkan agensi luar sekiranya kontraktor lewat"
+      ],
+      "answer": 2,
+      "exp_en": "Early stakeholder and agency consultation records prevent late objections during OSC 3.0 Plus review or public hearings.",
+      "exp_bm": "Rekod rundingan awal pihak berkepentingan dan agensi mengelakkan bantahan lewat semasa semakan OSC 3.0 Plus atau pendengaran awam.",
+      "ref": "CCPM Module 02 (3.2.1 Consultation & Documentation)"
+    },
+    {
+      "id": 80,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "In Malaysia, which three (3) broad statutory/development categories govern Social Impact Assessment (SIA) requirements as illustrated in Figure 7.0 of Module 02?",
+      "q_bm": "Di Malaysia, apakah tiga (3) kategori perundangan/pembangunan utama yang mengawal selia keperluan Penilaian Impak Sosial (SIA) seperti yang digambarkan dalam Rajah 7.0 Modul 02?",
+      "options_en": [
+        "Category 1: Mega/National-interest projects under Sec 20B Act 172 (MPFN); Category 2: Projects requiring EIA under EQA 1974; Category 3: Local/State planning developments under LPA/State Planning",
+        "Category 1: Piling; Category 2: Plastering; Category 3: Painting",
+        "Category A: Houses; Category B: Boats; Category C: Airplanes",
+        "Category X: Concrete; Category Y: Steel; Category Z: Timber"
+      ],
+      "options_bm": [
+        "Kategori 1: Projek mega/kepentingan nasional di bawah Sek 20B Akta 172 (MPFN); Kategori 2: Projek memerlukan EIA di bawah EQA 1974; Kategori 3: Pembangunan perancangan tempatan/negeri di bawah PBT/Perancang Negeri",
+        "Kategori 1: Cerucuk; Kategori 2: Melepa; Kategori 3: Mengecat",
+        "Kategori A: Rumah; Kategori B: Bot; Kategori C: Kapal Terbang",
+        "Kategori X: Konkrit; Kategori Y: Keluli; Kategori Z: Kayu"
+      ],
+      "answer": 0,
+      "exp_en": "SIA requirements in Malaysia are tiered across MPFN national-level projects (Act 172 Sec 20B), DOE EIA-linked projects, and State/Local Planning Authority developments.",
+      "exp_bm": "Keperluan SIA di Malaysia dibahagikan mengikut projek peringkat nasional MPFN (Sek 20B Akta 172), projek berkait EIA JAS, dan pembangunan Pihak Berkuasa Perancang Negeri/Tempatan.",
+      "ref": "CCPM Module 02 (Figure 7.0 Three Categories of SIA)"
+    },
+    {
+      "id": 81,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "Which five (5) specific initiation risks are highlighted in Section 4.1 of CCPM Module 02 as major threats during the Project Initiation phase?",
+      "q_bm": "Apakah lima (5) risiko permulaan khusus yang ditekankan dalam Seksyen 4.1 Modul 02 CCPM sebagai ancaman utama semasa fasa Permulaan Projek?",
+      "options_en": [
+        "Concrete honeycombing, roof leakage, lift breakdown, paint peeling, and grass dying",
+        "Client changing mind, ambiguous project scope/objectives, lack of skilled human resources, lack of key stakeholder support, and no consensus on project output",
+        "Tower crane collapse, trench cave-in, chemical spill, mosquito breeding, and noise complaint",
+        "Late final account, unpaid retention, supplier bankruptcy, customs strike, and currency crash"
+      ],
+      "options_bm": [
+        "Sarang lebah konkrit, kebocoran bumbung, kerosakan lif, cat mengelupas, dan rumput mati",
+        "Klien berubah fikiran, skop/objektif projek yang kabur, kekurangan sumber manusia mahir, tiada sokongan pihak berkepentingan utama, dan tiada konsensus mengenai output projek",
+        "Keruntuhan kren menara, runtuhan parit, tumpahan bahan kimia, pembiakan nyamuk, dan aduan bunyi",
+        "Akaun akhir lewat, wang tahanan tidak dibayar, pembekal muflis, mogok kastam, dan kejatuhan mata wang"
+      ],
+      "answer": 1,
+      "exp_en": "Initiation risks center on governance, alignment, ambiguous objectives, resource gaps, and conflicting stakeholder expectations.",
+      "exp_bm": "Risiko permulaan tertumpu pada tadbir urus, penjajaran, objektif yang kabur, kekurangan sumber, dan jangkaan pihak berkepentingan yang bercanggah.",
+      "ref": "CCPM Module 02 (4.1 Risk Management in Project Initiation)"
+    },
+    {
+      "id": 82,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "How should a Construction Project Manager mitigate the initiation risk of 'No Consensus on Project Output' (Section 4.1e) between the Client and delivery team?",
+      "q_bm": "Bagaimanakah Pengurus Projek Pembinaan harus memitigasi risiko permulaan 'Tiada Konsensus mengenai Output Projek' (Seksyen 4.1e) antara Klien dan pasukan penyampaian?",
+      "options_en": [
+        "Let subcontractors decide the building's floor count",
+        "Start construction immediately and let each team build whatever they imagine",
+        "Avoid holding any meetings with the Client until handover",
+        "Facilitate structured brief-alignment workshops to document unambiguous, measurable deliverables and acceptance criteria signed off by both sides before detailed design"
+      ],
+      "options_bm": [
+        "Biarkan subkontraktor menentukan bilangan tingkat bangunan",
+        "Mulakan pembinaan serta-merta dan biarkan setiap pasukan membina apa sahaja yang mereka bayangkan",
+        "Elakkan mengadakan sebarang mesyuarat dengan Klien sehingga penyerahan",
+        "Mengendalikan bengkel penjajaran ringkasan berstruktur untuk mendokumenkan serahan yang jelas serta kriteria penerimaan yang ditandatangani kedua-dua pihak sebelum reka bentuk terperinci"
+      ],
+      "answer": 3,
+      "exp_en": "Formal written sign-off of the Project Brief and acceptance criteria eliminates conflicting interpretations of the final asset.",
+      "exp_bm": "Pengesahan bertulis rasmi ke atas Project Brief dan kriteria penerimaan menghapuskan tafsiran yang bercanggah mengenai aset akhir.",
+      "ref": "CCPM Module 02 (4.1e No Consensus on Project Output)"
+    },
+    {
+      "id": 83,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "In our Setiawangsa Shopping Centre case study, why did our Initiation Plan recommend drilling 8 to 10 deep boreholes (to SPT N >= 50 refusal or 5m into sound bedrock)?",
+      "q_bm": "Dalam kajian kes Pusat Beli-Belah Setiawangsa kita, mengapakah Pelan Permulaan mencadangkan penggerudian 8 hingga 10 lubang jara dalam (sehingga engganan SPT N >= 50 atau 5m ke dalam batuan dasar kukuh)?",
+      "options_en": [
+        "Because DBKL requires exactly 1 borehole per retail shop",
+        "To search for underground oil and natural gas reserves",
+        "To install 10 geothermal power plants",
+        "Because Setiawangsa sits on Kuala Lumpur's weathered granite/schist formation with variable bedrock depth, and verified borehole logs are needed across the 468,000 sq ft lot before foundation design"
+      ],
+      "options_bm": [
+        "Kerana DBKL mewajibkan tepat 1 lubang jara bagi setiap kedai runcit",
+        "Untuk mencari rizab minyak dan gas asli bawah tanah",
+        "Untuk memasang 10 loji janakuasa geoterma",
+        "Kerana Setiawangsa terletak di atas formasi granit/syis terluluhawa Kuala Lumpur dengan kedalaman batuan dasar yang berubah-ubah, dan log lubang jara yang disahkan diperlukan merentasi lot 468,000 kps sebelum reka bentuk asas"
+      ],
+      "answer": 3,
+      "exp_en": "Investing ~RM120k–RM180k in 8–10 deep boreholes prevents RM8M–RM14M in foundation redesign and 6–8 weeks of piling delay.",
+      "exp_bm": "Melabur ~RM120k–RM180k dalam 8–10 lubang jara dalam mengelakkan RM8J–RM14J kos reka bentuk semula asas dan 6–8 minggu kelewatan cerucuk.",
+      "ref": "Setiawangsa PA Case Study — M02 Site Due Diligence"
+    },
+    {
+      "id": 84,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "In the Setiawangsa Initiation phase, which four (4) functional team pillars were established under the CPM in Figure M02?",
+      "q_bm": "Dalam fasa Permulaan Setiawangsa, apakah empat (4) teras pasukan fungsian yang ditubuhkan di bawah CPM dalam Rajah M02?",
+      "options_en": [
+        "Pillar 1: Sand; Pillar 2: Cement; Pillar 3: Aggregate; Pillar 4: Water",
+        "Pillar 1: Bricks; Pillar 2: Tiles; Pillar 3: Paint; Pillar 4: Glass",
+        "Pillar 1: Retail; Pillar 2: Cinema; Pillar 3: Food Court; Pillar 4: Valet Parking",
+        "Pillar 1: Design & Statutory Team; Pillar 2: Commercial & Cost Team; Pillar 3: Construction Delivery Team; Pillar 4: Governance & Assurance Team (QA/QC, HSE, Env.)"
+      ],
+      "options_bm": [
+        "Teras 1: Pasir; Teras 2: Simen; Teras 3: Batu Baur; Teras 4: Air",
+        "Teras 1: Batu Bata; Teras 2: Jubin; Teras 3: Cat; Teras 4: Kaca",
+        "Teras 1: Runcit; Teras 2: Pawagam; Teras 3: Medan Selera; Teras 4: Parkir Valet",
+        "Teras 1: Pasukan Reka Bentuk & Berkanun; Teras 2: Pasukan Komersial & Kos; Teras 3: Pasukan Penyampaian Pembinaan; Teras 4: Pasukan Tadbir Urus & Jaminan (QA/QC, HSE, Alam Sekitar)"
+      ],
+      "answer": 3,
+      "exp_en": "Organizing the project team into 4 dedicated pillars ensures complete coverage of design, commercial, site execution, and independent QA/HSE assurance.",
+      "exp_bm": "Menyusun pasukan projek kepada 4 teras khusus memastikan liputan menyeluruh bagi reka bentuk, komersial, pelaksanaan tapak, dan jaminan QA/HSE bebas.",
+      "ref": "Setiawangsa PA Case Study — Figure M02 Org Chart"
+    },
+    {
+      "id": 85,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "What is the role of an LJT-licensed Land Surveyor during the Project Initiation stage of the Setiawangsa Shopping Centre?",
+      "q_bm": "Apakah peranan Juruukur Tanah Berlesen (berdaftar LJT) semasa peringkat Permulaan Projek Pusat Beli-Belah Setiawangsa?",
+      "options_en": [
+        "Conduct concrete cube crushing tests",
+        "Approve the contractor's bank overdraft",
+        "Verify boundary stones/lot pegs, establish Temporary Benchmarks (TBM), produce certified topographical contour surveys, and later endorse Borang G2 (Setting Out)",
+        "Design the chilled-water air-conditioning chillers"
+      ],
+      "options_bm": [
+        "Menjalankan ujian mampatan kiub konkrit",
+        "Meluluskan overdraf bank kontraktor",
+        "Mengesahkan batu sempadan/pancang lot, mewujudkan Tanda Aras Sementara (TBM), menghasilkan ukur kontur topografi bertauliah, dan kemudian mengesahkan Borang G2 (Pemancangan Tanda)",
+        "Mereka bentuk chiller penyaman udara air dingin"
+      ],
+      "answer": 2,
+      "exp_en": "Certified boundary and topographical surveys prevent building encroachment onto neighbouring lots and provide accurate existing ground levels for earthworks.",
+      "exp_bm": "Ukur sempadan dan topografi bertauliah mengelakkan pencerobohan bangunan ke atas lot jiran serta membekalkan aras tanah asal yang tepat bagi kerja tanah.",
+      "ref": "Setiawangsa PA Case Study — M02 Survey Control"
+    },
+    {
+      "id": 86,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "Why is 'Client Changing Mind' (Section 4.1a) a severe risk during Project Initiation, and how does the CPM control it?",
+      "q_bm": "Mengapakah 'Klien Berubah Fikiran' (Seksyen 4.1a) merupakan risiko serius semasa Permulaan Projek, dan bagaimanakah CPM mengawalnya?",
+      "options_en": [
+        "By never writing down what the Client requested",
+        "Frequent changes in concept, retail mix, or parking count invalidate feasibility studies and delay OSC submissions; controlled via a formal Concept Freeze Gate and Change Request protocol",
+        "By ignoring all emails from the Client",
+        "By charging the Client RM1 million every time they ask a question"
+      ],
+      "options_bm": [
+        "Dengan tidak pernah menulis apa yang diminta oleh Klien",
+        "Perubahan kerap pada konsep, campuran runcit, atau bilangan parkir membatalkan kajian kebolehlaksanaan dan melewatkan penyerahan OSC; dikawal melalui Pintu Pembekuan Konsep rasmi dan protokol Permintaan Perubahan",
+        "Dengan mengabaikan semua e-mel daripada Klien",
+        "Dengan mengenakan caj RM1 juta kepada Klien setiap kali mereka bertanya soalan"
+      ],
+      "answer": 1,
+      "exp_en": "Securing formal sign-off at the Concept Freeze Gate establishes a baseline so subsequent changes undergo documented cost/time impact assessment.",
+      "exp_bm": "Mendapatkan pengesahan rasmi pada Pintu Pembekuan Konsep mewujudkan garis dasar supaya perubahan berikutnya melalui penilaian impak kos/masa yang didokumenkan.",
+      "ref": "CCPM Module 02 (4.1a Changing Mind)"
+    },
+    {
+      "id": 87,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "When selecting design consultants for a complex seven-storey shopping centre (as in Section 7.1 of Sample PA), which selection method balances technical expertise with fair fee negotiation?",
+      "q_bm": "Apabila memilih perunding reka bentuk bagi pusat beli-belah tujuh tingkat yang kompleks (seperti dalam Bahagian 7.1 Contoh PA), kaedah pemilihan manakah yang mengimbangkan kepakaran teknikal dengan rundingan yuran yang adil?",
+      "options_en": [
+        "Picking the cheapest bid from firms with zero commercial building experience",
+        "Hiring only newly graduated interns without Professional Architects/Engineers",
+        "Drawing names randomly out of a hat",
+        "Shortlisting experienced retail/commercial firms followed by the Interview and Negotiation Method (or Quality Based Selection)"
+      ],
+      "options_bm": [
+        "Memilih bidaan termurah daripada firma yang tiada langsung pengalaman bangunan komersial",
+        "Menggaji pelatih baharu tamat pengajian sahaja tanpa Arkitek/Jurutera Profesional",
+        "Mencabut nama secara rawak dari dalam topi",
+        "Menyenarai pendek firma berpengalaman dalam projek runcit/komersial diikuti Kaedah Temu Duga dan Rundingan (atau Pemilihan Berasaskan Kualiti)"
+      ],
+      "answer": 3,
+      "exp_en": "Complex retail malls require proven experience in atrium smoke control, vertical transport, high-capacity parking, and DBKL/Bomba approvals.",
+      "exp_bm": "Pusat beli-belah kompleks memerlukan pengalaman terbukti dalam kawalan asap atrium, pengangkutan menegak, parkir berkapasiti tinggi, dan kelulusan DBKL/Bomba.",
+      "ref": "CCPM Module 02 (2.3.1 Consultant Selection)"
+    },
+    {
+      "id": 88,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "What four (4) criteria should Stakeholders evaluate when assessing a Design Team's competency during Project Initiation?",
+      "q_bm": "Apakah empat (4) kriteria yang perlu dinilai oleh Pihak Berkepentingan semasa menaksir kompetensi Pasukan Reka Bentuk pada fasa Permulaan Projek?",
+      "options_en": [
+        "Experience on similar size/budget/scope projects, track record with similar clients, whole-life costing (LCC/LCA) integration, and sustainability/green rating experience (e.g., MyCREST/GBI)",
+        "Ability to mix concrete manually on site",
+        "Office interior decor, brand of company cars, number of Instagram followers, and free golf memberships",
+        "Willingness to sign Borang F without inspecting the building"
+      ],
+      "options_bm": [
+        "Pengalaman dalam projek bersaiz/bajet/skop serupa, rekod prestasi dengan klien serupa, integrasi pengekosan kitaran hayat (LCC/LCA), dan pengalaman penarafan kemampanan/hijau (cth. MyCREST/GBI)",
+        "Keupayaan membancuh konkrit secara manual di tapak",
+        "Hiasan dalaman pejabat, jenama kereta syarikat, bilangan pengikut Instagram, dan keahlian golf percuma",
+        "Kesediaan menandatangani Borang F tanpa memeriksa bangunan"
+      ],
+      "answer": 0,
+      "exp_en": "Evaluating sector track record, whole-life design thinking, and green certification capability ensures the design team can deliver value within budget.",
+      "exp_bm": "Menilai rekod prestasi sektor, pemikiran reka bentuk kitaran hayat, dan keupayaan pensijilan hijau memastikan pasukan reka bentuk mampu menyampaikan nilai dalam bajet.",
+      "ref": "CCPM Module 02 — Design Team Selection Criteria"
+    },
+    {
+      "id": 89,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "What happens if 'Lack of Human Resources' (Section 4.1c) occurs during Project Initiation and key roles (e.g., BIM Coordinator, Senior QS, or MEP Lead) remain vacant?",
+      "q_bm": "Apakah yang berlaku jika 'Kekurangan Sumber Manusia' (Seksyen 4.1c) berlaku semasa Permulaan Projek dan peranan utama (cth. Penyelaras BIM, QS Kanan, atau Ketua M&E) kekal kosong?",
+      "options_en": [
+        "The local authority provides free engineers to run the project",
+        "The project finishes 6 months early automatically",
+        "Early baseline estimates, spatial coordination, and authority submissions suffer bottlenecks, causing cascading delays before physical construction even begins",
+        "Nothing is affected because vacant roles are unnecessary"
+      ],
+      "options_bm": [
+        "Pihak berkuasa tempatan membekalkan jurutera percuma untuk mengurus projek",
+        "Projek siap 6 bulan lebih awal secara automatik",
+        "Anggaran garis dasar awal, penyelarasan ruang, dan penyerahan pihak berkuasa mengalami kesesakan, menyebabkan kelewatan berantaian sebelum pembinaan fizikal bermula",
+        "Tiada apa-apa yang terjejas kerana peranan kosong tidak diperlukan"
+      ],
+      "answer": 2,
+      "exp_en": "Front-loading competent key personnel during initiation is essential to lock accurate baselines and fast-track statutory approvals.",
+      "exp_bm": "Penempatan awal personel utama yang kompeten semasa permulaan adalah penting untuk mengunci garis dasar yang tepat dan mempercepat kelulusan berkanun.",
+      "ref": "CCPM Module 02 (4.1c Lack of Human Resources)"
+    },
+    {
+      "id": 90,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "What is the purpose of a 'Site Inspection Checklist' (like Table 7.1 in Sample PA) completed during the initial site visit?",
+      "q_bm": "Apakah tujuan 'Senarai Semak Pemeriksaan Tapak' (seperti Jadual 7.1 dalam Contoh PA) yang dilengkapkan semasa lawatan tapak awal?",
+      "options_en": [
+        "To systematically record site boundaries, surrounding land use, road access, terrain/drainage/rock outcrops, existing structures, traffic/pedestrian flow, and visible utilities in a standardized audit format",
+        "To list the names of all 200 shop tenants",
+        "To record the serial numbers of retail cash registers",
+        "To replace the Geotechnical Borehole Log Report"
+      ],
+      "options_bm": [
+        "Untuk merekod secara sistematik sempadan tapak, guna tanah sekitar, akses jalan, rupa bumi/saliran/singkapan batu, struktur sedia ada, aliran trafik/pejalan kaki, dan utiliti kelihatan dalam format audit seragam",
+        "Untuk menyenaraikan nama kesemua 200 penyewa kedai",
+        "Untuk merekod nombor siri mesin juruwang runcit",
+        "Untuk menggantikan Laporan Log Lubang Jara Geoteknikal"
+      ],
+      "answer": 0,
+      "exp_en": "A structured Site Inspection Checklist ensures no critical surface constraint is overlooked during early design and tender pricing.",
+      "exp_bm": "Senarai Semak Pemeriksaan Tapak yang berstruktur memastikan tiada kekangan permukaan kritikal terlepas pandang semasa reka bentuk awal dan penentuan harga tender.",
+      "ref": "CCPM Module 02 (3.1.2 Site Inspection Checklist)"
+    },
+    {
+      "id": 91,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: During GPR utility scanning in Week 2 at Setiawangsa, your team discovers an uncharted 600mm Air Selangor trunk water main running diagonally beneath the proposed main shopping mall footprint. What is your immediate CPM decision?",
+      "q_bm": "SENARIO KRISIS: Semasa imbasan utiliti GPR pada Minggu ke-2 di Setiawangsa, pasukan anda menemui paip air utama Air Selangor 600mm yang tidak dipetakan melintang secara pepenjuru di bawah tapak bangunan utama pusat beli-belah. Apakah keputusan segera CPM anda?",
+      "options_en": [
+        "Drive spun piles straight through the 600mm trunk main and hope nobody notices",
+        "Hold foundation piling in that zone, verify exact depth/alignment via hand-dug trial trenches, initiate urgent technical consultation with Air Selangor for pipe diversion/protection, and assess cost/programme impact",
+        "Cut the water main without notifying Air Selangor",
+        "Cover the GPR report and hide it from the C&S Engineer"
+      ],
+      "options_bm": [
+        "Lantak cerucuk terus menembusi paip utama 600mm tersebut dan berharap tiada siapa perasan",
+        "Tahan kerja cerucuk asas di zon tersebut, sahkan kedalaman/jajaran tepat melalui parit cubaan gali tangan, mulakan rundingan teknikal segera dengan Air Selangor untuk pengalihan/perlindungan paip, dan nilai impak kos/program",
+        "Potong paip air utama tersebut tanpa memaklumkan Air Selangor",
+        "Sembunyikan laporan GPR dan rahsiakannya daripada Jurutera C&S"
+      ],
+      "answer": 1,
+      "exp_en": "Striking a 600mm trunk water main causes catastrophic flooding, water supply disruption across Setiawangsa, heavy statutory penalties, and months of delay.",
+      "exp_bm": "Melanggar paip air utama 600mm menyebabkan banjir besar, gangguan bekalan air di seluruh Setiawangsa, penalti berkanun berat, dan kelewatan berbulan-bulan.",
+      "ref": "CCPM Module 02 (3.1.3 & 3.1.4 Utility Easements)"
+    },
+    {
+      "id": 92,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Preliminary borehole logs (BH1–BH4) at Setiawangsa reveal soft silty clay down to 18m with highly undulating granite bedrock varying from 15m to 28m depth. How must this finding reshape your Initiation & Feasibility report?",
+      "q_bm": "SENARIO KRISIS: Log lubang jara awalan (BH1–BH4) di Setiawangsa mendedahkan tanah liat berkelodak lembut sehingga 18m dengan batuan dasar granit yang sangat beralun dari kedalaman 15m hingga 28m. Bagaimanakah penemuan ini mesti membentuk semula laporan Permulaan & Kebolehlaksanaan anda?",
+      "options_en": [
+        "Assume bedrock is flat at 5 metres everywhere",
+        "Ignore the borehole logs and build on 1-metre shallow pad footings",
+        "Cancel the Geotechnical Interpretive Report to save RM15,000",
+        "Commission additional detailed boreholes (BH5–BH10) to map bedrock contours, adopt deep bored piles/rock-socketing instead of shallow footings, and ring-fence substructure contingency within the RM180.5M budget"
+      ],
+      "options_bm": [
+        "Andaikan batuan dasar adalah rata pada kedalaman 5 meter di semua tempat",
+        "Abaikan log lubang jara dan bina di atas asas pad cetek 1 meter",
+        "Batalkan Laporan Tafsiran Geoteknikal untuk menjimatkan RM15,000",
+        "Lantik lubang jara terperinci tambahan (BH5–BH10) untuk memetakan kontur batuan dasar, gunakan cerucuk jara dalam/soket batuan berbanding asas cetek, dan asingkan dana luar jangka substruktur dalam bajet RM180.5J"
+      ],
+      "answer": 3,
+      "exp_en": "Undulating granite bedrock in Kuala Lumpur requires detailed borehole mapping and rock-socketed piling to prevent differential settlement of a 7-storey structure.",
+      "exp_bm": "Batuan dasar granit yang beralun di Kuala Lumpur memerlukan pemetaan lubang jara terperinci dan cerucuk bersoket batuan bagi mengelakkan enapan pembezaan struktur 7 tingkat.",
+      "ref": "CCPM Module 02 (3.1.2b Sub-Surface Investigation)"
+    },
+    {
+      "id": 93,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: The Traffic Impact Assessment (TIA) indicates that 1,300 parking bays exiting onto Jalan Bukit Setiawangsa during Friday evening peak hours will cause severe queue spillback onto the main road. What initiation-stage design adjustment must you mandate?",
+      "q_bm": "SENARIO KRISIS: Penilaian Impak Trafik (TIA) menunjukkan bahawa 1,300 petak parkir yang keluar ke Jalan Bukit Setiawangsa pada waktu puncak petang Jumaat akan menyebabkan barisan kenderaan melimpah ke jalan utama. Apakah pelarasan reka bentuk peringkat permulaan yang mesti anda arahkan?",
+      "options_en": [
+        "Submit the DO without the TIA report",
+        "Provide dual separated ingress/egress points with dedicated deceleration/storage lanes, automated license-plate/cashless barrier gantries, and signalized junction upgrades prior to DBKL DO submission",
+        "Close the mall every Friday, Saturday, and Sunday",
+        "Reduce the parking bays from 1,300 to 50 bays without telling the Client"
+      ],
+      "options_bm": [
+        "Hantar DO tanpa laporan TIA",
+        "Sediakan dua titik masuk/keluar berasingan dengan lorong nyahpecutan/menunggu khusus, palang tanpa tunai/pengecaman nombor plat automatik, dan naik taraf lampu isyarat simpang sebelum penyerahan DO DBKL",
+        "Tutup pusat beli-belah setiap hari Jumaat, Sabtu, dan Ahad",
+        "Kurangkan petak parkir daripada 1,300 kepada 50 petak tanpa memberitahu Klien"
+      ],
+      "answer": 1,
+      "exp_en": "Incorporating TIA access geometry and high-speed barrier throughput into the concept layout secures DBKL OSC approval and prevents post-opening traffic chaos.",
+      "exp_bm": "Memasukkan geometri akses TIA dan sistem palang berkelajuan tinggi ke dalam pelan konsep memastikan kelulusan OSC DBKL dan mengelakkan kesesakan trafik selepas pembukaan.",
+      "ref": "CCPM Module 02 (3.2.3 TIA Site Plan Improvements)"
+    },
+    {
+      "id": 94,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: During stakeholder consultation in Initiation, nearby Taman Setiawangsa residents object strongly to potential night-time piling noise and construction lorry congestion near a primary school. How do you address this in the Project Brief and SIA?",
+      "q_bm": "SENARIO KRISIS: Semasa rundingan pihak berkepentingan pada fasa Permulaan, penduduk Taman Setiawangsa berhampiran membantah keras potensi bunyi bising cerucuk waktu malam dan kesesakan lori binaan berhampiran sekolah rendah. Bagaimanakah anda menanganinya dalam Project Brief dan SIA?",
+      "options_en": [
+        "Mandate silent hydraulic jack-in/bored piling (no impact drop hammers), restrict heavy haulage outside school drop-off/pick-up hours, erect 2.4m acoustic hoarding, and document these commitments in the SIA/EMP",
+        "Tell residents they have no right to complain and drive piles at 2:00 AM",
+        "Route all heavy concrete lorries directly through the school gate",
+        "Cancel the Social Impact Assessment"
+      ],
+      "options_bm": [
+        "Wajibkan cerucuk hidraulik senyap/cerucuk jara (tiada tukul hentaman bising), hadkan pengangkutan berat di luar waktu hantar/ambil sekolah, bina pagar akustik 2.4m, dan rekodkan komitmen ini dalam SIA/EMP",
+        "Beritahu penduduk mereka tiada hak membantah dan lantak cerucuk pada jam 2:00 pagi",
+        "Lalukan semua lori konkrit berat terus melalui pintu pagar sekolah",
+        "Batalkan Penilaian Impak Sosial"
+      ],
+      "answer": 0,
+      "exp_en": "Proactive community mitigation in the SIA/Project Brief prevents public protests, DBKL stop-work interventions, and reputational damage.",
+      "exp_bm": "Mitigasi komuniti secara proaktif dalam SIA/Project Brief mengelakkan bantahan awam, campur tangan henti kerja DBKL, dan kerosakan reputasi.",
+      "ref": "CCPM Module 02 (3.2.4 SIA & Stakeholder Alignment)"
+    },
+    {
+      "id": 95,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Two weeks before Concept Freeze, the Client's Retail Leasing Head demands adding an 8th floor (cinema + rooftop theme park) while insisting the RM180.5M budget and 130-week completion date remain unchanged. As CPM, how do you manage this scope-constraint clash?",
+      "q_bm": "SENARIO KRISIS: Dua minggu sebelum Pembekuan Konsep, Ketua Penyewaan Runcit Klien menuntut penambahan tingkat ke-8 (pawagam + taman tema atas bumbung) sambil berkeras bajet RM180.5J dan tarikh siap 130 minggu kekal tidak berubah. Sebagai CPM, bagaimanakah anda mengurus pertembungan kekangan-skop ini?",
+      "options_en": [
+        "Build the 8th floor without applying for DBKL Building Plan amendment",
+        "Demonstrate via the 6-Constraint model that adding a floor increases structural load, GFA, cost, and DO approval time; present quantified CAPEX/schedule options to the Steering Committee for either budget/EOT approval or scope deferral",
+        "Delete the Sewage Treatment Plant and Water Tank to pay for the cinema",
+        "Agree verbally to add the 8th floor for free and hope costs magically drop"
+      ],
+      "options_bm": [
+        "Bina tingkat ke-8 tanpa memohon pindaan Pelan Bangunan DBKL",
+        "Tunjukkan melalui model 6-Kekangan bahawa menambah satu tingkat meningkatkan beban struktur, GFA, kos, dan masa kelulusan DO; bentangkan pilihan CAPEX/jadual terkuantifikasi kepada Jawatankuasa Pemandu sama ada untuk meluluskan bajet/EOT tambahan atau menangguhkan skop",
+        "Buang Loji Kumbahan dan Tangki Air untuk membiayai pawagam tersebut",
+        "Setuju secara lisan untuk menambah tingkat ke-8 secara percuma dan berharap kos turun secara ajaib"
+      ],
+      "answer": 1,
+      "exp_en": "Enforcing the 6-Constraint discipline prevents uncosted scope creep from destabilizing the entire project baseline at initiation.",
+      "exp_bm": "Menguatkuasakan disiplin 6-Kekangan mengelakkan peluasan skop tanpa kos daripada menggugat keseluruhan garis dasar projek pada peringkat permulaan.",
+      "ref": "CCPM Module 02 (1.2.4 Constraints & 4.1a Scope Control)"
+    },
+    {
+      "id": 96,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Historical archives at DBKL reveal that the Setiawangsa site previously housed a 1970s industrial warehouse with buried reinforced concrete basements and an underground fuel tank. What initiation actions are mandatory before tendering/piling?",
+      "q_bm": "SENARIO KRISIS: Arkib sejarah di DBKL mendedahkan bahawa tapak Setiawangsa sebelum ini menempatkan gudang industri tahun 1970-an dengan ruang bawah tanah konkrit bertetulang tertimbus dan tangki bahan api bawah tanah. Apakah tindakan permulaan yang wajib sebelum tender/kerja cerucuk?",
+      "options_en": [
+        "Ignore the historical report and let piling rigs hit the buried concrete basement",
+        "Include grubbing/demolition of buried obstructions and contaminated-soil environmental remediation (EQA 1974) in the Enabling Works scope, budget, and programme baseline",
+        "Pump any old fuel sludge into the municipal monsoon drain",
+        "Hide the DBKL archive findings from the Quantity Surveyor"
+      ],
+      "options_bm": [
+        "Abaikan laporan sejarah dan biarkan mesin cerucuk melanggar ruang bawah tanah konkrit tertimbus",
+        "Masukkan kerja pembersihan/perobohan halangan tertimbus dan pemulihan alam sekitar tanah tercemar (EQA 1974) ke dalam skop Kerja Awalan, bajet, dan garis dasar program",
+        "Pam sebarang enap cemar bahan api lama ke dalam parit monsun perbandaran",
+        "Sembunyikan penemuan arkib DBKL daripada Juruukur Bahan"
+      ],
+      "answer": 1,
+      "exp_en": "Accounting for buried structures and hydrocarbon contamination upfront avoids major unforeseen-obstruction EOT claims and DOE penalties.",
+      "exp_bm": "Mengambil kira struktur tertimbus dan pencemaran hidrokarbon sejak awal mengelakkan tuntutan EOT halangan luar jangka yang besar serta penalti JAS.",
+      "ref": "CCPM Module 02 (3.1.4 Historical Report & Risk Mitigation)"
+    },
+    {
+      "id": 97,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: During consultant selection, the lowest fee bidder (40% below statutory scale) has zero shopping mall experience and proposes only junior CAD draftsmen, whereas the second bidder has completed three Klang Valley malls with full BIM capability. What is your recommendation?",
+      "q_bm": "SENARIO KRISIS: Semasa pemilihan perunding, pembida yuran terendah (40% di bawah skala berkanun) mempunyai sifar pengalaman pusat beli-belah dan hanya mencadangkan pelukis pelan CAD junior, manakala pembida kedua telah menyiapkan tiga pusat beli-belah di Lembah Klang dengan keupayaan BIM penuh. Apakah cadangan anda?",
+      "options_en": [
+        "Proceed without appointing any Architect",
+        "Split the architecture work equally among 10 random freelancers",
+        "Recommend the second bidder using Quality Based Selection (QBS) principles—abnormally low fees violate professional scale rules and risk catastrophic BIM/Bomba design delays on a RM180.5M project",
+        "Award to the cheapest bidder because design quality does not matter"
+      ],
+      "options_bm": [
+        "Teruskan tanpa melantik sebarang Arkitek",
+        "Bahagikan kerja seni bina secara sama rata kepada 10 pekerja bebas rawak",
+        "Cadangkan pembida kedua menggunakan prinsip Pemilihan Berasaskan Kualiti (QBS)—yuran rendah luar biasa melanggar peraturan skala profesional dan berisiko mencetuskan kelewatan reka bentuk BIM/Bomba yang teruk pada projek RM180.5J",
+        "Anugerahkan kepada pembida termurah kerana kualiti reka bentuk tidak penting"
+      ],
+      "answer": 2,
+      "exp_en": "Saving RM200k on consultant fees by hiring an inexperienced team can easily trigger RM10M+ in design rework and LAD delays.",
+      "exp_bm": "Menjimatkan RM200k yuran perunding dengan menggaji pasukan tidak berpengalaman boleh mencetuskan >RM10J kerja semula reka bentuk dan kelewatan LAD.",
+      "ref": "CCPM Module 02 (2.3.1 Quality Based Selection)"
+    },
+    {
+      "id": 98,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: At the end of Project Initiation, you discover that the Design Team, Commercial Team, and Construction Team are working off three different versions of the Project Brief with conflicting retail floor counts. How do you restore governance control?",
+      "q_bm": "SENARIO KRISIS: Pada penghujung Permulaan Projek, anda mendapati Pasukan Reka Bentuk, Pasukan Komersial, dan Pasukan Pembinaan menggunakan tiga versi Project Brief yang berbeza dengan bilangan tingkat runcit yang bercanggah. Bagaimanakah anda memulihkan kawalan tadbir urus?",
+      "options_en": [
+        "Recall and supersede outdated drafts immediately, issue a single controlled 'Rev 0 Frozen Project & Design Brief' signed by the Client, and enforce document revision control across all teams",
+        "Allow each team to keep using whichever version they prefer",
+        "Stop using document version numbers altogether",
+        "Average the floor counts between the three documents"
+      ],
+      "options_bm": [
+        "Tarik balik dan batalkan draf lama serta-merta, keluarkan satu dokumen terkawal 'Project & Design Brief Beku Rev 0' yang ditandatangani Klien, dan kuatkuasakan kawalan semakan dokumen merentasi semua pasukan",
+        "Benarkan setiap pasukan terus menggunakan mana-mana versi yang mereka suka",
+        "Hentikan penggunaan nombor versi dokumen sama sekali",
+        "Puratakan bilangan tingkat antara ketiga-tiga dokumen tersebut"
+      ],
+      "answer": 0,
+      "exp_en": "Single-source-of-truth document control at the Initiation Stage Gate prevents multi-discipline misalignment.",
+      "exp_bm": "Kawalan dokumen sumber tunggal yang sahih pada Pintu Peringkat Permulaan mengelakkan ketidaksejajaran pelbagai disiplin.",
+      "ref": "CCPM Module 02 (1.2.5 & Document Control)"
+    },
+    {
+      "id": 99,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: A key financial stakeholder (the project's syndicated bank lender) hesitates to approve the first loan drawdown because the Feasibility Study lacks a clear contingency drawdown mechanism and spending cap (Section 3.2.1d & e). How do you resolve this?",
+      "q_bm": "SENARIO KRISIS: Pihak berkepentingan kewangan utama (bank pemberi pinjaman bersindiket projek) teragak-agak untuk meluluskan pengeluaran pinjaman pertama kerana Kajian Kebolehlaksanaan tidak mempunyai mekanisme pengeluaran luar jangka dan had perbelanjaan yang jelas (Seksyen 3.2.1d & e). Bagaimanakah anda menyelesaikannya?",
+      "options_en": [
+        "Ask the bank to transfer the entire RM180.5M into a petty cash box",
+        "Delete the contingency line item from the budget",
+        "Establish a ring-fenced contingency reserve governed by a formal Change Control & Drawdown Authorization Matrix, paired with monthly cash-flow S-curve caps and independent QS certification",
+        "Start construction without any project financing"
+      ],
+      "options_bm": [
+        "Minta bank memindahkan keseluruhan RM180.5J ke dalam peti tunai runcit",
+        "Padamkan item luar jangka daripada bajet",
+        "Wujudkan rizab luar jangka terasing yang dikawal oleh Matriks Kawalan Perubahan & Kebenaran Pengeluaran rasmi, digandingkan dengan had lengkung-S aliran tunai bulanan dan perakuan QS bebas",
+        "Mulakan pembinaan tanpa sebarang pembiayaan projek"
+      ],
+      "answer": 2,
+      "exp_en": "Transparent spending caps and ring-fenced contingency governance satisfy lender due diligence and unlock project financing.",
+      "exp_bm": "Had perbelanjaan yang telus dan tadbir urus luar jangka terasing memenuhi ketekunan wajar pemberi pinjaman dan melancarkan pembiayaan projek.",
+      "ref": "CCPM Module 02 (3.2.1d & 3.2.1e Financing & Contingency)"
+    },
+    {
+      "id": 100,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "FINAL M02 SYNTHESIS: Which statement best summarizes why thorough Project Initiation is the highest-leverage phase for a Construction Project Manager?",
+      "q_bm": "SINTESIS PENUTUP M02: Penyataan manakah yang paling tepat merumuskan mengapa Permulaan Projek (Project Initiation) yang teliti merupakan fasa berimpak tertinggi bagi seorang Pengurus Projek Pembinaan?",
+      "options_en": [
+        "Because once Initiation ends, the CPM never needs to monitor cost or safety again",
+        "Because Initiation replaces the need for Testing & Commissioning",
+        "Because Initiation is the only phase where the CPM gets paid",
+        "Because locking clear scope, stakeholder consensus, qualified consultants, verified ground/utility data, and statutory feasibility upfront prevents up to 80% of downstream design rework, cost overruns, and disputes"
+      ],
+      "options_bm": [
+        "Kerana sebaik sahaja Permulaan tamat, CPM tidak perlu lagi memantau kos atau keselamatan",
+        "Kerana Permulaan menggantikan keperluan Pengujian & Pentauliahan",
+        "Kerana Permulaan ialah satu-satunya fasa di mana CPM dibayar gaji",
+        "Kerana mengunci skop yang jelas, konsensus pihak berkepentingan, perunding berkelayakan, data tanah/utiliti yang disahkan, dan kebolehlaksanaan berkanun sejak awal mengelakkan sehingga 80% kerja semula reka bentuk, lebihan kos, dan pertikaian di peringkat hiliran"
+      ],
+      "answer": 3,
+      "exp_en": "Every RM1 invested in rigorous initiation due diligence (SI, surveys, clear briefs, feasibility) saves multiples in avoided construction variations and LAD.",
+      "exp_bm": "Setiap RM1 yang dilaburkan dalam ketekunan wajar permulaan yang rapi (SI, ukur, ringkasan jelas, kebolehlaksanaan) menjimatkan berkali ganda kos arahan perubahan dan LAD pembinaan.",
+      "ref": "CCPM Module 02 — Capstone Synthesis"
+    }
+  ]
+}
