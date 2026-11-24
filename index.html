@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="CCPM Prep" />
+  <meta name="theme-color" content="#0f2342" />
+  <title>CCPM Level 6 Prep — 1,600 Soalan & Viva PA</title>
+  <style>
+    :root {
+      --navy: #0f2342;
+      --navy-mid: #1b365d;
+      --teal: #0d9488;
+      --teal-light: #ccfbf1;
+      --bg: #f1f5f9;
+      --card: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --green: #15803d;
+      --green-bg: #dcfce7;
+      --green-border: #86efac;
+      --red: #b91c1c;
+      --red-bg: #fee2e2;
+      --red-border: #fca5a5;
+      --amber: #b45309;
+      --amber-bg: #fef3c7;
+      --safe-top: env(safe-area-inset-top, 12px);
+      --safe-bottom: env(safe-area-inset-bottom, 16px);
+    }
+
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body {
+      margin: 0; padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg); color: var(--text);
+      font-size: 15px; line-height: 1.45;
+      overscroll-behavior-y: none;
+    }
+
+    /* Top App Header */
+    .app-header {
+      position: sticky; top: 0; z-index: 50;
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-mid) 100%);
+      color: #fff;
+      padding: calc(var(--safe-top) + 10px) 16px 12px;
+      box-shadow: 0 2px 10px rgba(15, 35, 66, 0.18);
+    }
+    .header-row {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+    }
+    .app-title {
+      font-size: 17px; font-weight: 700; letter-spacing: -0.2px;
+      display: flex; align-items: center; gap: 6px;
+    }
+    .badge-lvl {
+      background: var(--teal); color: #fff;
+      font-size: 10px; font-weight: 700; padding: 2px 7px; border-radius: 99px;
+      text-transform: uppercase; letter-spacing: 0.4px;
+    }
+    .app-sub {
+      font-size: 11.5px; color: #cbd5e1; margin-top: 2px;
+    }
+    .lang-toggle {
+      display: flex; background: rgba(255,255,255,0.14); border-radius: 8px; padding: 2px;
+    }
+    .lang-btn {
+      border: none; background: transparent; color: #e2e8f0;
+      font-size: 11px; font-weight: 600; padding: 4px 8px; border-radius: 6px; cursor: pointer;
+    }
+    .lang-btn.active {
+      background: #fff; color: var(--navy);
+    }
+
+    /* Main Container */
+    .container {
+      max-width: 680px; margin: 0 auto;
+      padding: 14px 14px calc(var(--safe-bottom) + 78px);
+    }
+
+    .view { display: none; }
+    .view.active { display: block; animation: fadeIn 0.18s ease; }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Cards & Typography */
+    .card {
+      background: var(--card); border-radius: 14px; padding: 15px;
+      margin-bottom: 12px; border: 1px solid var(--border);
+      box-shadow: 0 1px 3px rgba(15, 23, 42, 0.04);
+    }
+    .card-title {
+      font-size: 15px; font-weight: 700; color: var(--navy); margin: 0 0 8px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .section-label {
+      font-size: 11.5px; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.6px; color: var(--muted); margin: 14px 2px 8px;
+    }
+
+    /* Progress Bar */
+    .prog-track {
+      height: 9px; background: #e2e8f0; border-radius: 99px; overflow: hidden; margin: 8px 0;
+    }
+    .prog-fill {
+      height: 100%; background: linear-gradient(90deg, var(--teal), #10b981);
+      border-radius: 99px; transition: width 0.35s ease;
+    }
+
+    /* Stats Grid */
+    .stats-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-top: 10px;
+    }
+    .stat-box {
+      background: #f8fafc; border: 1px solid var(--border); border-radius: 10px;
+      padding: 10px 8px; text-align: center;
+    }
+    .stat-num { font-size: 18px; font-weight: 800; color: var(--navy); }
+    .stat-lbl { font-size: 10.5px; color: var(--muted); margin-top: 2px; }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: 6px;
+      width: 100%; padding: 12px 16px; border-radius: 11px; border: none;
+      font-size: 14px; font-weight: 700; cursor: pointer; transition: transform 0.1s, opacity 0.15s;
+    }
+    .btn:active { transform: scale(0.98); }
+    .btn-primary { background: var(--navy); color: #fff; }
+    .btn-teal { background: var(--teal); color: #fff; }
+    .btn-outline { background: #fff; color: var(--navy); border: 1.5px solid var(--navy); }
+    .btn-danger-outline { background: #fff; color: var(--red); border: 1.5px solid var(--red-border); }
+    .btn-sm { padding: 8px 12px; font-size: 12.5px; border-radius: 9px; width: auto; }
+
+    /* Module List Item */
+    .mod-item {
+      background: var(--card); border: 1px solid var(--border); border-radius: 13px;
+      padding: 13px 14px; margin-bottom: 10px;
+      display: flex; align-items: center; justify-content: space-between; gap: 10px;
+      cursor: pointer; transition: border-color 0.15s;
+    }
+    .mod-item.ready { border-left: 4px solid var(--teal); }
+    .mod-item.pending { opacity: 0.72; border-left: 4px solid #cbd5e1; }
+    .mod-code {
+      font-size: 11px; font-weight: 800; color: var(--teal);
+      background: #f0fdfa; padding: 3px 8px; border-radius: 6px; display: inline-block;
+    }
+    .mod-item.pending .mod-code { color: var(--muted); background: #f1f5f9; }
+    .mod-name-en { font-size: 14px; font-weight: 700; color: var(--text); margin-top: 4px; }
+    .mod-name-bm { font-size: 12px; color: var(--muted); }
+    .mod-meta { text-align: right; flex-shrink: 0; }
+    .pill-ready {
+      font-size: 10.5px; font-weight: 700; color: var(--green);
+      background: var(--green-bg); padding: 3px 8px; border-radius: 99px; display: inline-block;
+    }
+    .pill-pending {
+      font-size: 10px; font-weight: 600; color: var(--muted);
+      background: #f1f5f9; padding: 3px 8px; border-radius: 99px; display: inline-block;
+    }
+
+    /* 10-Set Grid */
+    .sets-grid {
+      display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px;
+    }
+    .set-card {
+      background: var(--card); border: 1.5px solid var(--border); border-radius: 13px;
+      padding: 13px; position: relative; cursor: pointer;
+    }
+    .set-card.unlocked { border-color: #93c5fd; }
+    .set-card.completed { border-color: var(--teal); background: #f0fdfa; }
+    .set-card.locked { background: #f8fafc; opacity: 0.68; cursor: not-allowed; }
+    .set-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+    .set-num { font-size: 15px; font-weight: 800; color: var(--navy); }
+    .set-range { font-size: 11.5px; color: var(--muted); font-weight: 600; }
+    .set-lvl { font-size: 10.5px; color: var(--teal); font-weight: 700; margin-top: 4px; }
+    .set-score { font-size: 12px; font-weight: 700; margin-top: 6px; color: var(--green); }
+
+    /* Quiz Question UI */
+    .quiz-topbar {
+      display: flex; align-items: center; justify-content: space-between; gap: 8px;
+      margin-bottom: 10px;
+    }
+    .q-badge {
+      font-size: 11px; font-weight: 700; color: var(--navy);
+      background: #e0e7ff; padding: 4px 10px; border-radius: 99px;
+    }
+    .q-text-en { font-size: 15.5px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .q-text-bm { font-size: 14px; font-weight: 500; color: #334155; font-style: italic; margin-bottom: 12px; }
+
+    .opt-btn {
+      width: 100%; text-align: left; background: #fff;
+      border: 1.5px solid var(--border); border-radius: 12px;
+      padding: 12px 13px; margin-bottom: 9px; cursor: pointer;
+      display: flex; align-items: flex-start; gap: 10px;
+      transition: all 0.15s;
+    }
+    .opt-btn:active { transform: scale(0.99); }
+    .opt-letter {
+      width: 26px; height: 26px; border-radius: 8px;
+      background: #f1f5f9; color: var(--navy); font-weight: 800; font-size: 12.5px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px;
+    }
+    .opt-content { flex: 1; }
+    .opt-en { font-size: 13.8px; font-weight: 600; color: var(--text); }
+    .opt-bm { font-size: 12.3px; color: var(--muted); margin-top: 2px; }
+
+    .opt-btn.correct {
+      background: var(--green-bg); border-color: var(--green);
+    }
+    .opt-btn.correct .opt-letter { background: var(--green); color: #fff; }
+
+    .opt-btn.wrong {
+      background: var(--red-bg); border-color: var(--red);
+    }
+    .opt-btn.wrong .opt-letter { background: var(--red); color: #fff; }
+
+    /* Feedback Box */
+    .feedback-box {
+      border-radius: 13px; padding: 14px; margin-top: 10px; margin-bottom: 12px;
+      border: 1.5px solid;
+    }
+    .feedback-box.is-correct { background: #f0fdf4; border-color: var(--green-border); }
+    .feedback-box.is-wrong { background: #fef2f2; border-color: var(--red-border); }
+    .fb-header { font-size: 14.5px; font-weight: 800; margin-bottom: 6px; }
+    .is-correct .fb-header { color: var(--green); }
+    .is-wrong .fb-header { color: var(--red); }
+
+    .true-answer-banner {
+      background: var(--green-bg); border: 1.5px solid var(--green);
+      border-radius: 10px; padding: 10px 12px; margin: 8px 0;
+      color: #14532d; font-size: 13.5px;
+    }
+    .fb-exp-en { font-size: 13.3px; color: var(--text); margin-top: 6px; }
+    .fb-exp-bm { font-size: 12.8px; color: #334155; margin-top: 5px; font-style: italic; }
+    .fb-ref { font-size: 11px; font-weight: 700; color: var(--navy); margin-top: 8px; }
+
+    /* Wrong Review List on Set Completion */
+    .review-item {
+      border: 1px solid var(--red-border); background: #fff;
+      border-radius: 11px; padding: 12px; margin-bottom: 10px;
+    }
+    .review-q { font-size: 13.5px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+    .review-yours { font-size: 12.5px; color: var(--red); font-weight: 600; margin-bottom: 4px; }
+    .review-truth { font-size: 12.8px; color: var(--green); font-weight: 700; background: var(--green-bg); padding: 6px 8px; border-radius: 7px; }
+
+    /* Flashcards */
+    .fc-wrapper { perspective: 1000px; margin: 10px 0 14px; }
+    .fc-card {
+      background: #fff; border: 1.5px solid #cbd5e1; border-radius: 16px;
+      min-height: 240px; padding: 20px 18px;
+      display: flex; flex-direction: column; justify-content: space-between;
+      box-shadow: 0 4px 14px rgba(15, 23, 42, 0.06); cursor: pointer;
+    }
+    .fc-card.flipped { background: #f0fdfa; border-color: var(--teal); }
+    .fc-tag { font-size: 11px; font-weight: 800; color: var(--teal); text-transform: uppercase; }
+    .fc-front-en { font-size: 17px; font-weight: 800; color: var(--navy); margin: 14px 0 6px; }
+    .fc-front-bm { font-size: 14px; color: var(--muted); font-style: italic; }
+    .fc-back-en { font-size: 14.5px; font-weight: 600; color: var(--text); margin: 10px 0 6px; }
+    .fc-back-bm { font-size: 13.5px; color: #334155; font-style: italic; }
+    .fc-hint { font-size: 11.5px; color: var(--muted); text-align: center; margin-top: 10px; }
+
+    /* Viva Simulation */
+    .timer-pill {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 15px; font-weight: 800; padding: 5px 12px; border-radius: 99px;
+      background: var(--amber-bg); color: var(--amber);
+    }
+    .viva-ans-box {
+      background: #f8fafc; border-left: 4px solid var(--teal);
+      padding: 12px; border-radius: 8px; margin-top: 12px;
+    }
+
+    /* Cheat Sheet Table */
+    .cs-row {
+      display: flex; justify-content: space-between; padding: 7px 0;
+      border-bottom: 1px solid #f1f5f9; font-size: 12.8px; gap: 10px;
+    }
+    .cs-row:last-child { border-bottom: none; }
+    .cs-k { color: var(--muted); font-weight: 600; }
+    .cs-v { color: var(--navy); font-weight: 700; text-align: right; }
+
+    /* Bottom Navigation */
+    .bottom-nav {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 60;
+      background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(10px);
+      border-top: 1px solid var(--border);
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      padding: 6px 4px calc(var(--safe-bottom) + 4px);
+    }
+    .nav-btn {
+      border: none; background: transparent; color: var(--muted);
+      display: flex; flex-direction: column; align-items: center; gap: 2px;
+      font-size: 10.5px; font-weight: 600; cursor: pointer; padding: 4px 2px;
+    }
+    .nav-btn.active { color: var(--navy); font-weight: 800; }
+    .nav-icon { font-size: 18px; line-height: 1.1; }
+
+    /* Language visibility helpers */
+    body.lang-en .bm-only { display: none !important; }
+    body.lang-bm .en-only { display: none !important; }
+
+    .hidden { display: none !important; }
+  </style>
+</head>
+<body>
+
+  <!-- TOP HEADER -->
+  <header class="app-header">
+    <div class="header-row">
+      <div>
+        <div class="app-title">CCPM Level 6 Prep <span class="badge-lvl">CIDB</span></div>
+        <div class="app-sub">16 Modul × 100 Soalan • Simulasi Viva PA</div>
+      </div>
+      <div class="lang-toggle" aria-label="Language Mode">
+        <button class="lang-btn active" onclick="setLang('both', this)">EN+BM</button>
+        <button class="lang-btn" onclick="setLang('en', this)">EN</button>
+        <button class="lang-btn" onclick="setLang('bm', this)">BM</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- ========================================================= -->
+    <!-- VIEW 1: UTAMA / DASHBOARD                                 -->
+    <!-- ========================================================= -->
+    <section id="view-home" class="view active">
+      <div class="card">
+        <div class="card-title">
+          <span>📊 Kemajuan Keseluruhan / Overall Progress</span>
+          <span id="home-pct" style="color:var(--teal);font-weight:800;">0%</span>
+        </div>
+        <div class="prog-track"><div id="home-prog-bar" class="prog-fill" style="width:0%"></div></div>
+        <div style="font-size:12px;color:var(--muted);" id="home-loaded-info">Mengesan fail modul (m01.json – m16.json)...</div>
+
+        <div class="stats-grid">
+          <div class="stat-box">
+            <div class="stat-num" id="stat-answered">0</div>
+            <div class="stat-lbl">Dijawab / Done</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num" id="stat-correct" style="color:var(--green);">0</div>
+            <div class="stat-lbl">Betul / Correct</div>
+          </div>
+          <div class="stat-box">
+            <div class="stat-num" id="stat-sets" style="color:var(--teal);">0</div>
+            <div class="stat-lbl">Set Tamat</div>
+          </div>
+        </div>
+
+        <div style="margin-top:12px;display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+          <button class="btn btn-primary" onclick="switchTab('quiz')">📝 Mula Latihan</button>
+          <button class="btn btn-teal" onclick="switchTab('viva')">🎤 Simulasi Viva</button>
+        </div>
+      </div>
+
+      <!-- GitHub Sync & Offline File Loader -->
+      <div class="card">
+        <div class="card-title">
+          <span>☁️ Status Fail Modul GitHub (JSON)</span>
+          <button class="btn btn-outline btn-sm" onclick="loadAllModules()">🔄 Semak</button>
+        </div>
+        <p style="font-size:12.5px;color:var(--muted);margin:0 0 10px;">
+          Muat naik <b>m01.json</b> hingga <b>m16.json</b> ke repositori GitHub anda. Aplikasi ini akan mengesannya secara automatik. Jika menguji secara luar talian (offline), anda juga boleh memuatkan fail <code>.json</code> terus dari telefon anda:
+        </p>
+        <label class="btn btn-outline btn-sm" style="width:100%;justify-content:center;">
+          📂 Muat Fail Modul Tempatan (.json)
+          <input type="file" accept=".json" multiple onchange="handleLocalJsonUpload(event)" style="display:none;" />
+        </label>
+        <div id="local-load-msg" style="font-size:12px;color:var(--green);font-weight:600;margin-top:6px;"></div>
+      </div>
+
+      <!-- PA Case Study Cheat Sheet -->
+      <div class="section-label">📌 Rujukan Pantas Kajian Kes PA (Setiawangsa)</div>
+      <div class="card">
+        <div class="cs-row"><span class="cs-k">Pemaju & Kontraktor D&B</span><span class="cs-v">Perintis Development Bhd (G7)</span></div>
+        <div class="cs-row"><span class="cs-k">Harga Kontrak / Levi CIDB</span><span class="cs-v">RM180,500,000 / RM225,625 (0.125%)</span></div>
+        <div class="cs-row"><span class="cs-k">Keluasan Tapak</span><span class="cs-v">468,000 kps (~43,478 m² / 10.74 ekar)</span></div>
+        <div class="cs-row"><span class="cs-k">Tempoh & Tarikh Kontrak</span><span class="cs-v">130 Minggu (10/03/21 – 05/09/23)</span></div>
+        <div class="cs-row"><span class="cs-k">Percanggahan Tarikh (+910h)</span><span class="cs-v">06/09/2023 (Beza 1 Hari — Perlu Memo)</span></div>
+        <div class="cs-row"><span class="cs-k">LAD & Tempoh DLP</span><span class="cs-v">RM10,500 / hari  |  DLP 24 Bulan</span></div>
+        <div class="cs-row"><span class="cs-k">Penjimatan VE (M11)</span><span class="cs-v">-RM640k CAPEX | -RM13.0J WLC (25 Thn)</span></div>
+        <div class="cs-row"><span class="cs-k">Sasaran QLASSIC & SHASSIC</span><span class="cs-v">QLASSIC Cat. D ≥75% | SHASSIC ≥85%</span></div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- VIEW 2: LATIHAN / QUIZ (16 MODULES -> 10 SETS -> 10 QS)   -->
+    <!-- ========================================================= -->
+    <section id="view-quiz" class="view">
+      <!-- Sub-view A: Module Directory -->
+      <div id="quiz-mod-list-panel">
+        <div class="section-label">Pilih Modul CCPM (100 Soalan / Modul)</div>
+        <div id="module-list-container"></div>
+      </div>
+
+      <!-- Sub-view B: 10-Set Selector for Chosen Module -->
+      <div id="quiz-set-list-panel" class="hidden">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;">
+          <button class="btn btn-outline btn-sm" onclick="backToModules()">← Semua Modul</button>
+          <span id="set-panel-mod-badge" class="q-badge">M01</span>
+        </div>
+        <div class="card" style="padding:13px;">
+          <div id="set-panel-title-en" style="font-size:15px;font-weight:800;color:var(--navy);"></div>
+          <div id="set-panel-title-bm" style="font-size:12.5px;color:var(--muted);margin-top:2px;"></div>
+          <div style="font-size:12px;color:var(--teal);font-weight:600;margin-top:8px;">
+            🔓 Peraturan Buka Kunci: Set berikutnya terbuka secara automatik sebaik sahaja anda tamat menjawab kesemua 10 soalan dalam set semasa.
+          </div>
+        </div>
+        <div id="sets-grid-container" class="sets-grid"></div>
+      </div>
+
+      <!-- Sub-view C: Active 10-Question Quiz Player -->
+      <div id="quiz-player-panel" class="hidden">
+        <div class="quiz-topbar">
+          <button class="btn btn-outline btn-sm" onclick="exitSetToGrid()">✕ Keluar Set</button>
+          <span id="qp-progress-badge" class="q-badge">M01 • Set 1 • Soalan 1/10</span>
+          <span id="qp-score-badge" style="font-size:12px;font-weight:800;color:var(--teal);">Skor: 0</span>
+        </div>
+        <div class="prog-track" style="margin-bottom:12px;"><div id="qp-prog-bar" class="prog-fill" style="width:10%"></div></div>
+
+        <div class="card">
+          <div id="qp-diff-badge" style="font-size:11px;font-weight:700;color:var(--teal);margin-bottom:6px;"></div>
+          <div id="qp-q-en" class="q-text-en en-only"></div>
+          <div id="qp-q-bm" class="q-text-bm bm-only"></div>
+          <div id="qp-options"></div>
+        </div>
+
+        <!-- Immediate Feedback Box -->
+        <div id="qp-feedback" class="feedback-box hidden">
+          <div id="fb-status" class="fb-header"></div>
+          <div id="fb-true-ans" class="true-answer-banner hidden"></div>
+          <div id="fb-exp-en" class="fb-exp-en en-only"></div>
+          <div id="fb-exp-bm" class="fb-exp-bm bm-only"></div>
+          <div id="fb-ref" class="fb-ref"></div>
+        </div>
+
+        <button id="qp-next-btn" class="btn btn-primary hidden" onclick="nextQuestion()">Soalan Seterusnya / Next →</button>
+      </div>
+
+      <!-- Sub-view D: Set Completion & Wrong Answers Review -->
+      <div id="quiz-summary-panel" class="hidden">
+        <div class="card" style="text-align:center;">
+          <div style="font-size:34px;margin-bottom:4px;" id="sum-emoji">🎉</div>
+          <div id="sum-title" style="font-size:18px;font-weight:800;color:var(--navy);">Set Tamat!</div>
+          <div id="sum-score-text" style="font-size:24px;font-weight:900;color:var(--teal);margin:6px 0;">8 / 10 (80%)</div>
+          <div id="sum-unlock-banner" style="background:var(--green-bg);color:#14532d;font-weight:700;font-size:13px;padding:9px 12px;border-radius:10px;margin:10px 0;"></div>
+
+          <div style="display:grid;grid-template-columns:1fr;gap:8px;margin-top:12px;">
+            <button id="sum-next-set-btn" class="btn btn-teal" onclick="goToNextUnlockedSet()">Terus ke Set Seterusnya →</button>
+            <button id="sum-retry-wrong-btn" class="btn btn-danger-outline hidden" onclick="retryWrongQuestions()">🔁 Ulang Soalan Salah Sahaja</button>
+            <button class="btn btn-outline" onclick="exitSetToGrid()">📋 Kembali ke Senarai 10 Set</button>
+          </div>
+        </div>
+
+        <div id="sum-wrong-section" class="hidden">
+          <div class="section-label" style="color:var(--red);">❌ Semakan Jawapan Salah & Jawapan Sebenar</div>
+          <div id="sum-wrong-list"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- VIEW 3: KAD IMBAS / FLASHCARDS                            -->
+    <!-- ========================================================= -->
+    <section id="view-flash" class="view">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+        <span class="section-label" style="margin:0;">Kad Imbas Formula & Akta (M01–M16)</span>
+        <span id="fc-counter" class="q-badge">1 / 20</span>
+      </div>
+
+      <div class="fc-wrapper" onclick="flipFlashcard()">
+        <div id="fc-card" class="fc-card">
+          <div style="display:flex;justify-content:space-between;align-items:center;">
+            <span id="fc-mod" class="fc-tag">M01 • Akta 520</span>
+            <span id="fc-side-lbl" style="font-size:11px;color:var(--muted);font-weight:700;">SOALAN / ISTILAH</span>
+          </div>
+          <div id="fc-body"></div>
+          <div class="fc-hint">👆 Ketik kad untuk pusing / Tap card to flip</div>
+        </div>
+      </div>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+        <button class="btn btn-outline" onclick="prevFlashcard()">← Sebelumnya</button>
+        <button class="btn btn-primary" onclick="nextFlashcard()">Seterusnya →</button>
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- VIEW 4: MOD SIMULASI VIVA PA                              -->
+    <!-- ========================================================= -->
+    <section id="view-viva" class="view">
+      <div class="card">
+        <div class="card-title">
+          <span>🎤 Simulasi Panel Viva CIDB</span>
+          <span id="viva-timer" class="timer-pill">01:30</span>
+        </div>
+        <div style="font-size:12px;color:var(--muted);margin-bottom:10px;">
+          Latih pertahanan lisan anda bagi projek <b>Setiawangsa 7-Storey Shopping Centre (RM180.5J, 130 Minggu)</b>. Cuba jawab secara lisan sebelum menekan butang dedah jawapan.
+        </div>
+        <div style="display:flex;gap:6px;margin-bottom:12px;">
+          <button class="btn btn-outline btn-sm" onclick="startVivaTimer(60)">⏱ 60s</button>
+          <button class="btn btn-outline btn-sm" onclick="startVivaTimer(90)">⏱ 90s</button>
+          <button class="btn btn-outline btn-sm" onclick="stopVivaTimer()">⏹ Henti</button>
+          <span id="viva-q-num" class="q-badge" style="margin-left:auto;align-self:center;">Soalan 1 / 12</span>
+        </div>
+
+        <div style="background:#f8fafc;border:1px solid var(--border);border-radius:12px;padding:13px;">
+          <div id="viva-q-en" class="q-text-en en-only"></div>
+          <div id="viva-q-bm" class="q-text-bm bm-only" style="margin-bottom:0;"></div>
+        </div>
+
+        <button id="viva-reveal-btn" class="btn btn-teal" style="margin-top:12px;" onclick="revealVivaAnswer()">👁 Dedah Jawapan Model Panel</button>
+
+        <div id="viva-answer-panel" class="viva-ans-box hidden">
+          <div style="font-size:12px;font-weight:800;color:var(--teal);margin-bottom:6px;">✅ CADANGAN JAWAPAN PERTAHANAN (MODEL ANSWER):</div>
+          <div id="viva-a-en" class="fb-exp-en en-only" style="margin-top:0;"></div>
+          <div id="viva-a-bm" class="fb-exp-bm bm-only" style="margin-top:6px;"></div>
+        </div>
+
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:12px;">
+          <button class="btn btn-outline" onclick="prevViva()">← Soalan Sebelum</button>
+          <button class="btn btn-primary" onclick="nextViva()">Soalan Berikutnya →</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- BOTTOM NAVIGATION BAR -->
+  <nav class="bottom-nav">
+    <button class="nav-btn active" id="nav-home" onclick="switchTab('home')">
+      <span class="nav-icon">🏠</span><span>Utama</span>
+    </button>
+    <button class="nav-btn" id="nav-quiz" onclick="switchTab('quiz')">
+      <span class="nav-icon">📝</span><span>Latihan (16M)</span>
+    </button>
+    <button class="nav-btn" id="nav-flash" onclick="switchTab('flash')">
+      <span class="nav-icon">🗂</span><span>Kad Imbas</span>
+    </button>
+    <button class="nav-btn" id="nav-viva" onclick="switchTab('viva')">
+      <span class="nav-icon">🎤</span><span>Viva PA</span>
+    </button>
+  </nav>
+
+  <script>
+    // =========================================================================
+    // 1. MODULE METADATA (M01 - M16)
+    // =========================================================================
+    const MODULES_META = [
+      { code: "M01", file: "m01.json", en: "Fundamentals of Project Management Competency", bm: "Asas Kompetensi Pengurusan Projek" },
+      { code: "M02", file: "m02.json", en: "Project Initiation & Site Due Diligence", bm: "Permulaan Projek & Ketekunan Wajar Tapak" },
+      { code: "M03", file: "m03.json", en: "Conceptual Design & Preliminary Estimate", bm: "Reka Bentuk Konseptual & Anggaran Awalan" },
+      { code: "M04", file: "m04.json", en: "Procurement Scope, Financing & Constraints", bm: "Skop Perolehan, Pembiayaan & Kekangan" },
+      { code: "M05", file: "m05.json", en: "Project Planning, Monitoring & Control", bm: "Perancangan, Pemantauan & Kawalan Projek" },
+      { code: "M06", file: "m06.json", en: "Project Financial Management & Cash Flow", bm: "Pengurusan Kewangan & Aliran Tunai Projek" },
+      { code: "M07", file: "m07.json", en: "Design Development & Authority Liaison", bm: "Pembangunan Reka Bentuk & Urusan Pihak Berkuasa" },
+      { code: "M08", file: "m08.json", en: "Quality Management & QLASSIC Metrics", bm: "Pengurusan Kualiti & Metrik QLASSIC" },
+      { code: "M09", file: "m09.json", en: "Occupational Safety & Health Management", bm: "Pengurusan Keselamatan & Kesihatan Pekerjaan" },
+      { code: "M10", file: "m10.json", en: "Environmental Management (EMP & MyCREST)", bm: "Pengurusan Alam Sekitar (EMP & MyCREST)" },
+      { code: "M11", file: "m11.json", en: "Value Management (VA, VE & VR)", bm: "Pengurusan Nilai (VA, VE & VR)" },
+      { code: "M12", file: "m12.json", en: "Tender Management & Normalization", bm: "Pengurusan Tender & Penormalan Harga" },
+      { code: "M13", file: "m13.json", en: "Contract Administration & CIPAA Governance", bm: "Pentadbiran Kontrak & Tadbir Urus CIPAA" },
+      { code: "M14", file: "m14.json", en: "Practical Completion, DLP & Final Account", bm: "Siap Praktikal, DLP & Akaun Akhir" },
+      { code: "M15", file: "m15.json", en: "Operation & Maintenance (O&M) Readiness", bm: "Kesediaan Operasi & Penyenggaraan (O&M)" },
+      { code: "M16", file: "m16.json", en: "Project People, Stakeholders & Disputes", bm: "Pengurusan Pasukan, Pihak Berkepentingan & Pertikaian" }
+    ];
+
+    const loadedModules = {}; // code -> module JSON object
+    const STORAGE_KEY = "ccpm_1600_progress_v1";
+
+    function getProgress() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function saveProgress(prog) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(prog));
+      updateHomeStats();
+    }
+
+    // =========================================================================
+    // 2. LOAD MODULE JSON FILES FROM GITHUB PAGES (OR LOCAL UPLOAD)
+    // =========================================================================
+    async function loadAllModules() {
+      const promises = MODULES_META.map(async (m) => {
+        try {
+          const resp = await fetch(`./${m.file}?t=${Date.now()}`);
+          if (resp.ok) {
+            const data = await resp.json();
+            if (data && Array.isArray(data.questions)) {
+              loadedModules[m.code] = data;
+            }
+          }
+        } catch (err) {
+          // File not uploaded yet — handled gracefully
+        }
+      });
+      await Promise.all(promises);
+      renderModuleList();
+      updateHomeStats();
+    }
+
+    function handleLocalJsonUpload(event) {
+      const files = Array.from(event.target.files || []);
+      let count = 0;
+      files.forEach((file) => {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try {
+            const data = JSON.parse(e.target.result);
+            if (data && data.module_code && Array.isArray(data.questions)) {
+              loadedModules[data.module_code.toUpperCase()] = data;
+              count++;
+              document.getElementById("local-load-msg").textContent =
+                `✅ Berjaya memuatkan ${count} fail modul (${data.module_code.toUpperCase()}: ${data.questions.length} soalan)!`;
+              renderModuleList();
+              updateHomeStats();
+            }
+          } catch (err) {
+            alert("Format fail JSON tidak sah: " + file.name);
+          }
+        };
+        reader.readAsText(file);
+      });
+    }
+
+    function updateHomeStats() {
+      const prog = getProgress();
+      let totalAnswered = 0;
+      let totalCorrect = 0;
+      let completedSets = 0;
+
+      Object.keys(prog).forEach((modCode) => {
+        const modProg = prog[modCode] || {};
+        for (let s = 1; s <= 10; s++) {
+          const sp = modProg[`set_${s}`];
+          if (sp && sp.completed) {
+            completedSets++;
+            totalAnswered += (sp.total || 10);
+            totalCorrect += (sp.score || 0);
+          }
+        }
+      });
+
+      const activeModCount = Object.keys(loadedModules).length;
+      const totalAvailableQs = Object.values(loadedModules).reduce((acc, m) => acc + m.questions.length, 0);
+      const pct = totalAvailableQs > 0 ? Math.round((totalCorrect / totalAvailableQs) * 100) : 0;
+
+      document.getElementById("home-pct").textContent = `${pct}%`;
+      document.getElementById("home-prog-bar").style.width = `${pct}%`;
+      document.getElementById("home-loaded-info").textContent =
+        `${activeModCount} / 16 Modul aktif di GitHub (${totalAvailableQs} daripada 1,600 soalan tersedia)`;
+      document.getElementById("stat-answered").textContent = totalAnswered;
+      document.getElementById("stat-correct").textContent = totalCorrect;
+      document.getElementById("stat-sets").textContent = `${completedSets}/160`;
+    }
+
+    // =========================================================================
+    // 3. NAVIGATION & LANGUAGE SWITCHER
+    // =========================================================================
+    function switchTab(tab) {
+      document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
+      document.querySelectorAll(".nav-btn").forEach(b => b.classList.remove("active"));
+      document.getElementById(`view-${tab}`).classList.add("active");
+      document.getElementById(`nav-${tab}`).classList.add("active");
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function setLang(mode, btn) {
+      document.querySelectorAll(".lang-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      document.body.classList.remove("lang-en", "lang-bm");
+      if (mode === "en") document.body.classList.add("lang-en");
+      if (mode === "bm") document.body.classList.add("lang-bm");
+    }
+
+    // =========================================================================
+    // 4. MODULE DIRECTORY & 10-SET AUTO-UNLOCK ENGINE
+    // =========================================================================
+    let activeModCode = null;
+    let activeSetNum = 1;
+    let activeQuestions = [];
+    let currentQIdx = 0;
+    let currentSetScore = 0;
+    let currentWrongRecords = []; // { q, chosenIdx }
+    let isRetryMode = false;
+
+    function renderModuleList() {
+      const container = document.getElementById("module-list-container");
+      const prog = getProgress();
+      container.innerHTML = "";
+
+      MODULES_META.forEach((m) => {
+        const modData = loadedModules[m.code];
+        const isReady = !!modData;
+        const modProg = prog[m.code] || {};
+        let setsDone = 0;
+        for (let s = 1; s <= 10; s++) {
+          if (modProg[`set_${s}`] && modProg[`set_${s}`].completed) setsDone++;
+        }
+
+        const div = document.createElement("div");
+        div.className = `mod-item ${isReady ? "ready" : "pending"}`;
+        div.innerHTML = `
+          <div>
+            <span class="mod-code">${m.code}</span>
+            <div class="mod-name-en en-only">${m.en}</div>
+            <div class="mod-name-bm bm-only">${m.bm}</div>
+          </div>
+          <div class="mod-meta">
+            ${isReady
+              ? `<span class="pill-ready">${modData.questions.length} Soalan</span>
+                 <div style="font-size:11px;font-weight:700;color:var(--navy);margin-top:4px;">${setsDone}/10 Set</div>`
+              : `<span class="pill-pending">Belum Dimuat Naik<br>(${m.file})</span>`
+            }
+          </div>
+        `;
+        if (isReady) {
+          div.onclick = () => openModuleSets(m.code);
+        } else {
+          div.onclick = () => alert(`Fail ${m.file} belum dimuat naik ke GitHub lagi. Kita akan jana modul ini pada fasa seterusnya!`);
+        }
+        container.appendChild(div);
+      });
+    }
+
+    function openModuleSets(modCode) {
+      activeModCode = modCode;
+      const meta = MODULES_META.find(x => x.code === modCode);
+      document.getElementById("set-panel-mod-badge").textContent = modCode;
+      document.getElementById("set-panel-title-en").textContent = `${modCode}: ${meta.en}`;
+      document.getElementById("set-panel-title-bm").textContent = meta.bm;
+
+      document.getElementById("quiz-mod-list-panel").classList.add("hidden");
+      document.getElementById("quiz-player-panel").classList.add("hidden");
+      document.getElementById("quiz-summary-panel").classList.add("hidden");
+      document.getElementById("quiz-set-list-panel").classList.remove("hidden");
+
+      renderSetsGrid();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function backToModules() {
+      document.getElementById("quiz-set-list-panel").classList.add("hidden");
+      document.getElementById("quiz-mod-list-panel").classList.remove("hidden");
+      renderModuleList();
+    }
+
+    function renderSetsGrid() {
+      const grid = document.getElementById("sets-grid-container");
+      grid.innerHTML = "";
+      const prog = getProgress();
+      const modProg = prog[activeModCode] || {};
+
+      for (let s = 1; s <= 10; s++) {
+        // Auto-unlock rule: Set 1 is always unlocked; Set s is unlocked if Set s-1 is completed!
+        const prevCompleted = s === 1 ? true : !!(modProg[`set_${s - 1}`] && modProg[`set_${s - 1}`].completed);
+        const curRecord = modProg[`set_${s}`];
+        const isCompleted = !!(curRecord && curRecord.completed);
+
+        const qStart = (s - 1) * 10 + 1;
+        const qEnd = s * 10;
+        const levelTag = s <= 3 ? "Asas / Foundation" : (s <= 8 ? "Aplikasi / Application" : "Krisis Tahap 6");
+
+        const card = document.createElement("div");
+        card.className = `set-card ${isCompleted ? "completed" : (prevCompleted ? "unlocked" : "locked")}`;
+        card.innerHTML = `
+          <div class="set-top">
+            <span class="set-num">Set ${s}</span>
+            <span>${isCompleted ? "✅" : (prevCompleted ? "🔓" : "🔒")}</span>
+          </div>
+          <div class="set-range">Soalan ${qStart} – ${qEnd}</div>
+          <div class="set-lvl">${levelTag}</div>
+          <div class="set-score">
+            ${isCompleted
+              ? `Skor Terbaik: ${curRecord.score}/10 (${curRecord.score * 10}%)`
+              : (prevCompleted ? `<span style="color:var(--navy);">Sedia Dijawab →</span>` : `<span style="color:var(--muted);">Tamatkan Set ${s - 1} dahulu</span>`)
+            }
+          </div>
+        `;
+
+        if (prevCompleted) {
+          card.onclick = () => startSet(s);
+        } else {
+          card.onclick = () => alert(`Sila tamatkan kesemua 10 soalan dalam Set ${s - 1} terlebih dahulu untuk membuka Set ${s} secara automatik.`);
+        }
+        grid.appendChild(card);
+      }
+    }
+
+    // =========================================================================
+    // 5. QUIZ PLAYER ENGINE (WITH MANDATORY TRUE-ANSWER DISCLOSURE ON WRONG)
+    // =========================================================================
+    function startSet(setNum, customQuestions = null) {
+      activeSetNum = setNum;
+      isRetryMode = Array.isArray(customQuestions);
+      const allQs = loadedModules[activeModCode].questions;
+      activeQuestions = customQuestions || allQs.filter(q => q.set === setNum);
+      currentQIdx = 0;
+      currentSetScore = 0;
+      currentWrongRecords = [];
+
+      document.getElementById("quiz-set-list-panel").classList.add("hidden");
+      document.getElementById("quiz-summary-panel").classList.add("hidden");
+      document.getElementById("quiz-player-panel").classList.remove("hidden");
+
+      renderQuestion();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function renderQuestion() {
+      const q = activeQuestions[currentQIdx];
+      const total = activeQuestions.length;
+      const modeTag = isRetryMode ? "Ulang Salah" : `Set ${activeSetNum}`;
+
+      document.getElementById("qp-progress-badge").textContent = `${activeModCode} • ${modeTag} • Soalan ${currentQIdx + 1}/${total}`;
+      document.getElementById("qp-score-badge").textContent = `Skor: ${currentSetScore}`;
+      document.getElementById("qp-prog-bar").style.width = `${((currentQIdx + 1) / total) * 100}%`;
+      document.getElementById("qp-diff-badge").textContent = `Q${q.id} • ${q.level || "CCPM Level 6"}`;
+
+      document.getElementById("qp-q-en").textContent = q.q_en;
+      document.getElementById("qp-q-bm").textContent = q.q_bm;
+
+      const fb = document.getElementById("qp-feedback");
+      fb.classList.add("hidden");
+      fb.classList.remove("is-correct", "is-wrong");
+      document.getElementById("fb-true-ans").classList.add("hidden");
+      document.getElementById("qp-next-btn").classList.add("hidden");
+
+      const optsContainer = document.getElementById("qp-options");
+      optsContainer.innerHTML = "";
+      const letters = ["A", "B", "C", "D"];
+
+      q.options_en.forEach((optEn, idx) => {
+        const optBm = q.options_bm[idx] || "";
+        const btn = document.createElement("button");
+        btn.className = "opt-btn";
+        btn.innerHTML = `
+          <span class="opt-letter">${letters[idx]}</span>
+          <div class="opt-content">
+            <div class="opt-en en-only">${optEn}</div>
+            <div class="opt-bm bm-only">${optBm}</div>
+          </div>
+        `;
+        btn.onclick = () => selectAnswer(idx);
+        optsContainer.appendChild(btn);
+      });
+    }
+
+    function selectAnswer(chosenIdx) {
+      const q = activeQuestions[currentQIdx];
+      const correctIdx = q.answer;
+      const letters = ["A", "B", "C", "D"];
+      const optBtns = document.querySelectorAll("#qp-options .opt-btn");
+
+      // Prevent double clicking
+      if (optBtns[0].disabled) return;
+      optBtns.forEach(b => b.disabled = true);
+
+      const isRight = chosenIdx === correctIdx;
+      optBtns[correctIdx].classList.add("correct");
+      if (!isRight) {
+        optBtns[chosenIdx].classList.add("wrong");
+        currentWrongRecords.push({ q, chosenIdx });
+      } else {
+        currentSetScore++;
+        document.getElementById("qp-score-badge").textContent = `Skor: ${currentSetScore}`;
+      }
+
+      // Show immediate feedback & explicitly display TRUE answer if wrong
+      const fb = document.getElementById("qp-feedback");
+      fb.classList.remove("hidden");
+      fb.classList.add(isRight ? "is-correct" : "is-wrong");
+
+      document.getElementById("fb-status").textContent = isRight
+        ? "✅ TEPAT / CORRECT!"
+        : "❌ KURANG TEPAT / INCORRECT!";
+
+      const trueAnsBox = document.getElementById("fb-true-ans");
+      if (!isRight) {
+        trueAnsBox.classList.remove("hidden");
+        trueAnsBox.innerHTML = `
+          <strong>✅ JAWAPAN SEBENAR / CORRECT ANSWER (${letters[correctIdx]}):</strong><br/>
+          <span class="en-only">${q.options_en[correctIdx]}</span>
+          <span class="bm-only" style="display:block;font-style:italic;margin-top:2px;">${q.options_bm[correctIdx]}</span>
+        `;
+      } else {
+        trueAnsBox.classList.add("hidden");
+      }
+
+      document.getElementById("fb-exp-en").textContent = `EN: ${q.exp_en}`;
+      document.getElementById("fb-exp-bm").textContent = `BM: ${q.exp_bm}`;
+      document.getElementById("fb-ref").textContent = `📚 Rujukan: ${q.ref || activeModCode}`;
+
+      const nextBtn = document.getElementById("qp-next-btn");
+      nextBtn.classList.remove("hidden");
+      nextBtn.textContent = currentQIdx + 1 < activeQuestions.length
+        ? "Soalan Seterusnya / Next →"
+        : "Lihat Keputusan & Buka Set Seterusnya →";
+    }
+
+    function nextQuestion() {
+      if (currentQIdx + 1 < activeQuestions.length) {
+        currentQIdx++;
+        renderQuestion();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      } else {
+        finishSet();
+      }
+    }
+
+    function finishSet() {
+      document.getElementById("quiz-player-panel").classList.add("hidden");
+      document.getElementById("quiz-summary-panel").classList.remove("hidden");
+
+      const total = activeQuestions.length;
+      const pct = Math.round((currentSetScore / total) * 100);
+      document.getElementById("sum-emoji").textContent = pct >= 70 ? "🏆" : "📘";
+      document.getElementById("sum-title").textContent = isRetryMode
+        ? `${activeModCode} — Semakan Ulangan Selesai`
+        : `${activeModCode} — Set ${activeSetNum} Selesai!`;
+      document.getElementById("sum-score-text").textContent = `${currentSetScore} / ${total} (${pct}%)`;
+
+      // Save completion to localStorage & unlock next set automatically if full set finished
+      const unlockBanner = document.getElementById("sum-unlock-banner");
+      const nextSetBtn = document.getElementById("sum-next-set-btn");
+
+      if (!isRetryMode) {
+        const prog = getProgress();
+        if (!prog[activeModCode]) prog[activeModCode] = {};
+        const prevBest = prog[activeModCode][`set_${activeSetNum}`]?.score || 0;
+        prog[activeModCode][`set_${activeSetNum}`] = {
+          completed: true,
+          score: Math.max(prevBest, currentSetScore),
+          total: 10
+        };
+        saveProgress(prog);
+
+        if (activeSetNum < 10) {
+          unlockBanner.classList.remove("hidden");
+          unlockBanner.textContent = `🔓 Set ${activeSetNum + 1} (Soalan ${activeSetNum * 10 + 1}–${(activeSetNum + 1) * 10}) Kini Terbuka Secara Automatik!`;
+          nextSetBtn.classList.remove("hidden");
+          nextSetBtn.textContent = `Terus ke Set ${activeSetNum + 1} →`;
+        } else {
+          unlockBanner.classList.remove("hidden");
+          unlockBanner.textContent = `🎓 Tahniah! Anda telah menamatkan kesemua 10 Set (100 Soalan) bagi ${activeModCode}!`;
+          nextSetBtn.classList.add("hidden");
+        }
+      } else {
+        unlockBanner.classList.add("hidden");
+        nextSetBtn.classList.add("hidden");
+      }
+
+      // Render Wrong Answers Review List with True Answers
+      const wrongSection = document.getElementById("sum-wrong-section");
+      const wrongList = document.getElementById("sum-wrong-list");
+      const retryBtn = document.getElementById("sum-retry-wrong-btn");
+      const letters = ["A", "B", "C", "D"];
+
+      if (currentWrongRecords.length > 0) {
+        wrongSection.classList.remove("hidden");
+        retryBtn.classList.remove("hidden");
+        retryBtn.textContent = `🔁 Ulang ${currentWrongRecords.length} Soalan Salah Sahaja`;
+        wrongList.innerHTML = "";
+
+        currentWrongRecords.forEach((item) => {
+          const q = item.q;
+          const div = document.createElement("div");
+          div.className = "review-item";
+          div.innerHTML = `
+            <div class="review-q">Q${q.id}: <span class="en-only">${q.q_en}</span> <span class="bm-only" style="font-weight:500;color:#475569;">(${q.q_bm})</span></div>
+            <div class="review-yours">❌ Jawapan Anda (${letters[item.chosenIdx]}): ${q.options_en[item.chosenIdx]}</div>
+            <div class="review-truth">✅ Jawapan Sebenar (${letters[q.answer]}): ${q.options_en[q.answer]}<br/>
+              <span style="font-weight:500;font-size:12px;">${q.options_bm[q.answer]}</span>
+            </div>
+            <div style="font-size:12px;color:#334155;margin-top:6px;">💡 ${q.exp_bm}</div>
+          `;
+          wrongList.appendChild(div);
+        });
+      } else {
+        wrongSection.classList.add("hidden");
+        retryBtn.classList.add("hidden");
+      }
+
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    function goToNextUnlockedSet() {
+      if (activeSetNum < 10) {
+        startSet(activeSetNum + 1);
+      }
+    }
+
+    function retryWrongQuestions() {
+      const missedQs = currentWrongRecords.map(r => r.q);
+      if (missedQs.length > 0) {
+        startSet(activeSetNum, missedQs);
+      }
+    }
+
+    function exitSetToGrid() {
+      document.getElementById("quiz-player-panel").classList.add("hidden");
+      document.getElementById("quiz-summary-panel").classList.add("hidden");
+      document.getElementById("quiz-set-list-panel").classList.remove("hidden");
+      renderSetsGrid();
+    }
+
+    // =========================================================================
+    // 6. BILINGUAL FLASHCARDS (M01 - M16)
+    // =========================================================================
+    const FLASHCARDS = [
+      { mod: "M01 • Akta 520", f_en: "CIDB Contractor Grade G7 Limit & Categories", f_bm: "Had & Kategori Pendaftaran Kontraktor CIDB Gred G7", b_en: "Unlimited tendering capacity (>RM10 Million). Categories: B (Building), CE (Civil Engineering), ME (Mechanical & Electrical).", b_bm: "Keupayaan menender tanpa had (>RM10 Juta). Kategori: B (Bangunan), CE (Kejuruteraan Awam), ME (Mekanikal & Elektrikal)." },
+      { mod: "M01 • Seksyen 34", f_en: "CIDB Levy Rate, Threshold & Declaration Form", f_bm: "Kadar Levi CIDB, Ambang Kontrak & Borang Pengisytiharan", b_en: "0.125% of contract sum for contracts >RM500,000. Declared via Form CIDB L1/96 within 14 days of award.", b_bm: "0.125% daripada jumlah kontrak bagi projek >RM500,000. Diisytihar melalui Borang CIDB L1/96 dalam masa 14 hari." },
+      { mod: "M01 • Seksyen 33C", f_en: "Fourth Schedule Materials Compliance", f_bm: "Pematuhan Bahan Binaan Jadual Keempat", b_en: "Requires valid CIDB Perakuan Pematuhan Standard (PPS) & SIRIM test certs. Non-compliance fine: RM10,000 – RM500,000.", b_bm: "Wajib memiliki Perakuan Pematuhan Standard (PPS) CIDB & sijil ujian SIRIM. Denda ketidakpatuhan: RM10,000 – RM500,000." },
+      { mod: "M02 • Site Due Diligence", f_en: "Setiawangsa Case Study Date Discrepancy", f_bm: "Percanggahan Tarikh Kajian Kes Setiawangsa", b_en: "Possession: 10/03/2021 + 130 weeks (910 days) = 06/09/2023 vs Stated Completion 05/09/2023 (1-day variance to clarify via memo).", b_bm: "Milik Tapak: 10/03/2021 + 130 minggu (910 hari) = 06/09/2023 berbanding Tarikh Siap 05/09/2023 (beza 1 hari perlu memo penjelasan)." },
+      { mod: "M04 • PERT Formula", f_en: "Three-Point (PERT) Cost / Time Expected Formula", f_bm: "Formula Anggaran Tiga Titik (PERT)", b_en: "E = (O + 4M + P) / 6, where O = Optimistic, M = Most Likely, P = Pessimistic.", b_bm: "E = (O + 4M + P) / 6, di mana O = Optimistik, M = Paling Mungkin, P = Pesimistik." },
+      { mod: "M06 • EVM Formulas", f_en: "Earned Value Management: CPI, SPI & EAC", f_bm: "Pengurusan Nilai Diperoleh: CPI, SPI & EAC", b_en: "CPI = EV / AC (>1 under budget); SPI = EV / PV (>1 ahead of schedule); EAC = BAC / CPI.", b_bm: "CPI = EV / AC (>1 jimat bajet); SPI = EV / PV (>1 mendahului jadual); EAC = BAC / CPI." },
+      { mod: "M07 • UBBL 1984", f_en: "CCC (Borang F) & Progressive Borang G1–G21", f_bm: "Perakuan Siap & Pematuhan (Borang F) & Borang G1–G21", b_en: "PSP issues Borang F (CCC) only after all 21 stage forms (G1–G21) & agency clearances (Bomba, TNB, IWK, Air Selangor) are signed.", b_bm: "PSP mengeluarkan Borang F (CCC) hanya selepas kesemua 21 borang berperingkat (G1–G21) & pelepasan agensi ditandatangani." },
+      { mod: "M08 • CIS 7:2021", f_en: "QLASSIC Category D & First-Time Inspection Rule", f_bm: "QLASSIC Kategori D & Prinsip Pemeriksaan Kali Pertama", b_en: "Category D (Commercial with centralized cooling): Structural 25%, Architectural 50%, M&E 20%, External 5%. Rectified work is NOT re-scored.", b_bm: "Kategori D (Komersial berhawa dingin berpusat): Struktur 25%, Seni Bina 50%, M&E 20%, Luaran 5%. Kerja dibaiki TIDAK dinilai semula." },
+      { mod: "M09 • CIS 10:2020", f_en: "SHASSIC Assessment Components & Weightage", f_bm: "Komponen & Pemberat Penilaian SHASSIC", b_en: "Document Check (40%) + Workplace Inspection (40%) + Employee Interview (20%). 5-Star rating >= 85%.", b_bm: "Semakan Dokumen (40%) + Pemeriksaan Tapak (40%) + Temu Bual Pekerja (20%). Penarafan 5-Bintang >= 85%." },
+      { mod: "M10 • EQA 1974", f_en: "DOE Standard B Discharge & Scheduled Waste Limit", f_bm: "Had Pelepasan Standard B JAS & Buangan Terjadual", b_en: "Silt trap discharge TSS <= 50 mg/L, pH 6.0–9.0. Scheduled wastes (SW 305/409) logged via eSWIS & disposed within 180 days.", b_bm: "Pelepasan perangkap kelodak TSS <= 50 mg/L, pH 6.0–9.0. Buangan terjadual direkod dalam eSWIS & dilupus dalam 180 hari." },
+      { mod: "M11 • Value Mgmt", f_en: "Three Life-Cycle Interventions of Value Management", f_bm: "Tiga Intervensi Kitaran Hayat Pengurusan Nilai", b_en: "1. Value Assessment (VA - Concept), 2. Value Engineering (VE - Detailed Design), 3. Value Review (VR - Post-Completion).", b_bm: "1. Penilaian Nilai (VA - Konsep), 2. Kejuruteraan Nilai (VE - Reka Bentuk Terperinci), 3. Semakan Nilai (VR - Pasca Penyiapan)." },
+      { mod: "M13 • CIPAA 2012", f_en: "CIPAA Section 35 & Statutory Adjudication Timeline", f_bm: "Seksyen 35 CIPAA & Tempoh Adjudikasi Berkanun", b_en: "Conditional 'pay-when-paid' clauses are VOID. Payment Response due in 10 working days; Adjudication decision within 45 working days.", b_bm: "Klausa bersyarat 'pay-when-paid' adalah BATAL. Jawapan Bayaran dalam 10 hari bekerja; Keputusan Adjudikasi dalam 45 hari bekerja." }
+    ];
+
+    let fcIdx = 0;
+    let fcFlipped = false;
+
+    function renderFlashcard() {
+      const item = FLASHCARDS[fcIdx];
+      document.getElementById("fc-counter").textContent = `${fcIdx + 1} / ${FLASHCARDS.length}`;
+      document.getElementById("fc-mod").textContent = item.mod;
+      const card = document.getElementById("fc-card");
+      const body = document.getElementById("fc-body");
+
+      if (!fcFlipped) {
+        card.classList.remove("flipped");
+        document.getElementById("fc-side-lbl").textContent = "SOALAN / ISTILAH";
+        body.innerHTML = `
+          <div class="fc-front-en en-only">${item.f_en}</div>
+          <div class="fc-front-bm bm-only">${item.f_bm}</div>
+        `;
+      } else {
+        card.classList.add("flipped");
+        document.getElementById("fc-side-lbl").textContent = "JAWAPAN / HURAIAN";
+        body.innerHTML = `
+          <div class="fc-back-en en-only">${item.b_en}</div>
+          <div class="fc-back-bm bm-only">${item.b_bm}</div>
+        `;
+      }
+    }
+
+    function flipFlashcard() { fcFlipped = !fcFlipped; renderFlashcard(); }
+    function nextFlashcard() { fcIdx = (fcIdx + 1) % FLASHCARDS.length; fcFlipped = false; renderFlashcard(); }
+    function prevFlashcard() { fcIdx = (fcIdx - 1 + FLASHCARDS.length) % FLASHCARDS.length; fcFlipped = false; renderFlashcard(); }
+
+    // =========================================================================
+    // 7. VIVA SIMULATION MODE (PA DEFENCE)
+    // =========================================================================
+    const VIVA_QUESTIONS = [
+      {
+        q_en: "Panel Q1: Perintis Development Berhad is listed as both Developer and Named D&B Contractor in your case study. How do you prevent conflict of interest?",
+        q_bm: "Soalan Panel 1: Perintis Development Berhad dinamakan sebagai Pemaju dan juga Kontraktor D&B dalam kajian kes anda. Bagaimanakah anda mengelakkan konflik kepentingan?",
+        a_en: "I establish strict governance separation via the Project Charter and RACI matrix: the CPM reports directly to the Developer's Board Audit Committee, QA/QC and HSE audits operate independently from site construction targets, and I recommend appointing an Independent Checking Engineer (ICE) to verify structural/MEP compliance and variation valuations.",
+        a_bm: "Saya mewujudkan pengasingan tadbir urus yang ketat melalui Piagam Projek dan matriks RACI: CPM melapor terus kepada Jawatankuasa Audit Lembaga Pemaju, audit QA/QC dan HSE beroperasi secara bebas daripada sasaran tapak, serta saya mencadangkan pelantikan Jurutera Penyemak Bebas (ICE) untuk mengesahkan pematuhan teknikal dan penilaian variasi."
+      },
+      {
+        q_en: "Panel Q2: Explain the 1-day contract completion date discrepancy you highlighted in Section 4.0 (Problem Statement).",
+        q_bm: "Soalan Panel 2: Terangkan percanggahan tarikh siap kontrak 1 hari yang anda ketengahkan dalam Bahagian 4.0 (Penyataan Masalah).",
+        a_en: "Site possession is 10 March 2021 and duration is 130 weeks (910 calendar days). Adding 910 days to 10 March 2021 lands on 6 September 2023, whereas the brief states 5 September 2023. Rather than silently altering contract data, I log this as a baseline discrepancy to be clarified via a formal Kick-Off Clarification Memo so LAD enforceability (RM10,500/day) is legally watertight.",
+        a_bm: "Tarikh milik tapak ialah 10 Mac 2021 dan tempoh kontrak ialah 130 minggu (910 hari kalendar). Menambah 910 hari kepada 10 Mac 2021 jatuh pada 6 September 2023, manakala ringkasan kes menyatakan 5 September 2023. Daripada meminda data kontrak secara senyap, saya merekodkannya sebagai percanggahan garis dasar untuk dijelaskan melalui Memo Penjelasan Kick-Off rasmi supaya penguatkuasaan LAD (RM10,500/hari) kukuh dari segi undang-undang."
+      },
+      {
+        q_en: "Panel Q3: How much is the statutory CIDB levy for this RM180.5M project, when must it be declared, and what is the penalty for late payment?",
+        q_bm: "Soalan Panel 3: Berapakah levi berkanun CIDB bagi projek RM180.5J ini, bilakah ia mesti diisytiharkan, dan apakah penalti jika lewat membayar?",
+        a_en: "Under Section 34 of Act 520, the levy is 0.125% × RM180,500,000 = RM225,625.00. It must be declared using Form CIDB L1/96 within 14 days of contract award (and before work starts). Non-declaration carries a fine up to RM50,000, while non-payment attracts up to RM50,000 or 4× the levy (RM902,500), whichever is higher.",
+        a_bm: "Di bawah Seksyen 34 Akta 520, levi ialah 0.125% × RM180,500,000 = RM225,625.00. Ia wajib diisytiharkan menggunakan Borang CIDB L1/96 dalam tempoh 14 hari dari penganugerahan (dan sebelum kerja bermula). Kegagalan mengisytihar boleh didenda sehingga RM50,000, manakala kegagalan membayar boleh didenda sehingga RM50,000 atau 4× levi (RM902,500), mana-mana yang lebih tinggi."
+      },
+      {
+        q_en: "Panel Q4: Why did you recommend Option B (Semi-Basement + Elevated Podium Parking) over a 2-level basement for the 1,300 parking bays?",
+        q_bm: "Soalan Panel 4: Mengapakah anda mencadangkan Opsyen B (Separa Besmen + Parkir Podium Bertingkat) berbanding 2 tingkat besmen penuh bagi 1,300 petak parkir?",
+        a_en: "Setiawangsa sits on Kuala Lumpur's weathered granite/schist formation. Avoiding a deep 2-level basement eliminates extensive rock excavation, dewatering, and contiguous bored-pile retaining walls—saving 8 to 10 weeks on the critical path and ~RM6.5M in substructure risk, which can be reinvested into high-efficiency HVAC chillers.",
+        a_bm: "Setiawangsa terletak di atas formasi granit/syis terluluhawa Kuala Lumpur. Mengelakkan 2 tingkat besmen dalam menghapuskan pengorekan batuan keras, penyahairan, dan dinding penahan cerucuk jara bersambung—menjimatkan 8 hingga 10 minggu pada laluan kritikal serta ~RM6.5J risiko substruktur yang boleh dilaburkan semula ke dalam sistem chiller HVAC berkecekapan tinggi."
+      },
+      {
+        q_en: "Panel Q5: In Module 06, your Month 15 EVM diagnostic shows CPI = 0.960 and SPI = 0.949. What do these numbers mean and what actions do you take?",
+        q_bm: "Soalan Panel 5: Dalam Modul 06, diagnostik EVM Bulan ke-15 menunjukkan CPI = 0.960 dan SPI = 0.949. Apakah maksud angka ini dan apakah tindakan anda?",
+        a_en: "SPI = 0.949 means the project is ~5.1% behind schedule (~2.5 weeks), and CPI = 0.960 means we earn RM0.96 per RM1.00 spent—projecting an unmitigated EAC of RM188.02M (RM7.52M overrun). To recover (TCPI = 1.056), I lock fixed-price bulk supply rates for remaining MEP/finishes, enforce Value Engineering savings, and apply double-shift formwork recovery on critical superstructure zones.",
+        a_bm: "SPI = 0.949 bermaksud projek lewat ~5.1% daripada jadual (~2.5 minggu), dan CPI = 0.960 bermaksud kita memperoleh nilai RM0.96 bagi setiap RM1.00 dibelanjakan—mengunjurkan EAC RM188.02J (lebihan kos RM7.52J) jika tiada tindakan. Untuk memulihkannya (TCPI = 1.056), saya mengunci kadar bekalan pukal harga tetap bagi M&E/kemasan berbaki, melaksanakan penjimatan Kejuruteraan Nilai, dan menjalankan syif berganda acuan pada zon kritikal."
+      },
+      {
+        q_en: "Panel Q6: How do you ensure the building achieves your target QLASSIC score of >=75% under CIS 7:2021?",
+        q_bm: "Soalan Panel 6: Bagaimanakah anda memastikan bangunan mencapai sasaran skor QLASSIC >=75% di bawah CIS 7:2021?",
+        a_en: "Because QLASSIC Category D (50% Architectural, 25% Structural, 20% M&E, 5% External) assesses strictly on first-time inspection without re-scoring rectified defects, we enforce trade ITP hold points, 72-hour waterproofing ponding tests, full-scale benchmark mock-up units by Week 65, and internal mock-QLASSIC audits at 50% and 80% architectural completion.",
+        a_bm: "Memandangkan QLASSIC Kategori D (50% Seni Bina, 25% Struktur, 20% M&E, 5% Luaran) menilai secara ketat pada pemeriksaan kali pertama tanpa pemarkahan semula kecacatan yang dibaiki, kami menguatkuasakan titik tahan (hold point) ITP tred, ujian takungan kalis air 72 jam, unit mock-up penanda aras menjelang Minggu 65, dan audit pra-QLASSIC dalaman pada 50% dan 80% penyiapan seni bina."
+      },
+      {
+        q_en: "Panel Q7: How did your Value Engineering (VE) workshop in Module 11 save both upfront CAPEX and 25-year OPEX?",
+        q_bm: "Soalan Panel 7: Bagaimanakah bengkel Kejuruteraan Nilai (VE) anda dalam Modul 11 menjimatkan kedua-dua CAPEX awal dan OPEX 25 tahun?",
+        a_en: "Switching to Post-Tensioned flat slabs (-RM2.45M) and Precast IBS ancillary elements (-RM320k) saved RM2.77M upfront. Reinvesting RM2.13M into magnetic-bearing VSD chillers (COP 6.4) and Double-Glazed Low-E glass still yielded a net CAPEX saving of RM640,000 while cutting 25-year whole-life energy costs by RM13.0 million.",
+        a_bm: "Penukaran kepada papak rata pasca-tegang (-RM2.45J) dan komponen pratuang IBS (-RM320k) menjimatkan RM2.77J kos awal. Pelaburan semula RM2.13J ke dalam chiller VSD galas magnetik (COP 6.4) dan kaca berkembar Low-E masih menghasilkan penjimatan bersih CAPEX sebanyak RM640,000 di samping mengurangkan kos tenaga kitaran hayat 25 tahun sebanyak RM13.0 juta."
+      },
+      {
+        q_en: "Panel Q8: What prerequisites must be satisfied before Practical Completion (CPC), CCC (Borang F), and final retention release?",
+        q_bm: "Soalan Panel 8: Apakah prasyarat yang mesti dipenuhi sebelum Siap Praktikal (CPC), CCC (Borang F), dan pelepasan wang tahanan akhir?",
+        a_en: "First, witnessed Integrated Systems Testing (IST), all 21 Borang G1–G21 signed, Bomba/DOSH PMA/utility clearances, O&M manuals, and FM operator training unlock CPC, CCC (Borang F), and the first 50% retention (RM4,512,500). Second, after the 24-month DLP and 100% defect closure (CMGD), the Final Account is signed and the remaining RM4,512,500 retention is released.",
+        a_bm: "Pertama, Pengujian Sistem Bersepadu (IST) bersaksi, kesemua 21 Borang G1–G21 ditandatangani, pelepasan Bomba/PMA DOSH/utiliti, manual O&M, dan latihan pengendali FM membolehkan CPC, CCC (Borang F), dan pelepasan 50% wang tahanan pertama (RM4,512,500). Kedua, selepas DLP 24 bulan dan penutupan 100% kecacatan (CMGD), Akaun Akhir ditandatangani dan baki RM4,512,500 wang tahanan dilepaskan."
+      }
+    ];
+
+    let vivaIdx = 0;
+    let vivaTimerId = null;
+    let vivaSeconds = 90;
+
+    function renderViva() {
+      const item = VIVA_QUESTIONS[vivaIdx];
+      document.getElementById("viva-q-num").textContent = `Soalan ${vivaIdx + 1} / ${VIVA_QUESTIONS.length}`;
+      document.getElementById("viva-q-en").textContent = item.q_en;
+      document.getElementById("viva-q-bm").textContent = item.q_bm;
+      document.getElementById("viva-a-en").textContent = item.a_en;
+      document.getElementById("viva-a-bm").textContent = item.a_bm;
+      document.getElementById("viva-answer-panel").classList.add("hidden");
+      document.getElementById("viva-reveal-btn").classList.remove("hidden");
+    }
+
+    function revealVivaAnswer() {
+      document.getElementById("viva-answer-panel").classList.remove("hidden");
+      document.getElementById("viva-reveal-btn").classList.add("hidden");
+      stopVivaTimer();
+    }
+
+    function nextViva() { vivaIdx = (vivaIdx + 1) % VIVA_QUESTIONS.length; renderViva(); }
+    function prevViva() { vivaIdx = (vivaIdx - 1 + VIVA_QUESTIONS.length) % VIVA_QUESTIONS.length; renderViva(); }
+
+    function startVivaTimer(sec) {
+      stopVivaTimer();
+      vivaSeconds = sec;
+      updateTimerDisplay();
+      vivaTimerId = setInterval(() => {
+        vivaSeconds--;
+        updateTimerDisplay();
+        if (vivaSeconds <= 0) {
+          stopVivaTimer();
+          document.getElementById("viva-timer").textContent = "MASA TAMAT!";
+        }
+      }, 1000);
+    }
+
+    function stopVivaTimer() {
+      if (vivaTimerId) clearInterval(vivaTimerId);
+      vivaTimerId = null;
+    }
+
+    function updateTimerDisplay() {
+      const m = String(Math.floor(vivaSeconds / 60)).padStart(2, "0");
+      const s = String(vivaSeconds % 60).padStart(2, "0");
+      document.getElementById("viva-timer").textContent = `${m}:${s}`;
+    }
+
+    // Initialize App
+    renderModuleList();
+    renderFlashcard();
+    renderViva();
+    loadAllModules();
+  </script>
+</body>
+</html>

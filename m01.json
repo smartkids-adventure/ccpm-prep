@@ -1,0 +1,2310 @@
+{
+  "module_code": "M01",
+  "title_en": "Fundamentals of Project Management Competency",
+  "title_bm": "Asas Kompetensi Pengurusan Projek",
+  "total_questions": 100,
+  "sets": 10,
+  "questions_per_set": 10,
+  "questions": [
+    {
+      "id": 1,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "What are the traditional 'Triple Constraints' (Iron Triangle) that a Construction Project Manager must balance throughout a construction project?",
+      "q_bm": "Apakah 'Tiga Kekangan Utama' (Triple Constraints) tradisional yang mesti diseimbangkan oleh Pengurus Projek Pembinaan sepanjang pelaksanaan projek?",
+      "options_en": [
+        "Time, Cost, and Scope/Quality",
+        "Design, Tender, and Handover",
+        "Labour, Plant, and Material",
+        "Safety, Environment, and Profit"
+      ],
+      "options_bm": [
+        "Masa, Kos, dan Skop/Kualiti",
+        "Reka Bentuk, Tender, dan Penyerahan",
+        "Buruh, Loji, dan Bahan",
+        "Keselamatan, Alam Sekitar, dan Keuntungan"
+      ],
+      "answer": 0,
+      "exp_en": "The Iron Triangle comprises Time, Cost, and Scope (with Quality at its core). Any unapproved change in one constraint directly impacts the others.",
+      "exp_bm": "Segi Tiga Besi merangkumi Masa, Kos, dan Skop (dengan Kualiti sebagai teras). Sebarang perubahan pada satu kekangan akan memberi kesan langsung kepada kekangan lain.",
+      "ref": "CCPM Module 01 — Fundamentals of Project Management"
+    },
+    {
+      "id": 2,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "In the standard construction project life cycle taught in CCPM Module 01, which phase immediately precedes the Tendering/Procurement Phase?",
+      "q_bm": "Dalam kitaran hayat projek pembinaan standard dalam Modul 01 CCPM, fasa manakah yang berlaku sejurus sebelum Fasa Tender/Perolehan?",
+      "options_en": [
+        "Design Development Phase",
+        "Construction Execution Phase",
+        "Operation and Maintenance Phase",
+        "Defects Liability Phase"
+      ],
+      "options_bm": [
+        "Fasa Pembangunan Reka Bentuk",
+        "Fasa Pelaksanaan Pembinaan",
+        "Fasa Operasi dan Penyenggaraan",
+        "Fasa Tanggungan Kecacatan"
+      ],
+      "answer": 0,
+      "exp_en": "The sequential life cycle flows from Inception/Initiation -> Feasibility -> Design Development -> Tendering/Procurement -> Construction -> Handover -> Operation & Maintenance.",
+      "exp_bm": "Aliran kitaran hayat berurutan bermula dari Permulaan -> Kebolehlaksanaan -> Pembangunan Reka Bentuk -> Tender/Perolehan -> Pembinaan -> Penyerahan -> Operasi & Penyenggaraan.",
+      "ref": "CCPM Module 01 — Construction Project Life Cycle"
+    },
+    {
+      "id": 3,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "During which project life-cycle phase are the Statement of Need, Business Case, and Feasibility Study primarily evaluated to decide 'Should we do this project?'",
+      "q_bm": "Pada fasa kitaran hayat projek manakah Penyataan Keperluan (Statement of Need), Kes Perniagaan, dan Kajian Kebolehlaksanaan dinilai untuk memutuskan 'Patutkah projek ini dilaksanakan?'",
+      "options_en": [
+        "Inception / Initiation Phase",
+        "Detailed Construction Phase",
+        "Testing and Commissioning Phase",
+        "Final Account Close-Out Phase"
+      ],
+      "options_bm": [
+        "Fasa Permulaan (Inception / Initiation)",
+        "Fasa Pembinaan Terperinci",
+        "Fasa Pengujian dan Pentauliahan",
+        "Fasa Penutupan Akaun Akhir"
+      ],
+      "answer": 0,
+      "exp_en": "During the Inception/Initiation phase, the client and CPM assess technical, financial, and operational viability before committing major capital.",
+      "exp_bm": "Semasa fasa Permulaan, klien dan CPM menilai daya maju teknikal, kewangan, dan operasi sebelum meluluskan komitmen modal yang besar.",
+      "ref": "CCPM Module 01 & M02 — Project Life Cycle"
+    },
+    {
+      "id": 4,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Why does the cost of making design changes increase exponentially as a project moves from Inception to Construction?",
+      "q_bm": "Mengapakah kos untuk membuat perubahan reka bentuk meningkat secara mendadak apabila projek bergerak daripada Fasa Permulaan ke Fasa Pembinaan?",
+      "options_en": [
+        "Physical work already built must be demolished, re-procured, and delayed",
+        "Architectural fees are fixed only during construction",
+        "Local authorities prohibit any variation orders after tender",
+        "Insurance premiums double every month during construction"
+      ],
+      "options_bm": [
+        "Kerja fizikal yang telah dibina terpaksa dirobohkan, diperoleh semula, dan dilewatkan",
+        "Yuran arkitek hanya ditetapkan semasa pembinaan",
+        "Pihak berkuasa tempatan melarang sebarang arahan perubahan selepas tender",
+        "Premium insurans berganda setiap bulan semasa pembinaan"
+      ],
+      "answer": 0,
+      "exp_en": "In early design, changes only require updating drawings; during construction, changes cause abortive works, material wastage, plant idling, and LAD exposure.",
+      "exp_bm": "Pada peringkat awal reka bentuk, perubahan hanya melibatkan lukisan; semasa pembinaan, ia menyebabkan kerja terbatal, pembaziran bahan, jentera terbiar, dan risiko LAD.",
+      "ref": "CCPM Module 01 — Influence vs. Cost Curve"
+    },
+    {
+      "id": 5,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "What is the primary purpose of a 'Stage Gate' (Control Gate) between consecutive project life-cycle phases?",
+      "q_bm": "Apakah tujuan utama 'Pintu Peringkat' (Stage Gate) antara fasa-fasa kitaran hayat projek yang berturutan?",
+      "options_en": [
+        "To verify mandatory deliverables and approvals before authorizing resources for the next phase",
+        "To calculate the final profit margin of subcontractors",
+        "To replace the need for a Project Management Plan",
+        "To allow contractors to start site work without building plan approval"
+      ],
+      "options_bm": [
+        "Untuk mengesahkan serahan wajib dan kelulusan sebelum membenarkan sumber bagi fasa seterusnya",
+        "Untuk mengira margin keuntungan akhir subkontraktor",
+        "Untuk menggantikan keperluan Pelan Pengurusan Projek",
+        "Untuk membenarkan kontraktor memulakan kerja tapak tanpa kelulusan pelan bangunan"
+      ],
+      "answer": 0,
+      "exp_en": "Stage gates act as formal governance checkpoints ensuring incomplete designs or missing statutory approvals do not cascade into costly construction rework.",
+      "exp_bm": "Stage gate bertindak sebagai titik semak tadbir urus rasmi bagi memastikan reka bentuk tidak lengkap atau kelulusan berkanun yang tertinggal tidak mencetuskan kerja semula yang mahal.",
+      "ref": "CCPM Module 01 — Project Governance & Stage Gates"
+    },
+    {
+      "id": 6,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "How does a 'Project' fundamentally differ from routine 'Operations' in construction management?",
+      "q_bm": "Bagaimanakah sesuatu 'Projek' berbeza secara asas daripada 'Operasi' rutin dalam pengurusan pembinaan?",
+      "options_en": [
+        "A project is temporary with a defined start/end and creates a unique deliverable",
+        "A project is permanent and repeats identical daily tasks indefinitely",
+        "Operations require a Performance Bond while projects do not",
+        "Operations are governed by Act 520 while projects are not"
+      ],
+      "options_bm": [
+        "Projek bersifat sementara dengan tarikh mula/tamat yang jelas serta menghasilkan serahan unik",
+        "Projek bersifat kekal dan mengulang tugas harian yang sama tanpa had",
+        "Operasi memerlukan Bon Pelaksanaan manakala projek tidak",
+        "Operasi tertakluk kepada Akta 520 manakala projek tidak"
+      ],
+      "answer": 0,
+      "exp_en": "A construction project is a temporary endeavour with defined start and completion dates producing a unique facility, whereas facility maintenance post-handover is ongoing operations.",
+      "exp_bm": "Projek pembinaan ialah usaha sementara dengan tarikh mula dan siap yang jelas bagi menghasilkan fasiliti unik, manakala penyenggaraan selepas serahan ialah operasi berterusan.",
+      "ref": "CCPM Module 01 — Definition of Project Management"
+    },
+    {
+      "id": 7,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Which document serves as the central baseline reference defining how a construction project will be executed, monitored, controlled, and closed?",
+      "q_bm": "Dokumen manakah yang menjadi rujukan garis dasar utama yang mentakrifkan bagaimana projek pembinaan dilaksanakan, dipantau, dikawal, dan ditutup?",
+      "options_en": [
+        "Project Management Plan (PMP)",
+        "Daily Site Diary",
+        "Delivery Order (DO) Docket",
+        "Variation Order (VO) Valuation Sheet"
+      ],
+      "options_bm": [
+        "Pelan Pengurusan Projek (PMP)",
+        "Diari Tapak Harian",
+        "Doket Pesanan Penghantaran",
+        "Lembaran Penilaian Arahan Perubahan (VO)"
+      ],
+      "answer": 0,
+      "exp_en": "The Project Management Plan (PMP) integrates scope, schedule, cost, quality, safety, environmental, procurement, and risk baselines into a single master governance document.",
+      "exp_bm": "Pelan Pengurusan Projek (PMP) menyatukan garis dasar skop, jadual, kos, kualiti, keselamatan, alam sekitar, perolehan, dan risiko ke dalam satu dokumen tadbir urus induk.",
+      "ref": "CCPM Module 01 — Project Management Plan"
+    },
+    {
+      "id": 8,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Under the CIDB Competency Standard Qualification Framework (CSQF / CICS), at which competency level is the Certified Construction Project Manager (CCPM) accredited?",
+      "q_bm": "Di bawah Rangka Kerja Kelayakan Standard Kompetensi CIDB (CSQF / CICS), pada tahap kompetensi manakah Pengurus Projek Pembinaan Bertauliah (CCPM) diakreditasikan?",
+      "options_en": [
+        "Level 6",
+        "Level 3",
+        "Level 4",
+        "Level 8"
+      ],
+      "options_bm": [
+        "Tahap 6",
+        "Tahap 3",
+        "Tahap 4",
+        "Tahap 8"
+      ],
+      "answer": 0,
+      "exp_en": "CCPM is accredited at Competency Level 6 (Managerial / Professional Project Leadership level) covering Modules 01 through 16.",
+      "exp_bm": "CCPM diakreditasikan pada Tahap Kompetensi 6 (peringkat kepimpinan pengurusan projek profesional) yang merangkumi Modul 01 hingga 16.",
+      "ref": "CIDB CICS / CSQF — CCPM Level 6 Standard"
+    },
+    {
+      "id": 9,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "What is the minimum passing mark required for a candidate to be certified 'Competent' in the CIDB CCPM Performance Assessment (PA)?",
+      "q_bm": "Berapakah markah lulus minimum yang diperlukan oleh calon untuk disahkan 'Kompeten' dalam Penilaian Prestasi (PA) CCPM CIDB?",
+      "options_en": [
+        "70%",
+        "50%",
+        "60%",
+        "80%"
+      ],
+      "options_bm": [
+        "70%",
+        "50%",
+        "60%",
+        "80%"
+      ],
+      "answer": 0,
+      "exp_en": "Candidates must achieve at least 70% across the 16-module assessment (1,600 total marks) and submit their bound PA report on time.",
+      "exp_bm": "Calon mesti mencapai sekurang-kurangnya 70% merentasi penilaian 16 modul (1,600 markah penuh) dan menghantar laporan PA berjilid tepat pada masanya.",
+      "ref": "CIDB Modular Assessment — Direction to Candidate"
+    },
+    {
+      "id": 10,
+      "set": 1,
+      "level": "Asas / Foundation",
+      "q_en": "Which activity marks the transition from the Construction Phase to the Handover Phase in a commercial building project?",
+      "q_bm": "Aktiviti manakah yang menandakan peralihan daripada Fasa Pembinaan kepada Fasa Penyerahan dalam projek bangunan komersial?",
+      "options_en": [
+        "Testing & Commissioning (T&C), Statutory Inspections, and Practical Completion",
+        "Appointment of the Quantity Surveyor",
+        "Submission of Development Order (DO) to DBKL",
+        "Borehole Sub-Surface Soil Investigation"
+      ],
+      "options_bm": [
+        "Pengujian & Pentauliahan (T&C), Pemeriksaan Berkanun, dan Siap Praktikal (PC)",
+        "Pelantikan Juruukur Bahan",
+        "Penyerahan Kebenaran Merancang (DO) kepada DBKL",
+        "Penyiasatan Tanah Bawah Permukaan (Borehole)"
+      ],
+      "answer": 0,
+      "exp_en": "Handover is triggered once physical construction, integrated MEP testing & commissioning, and statutory clearances are verified for Practical Completion.",
+      "exp_bm": "Fasa penyerahan bermula apabila pembinaan fizikal, pengujian & pentauliahan M&E bersepadu, serta pelepasan berkanun disahkan untuk Siap Praktikal.",
+      "ref": "CCPM Module 01 & M14 — Life Cycle Transition"
+    },
+    {
+      "id": 11,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "What is the primary distinction between a 'Construction Project Manager (CPM)' appointed by the developer and a 'Site Agent / Construction Manager' employed by a trade contractor?",
+      "q_bm": "Apakah perbezaan utama antara 'Pengurus Projek Pembinaan (CPM)' yang dilantik pemaju dengan 'Ejen Tapak / Pengurus Pembinaan' yang digajikan kontraktor tred?",
+      "options_en": [
+        "The CPM manages end-to-end project delivery across all phases on behalf of the Client, whereas the Site Agent manages daily site trade execution",
+        "The Site Agent approves Development Orders while the CPM mixes concrete",
+        "The CPM is only involved after Practical Completion",
+        "There is no difference in contractual accountability"
+      ],
+      "options_bm": [
+        "CPM mengurus penyampaian projek menyeluruh merentasi semua fasa bagi pihak Klien, manakala Ejen Tapak mengurus pelaksanaan kerja harian di tapak",
+        "Ejen Tapak meluluskan Kebenaran Merancang manakala CPM membancuh konkrit",
+        "CPM hanya terlibat selepas Siap Praktikal",
+        "Tiada perbezaan dari segi akauntabiliti kontrak"
+      ],
+      "answer": 0,
+      "exp_en": "The CPM oversees holistic integration (inception, design, statutory approvals, procurement, cost, time, quality, HSE, and handover) aligned with the Client's business objectives.",
+      "exp_bm": "CPM menyelia integrasi holistik (permulaan, reka bentuk, kelulusan berkanun, perolehan, kos, masa, kualiti, HSE, dan penyerahan) sejajar dengan objektif perniagaan Klien.",
+      "ref": "CCPM Module 01 — Role of Construction Project Manager"
+    },
+    {
+      "id": 12,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "In a RACI responsibility assignment matrix, what does the letter 'A' stand for, and how many 'A's should exist per deliverable?",
+      "q_bm": "Dalam matriks penugasan tanggungjawab RACI, apakah maksud huruf 'A', dan berapakah bilangan 'A' yang sepatutnya wujud bagi setiap serahan?",
+      "options_en": [
+        "Accountable — exactly ONE person holds final sign-off authority per deliverable",
+        "Approved — at least three people must sign every task",
+        "Advisory — external consultants with no decision power",
+        "Allocated — all site workers assigned to the trade"
+      ],
+      "options_bm": [
+        "Accountable (Bertanggungjawab Penuh) — tepat SATU individu memegang kuasa pengesahan akhir bagi setiap serahan",
+        "Approved — sekurang-kurangnya tiga orang mesti menandatangani setiap tugas",
+        "Advisory — perunding luar tanpa kuasa keputusan",
+        "Allocated — semua pekerja tapak yang ditugaskan"
+      ],
+      "answer": 0,
+      "exp_en": "Each deliverable must have exactly one 'Accountable' owner to prevent decision paralysis or finger-pointing, while multiple team members can be 'Responsible' (R).",
+      "exp_bm": "Setiap serahan mesti mempunyai tepat satu pemilik 'Accountable' bagi mengelakkan kekeliruan keputusan, manakala beberapa ahli pasukan boleh menjadi 'Responsible' (R).",
+      "ref": "CCPM Module 01 & M16 — Project Governance"
+    },
+    {
+      "id": 13,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which governance document formally authorizes the Construction Project Manager to apply organizational resources to project activities and defines authority limits?",
+      "q_bm": "Dokumen tadbir urus manakah yang memberi kuasa rasmi kepada Pengurus Projek Pembinaan untuk menggunakan sumber organisasi dan menetapkan had kuasanya?",
+      "options_en": [
+        "Project Charter",
+        "Bill of Quantities (BQ)",
+        "Certificate of Making Good Defects (CMGD)",
+        "Method Statement for Piling"
+      ],
+      "options_bm": [
+        "Piagam Projek (Project Charter)",
+        "Senarai Kuantiti (BQ)",
+        "Perakuan Siap Membaiki Kecacatan (CMGD)",
+        "Pernyataan Kaedah Kerja Cerucuk"
+      ],
+      "answer": 0,
+      "exp_en": "The Project Charter formally establishes the project, names the CPM, and defines decision-making authority and escalation thresholds.",
+      "exp_bm": "Piagam Projek menubuhkan projek secara rasmi, menamakan CPM, serta mentakrifkan kuasa membuat keputusan dan had eskalasi.",
+      "ref": "CCPM Module 01 — Project Initiation & Charter"
+    },
+    {
+      "id": 14,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "In a Design-and-Build (D&B) procurement arrangement, who bears single-point legal and technical responsibility for ensuring the detailed design meets the Employer's Requirements?",
+      "q_bm": "Dalam pengaturan perolehan Reka dan Bina (Design and Build), siapakah yang menanggung tanggungjawab perundangan dan teknikal titik tunggal bagi memastikan reka bentuk terperinci memenuhi Kehendak Majikan?",
+      "options_en": [
+        "The Design-and-Build Contractor",
+        "The Quantity Surveyor alone",
+        "The Local Authority (DBKL)",
+        "The Material Suppliers"
+      ],
+      "options_bm": [
+        "Kontraktor Reka dan Bina (D&B)",
+        "Juruukur Bahan sahaja",
+        "Pihak Berkuasa Tempatan (DBKL)",
+        "Pembekal Bahan Binaan"
+      ],
+      "answer": 0,
+      "exp_en": "Under D&B contracts, design and construction liabilities are unified under the D&B Contractor, reducing employer exposure to design-vs-construction blame disputes.",
+      "exp_bm": "Di bawah kontrak D&B, liabiliti reka bentuk dan pembinaan disatukan di bawah Kontraktor D&B, mengurangkan pendedahan majikan terhadap pertikaian antara pereka dan pembina.",
+      "ref": "CCPM Module 01 & M04 — Procurement Systems"
+    },
+    {
+      "id": 15,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "When a developer acts as both Employer and Named D&B Contractor (as in the Perintis Development Berhad case study), what governance measure prevents conflict of interest?",
+      "q_bm": "Apabila pemaju bertindak sebagai Majikan dan juga Kontraktor D&B Dinamakan (seperti dalam kajian kes Perintis Development Berhad), apakah langkah tadbir urus bagi mengelakkan konflik kepentingan?",
+      "options_en": [
+        "Segregating Employer governance/audit oversight from D&B execution and appointing an Independent Checking Engineer (ICE)",
+        "Eliminating all QA/QC and HSE inspections to save time",
+        "Allowing site supervisors to approve their own Variation Orders",
+        "Skipping statutory submissions to local authorities"
+      ],
+      "options_bm": [
+        "Mengasingkan tadbir urus/audit Majikan daripada pelaksanaan D&B serta melantik Jurutera Penyemak Bebas (ICE)",
+        "Menghapuskan semua pemeriksaan QA/QC dan HSE untuk menjimatkan masa",
+        "Membenarkan penyelia tapak meluluskan Arahan Perubahan mereka sendiri",
+        "Melangkau penyerahan berkanun kepada pihak berkuasa tempatan"
+      ],
+      "answer": 0,
+      "exp_en": "Functional separation, independent QA/HSE audits, and an Independent Checking Engineer (ICE) ensure objective compliance and financial transparency.",
+      "exp_bm": "Pengasingan fungsi, audit QA/HSE bebas, dan Jurutera Penyemak Bebas (ICE) memastikan pematuhan objektif dan ketelusan kewangan.",
+      "ref": "CCPM Module 01 — Ethics & Corporate Governance"
+    },
+    {
+      "id": 16,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which set of core competencies must a Level 6 CCPM demonstrate according to CIDB's competency framework?",
+      "q_bm": "Set kompetensi teras manakah yang mesti ditunjukkan oleh CCPM Tahap 6 mengikut rangka kerja kompetensi CIDB?",
+      "options_en": [
+        "Technical project management knowledge, leadership/people skills, and strategic business/regulatory awareness",
+        "Only bricklaying and concrete mixing skills",
+        "Only architectural 3D rendering skills",
+        "Only corporate tax accounting"
+      ],
+      "options_bm": [
+        "Pengetahuan teknikal pengurusan projek, kemahiran kepimpinan/insan, dan kesedaran strategik perniagaan/perundangan",
+        "Kemahiran mengikat bata dan membancuh konkrit sahaja",
+        "Kemahiran persembahan 3D seni bina sahaja",
+        "Perakaunan cukai korporat sahaja"
+      ],
+      "answer": 0,
+      "exp_en": "CCPM Level 6 integrates technical controls (time, cost, quality, HSE), leadership/stakeholder management, and statutory/commercial alignment.",
+      "exp_bm": "CCPM Tahap 6 menggabungkan kawalan teknikal (masa, kos, kualiti, HSE), kepimpinan/pengurusan pihak berkepentingan, serta penjajaran perundangan/komersial.",
+      "ref": "CCPM Module 01 — Competency Domains"
+    },
+    {
+      "id": 17,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "In construction terminology, what does 'Constructability' (or Buildability) mean during the design phase?",
+      "q_bm": "Dalam terminologi pembinaan, apakah maksud 'Kebolehbinaan' (Constructability / Buildability) semasa fasa reka bentuk?",
+      "options_en": [
+        "Integrating construction knowledge early into design to optimize ease, safety, speed, and cost of site execution",
+        "Designing the tallest possible building regardless of cost",
+        "Postponing all engineering calculations until construction starts",
+        "Using only imported custom-made materials"
+      ],
+      "options_bm": [
+        "Mengintegrasikan pengetahuan pembinaan lebih awal ke dalam reka bentuk untuk mengoptimumkan kemudahan, keselamatan, kelajuan, dan kos di tapak",
+        "Mereka bentuk bangunan tertinggi tanpa mengira kos",
+        "Menangguhkan semua pengiraan kejuruteraan sehingga pembinaan bermula",
+        "Menggunakan bahan tempahan khas yang diimport sahaja"
+      ],
+      "answer": 0,
+      "exp_en": "Early constructability reviews (e.g., standardized grids, precast IBS elements, clear crane access) reduce site labour, rework, and schedule duration.",
+      "exp_bm": "Semakan kebolehbinaan awal (seperti grid seragam, komponen pratuang IBS, laluan kren jelas) mengurangkan tenaga buruh tapak, kerja semula, dan tempoh jadual.",
+      "ref": "CCPM Module 01 & M03 — Constructability"
+    },
+    {
+      "id": 18,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "What is the role of the Principal Submitting Person (PSP) in a Malaysian building development project?",
+      "q_bm": "Apakah peranan Orang Utama Yang Mengemukakan (PSP) dalam projek pembangunan bangunan di Malaysia?",
+      "options_en": [
+        "A registered Professional Architect or Professional Engineer responsible for statutory plan submissions, supervision, and issuing CCC (Borang F)",
+        "The main supplier of ready-mix concrete",
+        "The site security supervisor",
+        "The bank loan officer"
+      ],
+      "options_bm": [
+        "Arkitek Profesional atau Jurutera Profesional berdaftar yang bertanggungjawab mengemukakan pelan berkanun, mengawasi, dan mengeluarkan CCC (Borang F)",
+        "Pembekal utama konkrit siap bancuh",
+        "Penyelia keselamatan tapak",
+        "Pegawai pinjaman bank"
+      ],
+      "answer": 0,
+      "exp_en": "Under Act 133 and UBBL 1984, the PSP coordinates all Submitting Persons (SPs), secures statutory approvals, and certifies completion via Borang F.",
+      "exp_bm": "Di bawah Akta 133 dan UBBL 1984, PSP menyelaras semua Orang Yang Mengemukakan (SP), mendapatkan kelulusan berkanun, dan memperakui penyiapan melalui Borang F.",
+      "ref": "CCPM Module 01 & M07 — Statutory Roles"
+    },
+    {
+      "id": 19,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Why should a Construction Project Manager maintain an explicit 'Assumptions and Constraints Log' from project inception?",
+      "q_bm": "Mengapakah Pengurus Projek Pembinaan perlu menyelenggara 'Log Andaian dan Kekangan' secara eksplisit sejak permulaan projek?",
+      "options_en": [
+        "To track unverified planning assumptions with assigned owners and closure dates before irreversible site work begins",
+        "To hide project risks from the client",
+        "To replace the contract agreement",
+        "To avoid paying statutory levies"
+      ],
+      "options_bm": [
+        "Untuk menjejak andaian perancangan yang belum disahkan beserta pemilik dan tarikh tutup sebelum kerja tapak dimulakan",
+        "Untuk menyembunyikan risiko projek daripada klien",
+        "Untuk menggantikan perjanjian kontrak",
+        "Untuk mengelak pembayaran levi berkanun"
+      ],
+      "answer": 0,
+      "exp_en": "Unverified assumptions (e.g., assumed soil bearing capacity or utility locations) are major triggers of variations and delays if not closed early.",
+      "exp_bm": "Andaian yang belum disahkan (seperti keupayaan galas tanah atau lokasi utiliti) ialah pencetus utama arahan perubahan dan kelewatan jika tidak ditutup awal.",
+      "ref": "CCPM Module 01 — Baseline & Assumption Governance"
+    },
+    {
+      "id": 20,
+      "set": 2,
+      "level": "Asas / Foundation",
+      "q_en": "Which Malaysian professional board regulates the registration and practice of Professional Engineers (Ir.) involved in construction projects?",
+      "q_bm": "Lembaga profesional Malaysia manakah yang mengawal selia pendaftaran dan amalan Jurutera Profesional (Ir.) yang terlibat dalam projek pembinaan?",
+      "options_en": [
+        "Board of Engineers Malaysia (BEM / LJM)",
+        "Board of Architects Malaysia (LAM)",
+        "Board of Quantity Surveyors Malaysia (BQSM)",
+        "Malaysian Board of Technologists (MBOT)"
+      ],
+      "options_bm": [
+        "Lembaga Jurutera Malaysia (BEM / LJM)",
+        "Lembaga Arkitek Malaysia (LAM)",
+        "Lembaga Juruukur Bahan Malaysia (BQSM)",
+        "Lembaga Teknologis Malaysia (MBOT)"
+      ],
+      "answer": 0,
+      "exp_en": "BEM (Lembaga Jurutera Malaysia) administers the Registration of Engineers Act 1967, while LAM regulates Architects and BQSM regulates Quantity Surveyors.",
+      "exp_bm": "BEM (Lembaga Jurutera Malaysia) mentadbir Akta Pendaftaran Jurutera 1967, manakala LAM mengawal selia Arkitek dan BQSM mengawal selia Juruukur Bahan.",
+      "ref": "CCPM Module 01 — Malaysian Construction Regulatory Bodies"
+    },
+    {
+      "id": 21,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Which Malaysian Act of Parliament established the Construction Industry Development Board (CIDB) to regulate and develop the construction industry?",
+      "q_bm": "Akta Parlimen Malaysia manakah yang menubuhkan Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) untuk mengawal selia dan membangunkan industri pembinaan?",
+      "options_en": [
+        "Lembaga Pembangunan Industri Pembinaan Malaysia Act 1994 (Act 520)",
+        "Street, Drainage and Building Act 1974 (Act 133)",
+        "Town and Country Planning Act 1976 (Act 172)",
+        "Occupational Safety and Health Act 1994 (Act 514)"
+      ],
+      "options_bm": [
+        "Akta Lembaga Pembangunan Industri Pembinaan Malaysia 1994 (Akta 520)",
+        "Akta Jalan, Parit dan Bangunan 1974 (Akta 133)",
+        "Akta Perancangan Bandar dan Desa 1976 (Akta 172)",
+        "Akta Keselamatan dan Kesihatan Pekerjaan 1994 (Akta 514)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 520 (enacted 1994, significantly strengthened by Amendment Act A1407 in 2011, effective 1 June 2015) governs CIDB's regulatory powers.",
+      "exp_bm": "Akta 520 (digubal 1994, diperkukuh melalui Akta Pindaan A1407 pada 2011, berkuat kuasa 1 Jun 2015) mengawal selia kuasa kawal selia CIDB.",
+      "ref": "Akta 520 — CIDB Act 1994"
+    },
+    {
+      "id": 22,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Under Section 25 of CIDB Act 520, which contractor registration grade is mandatory to execute a building project exceeding RM10,000,000 (such as the RM180.5M Setiawangsa Mall)?",
+      "q_bm": "Di bawah Seksyen 25 Akta CIDB 520, gred pendaftaran kontraktor manakah yang wajib untuk melaksanakan projek bangunan melebihi RM10,000,000 (seperti Pusat Beli-Belah Setiawangsa RM180.5J)?",
+      "options_en": [
+        "Grade G7 (Unlimited tendering capacity)",
+        "Grade G5 (Up to RM5,000,000)",
+        "Grade G6 (Up to RM10,000,000)",
+        "Grade G4 (Up to RM3,000,000)"
+      ],
+      "options_bm": [
+        "Gred G7 (Keupayaan menender tanpa had)",
+        "Gred G5 (Sehingga RM5,000,000)",
+        "Gred G6 (Sehingga RM10,000,000)",
+        "Gred G4 (Sehingga RM3,000,000)"
+      ],
+      "answer": 0,
+      "exp_en": "CIDB contractor grades are: G1 (<=RM200k), G2 (<=RM500k), G3 (<=RM1M), G4 (<=RM3M), G5 (<=RM5M), G6 (<=RM10M), and G7 (Unlimited >RM10M).",
+      "exp_bm": "Gred kontraktor CIDB ialah: G1 (<=RM200k), G2 (<=RM500k), G3 (<=RM1J), G4 (<=RM3J), G5 (<=RM5J), G6 (<=RM10J), dan G7 (Tanpa Had >RM10J).",
+      "ref": "Akta 520 Section 25 — CIDB Contractor Registration"
+    },
+    {
+      "id": 23,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "What is the maximum tendering capacity for a CIDB Grade G6 registered contractor?",
+      "q_bm": "Berapakah had keupayaan menender maksimum bagi kontraktor yang berdaftar dengan CIDB Gred G6?",
+      "options_en": [
+        "Not exceeding RM10,000,000.00",
+        "Not exceeding RM5,000,000.00",
+        "Not exceeding RM3,000,000.00",
+        "Unlimited"
+      ],
+      "options_bm": [
+        "Tidak melebihi RM10,000,000.00",
+        "Tidak melebihi RM5,000,000.00",
+        "Tidak melebihi RM3,000,000.00",
+        "Tanpa had"
+      ],
+      "answer": 0,
+      "exp_en": "Grade G6 contractors are permitted to undertake construction contracts up to RM10,000,000.00; projects above RM10M strictly require Grade G7.",
+      "exp_bm": "Kontraktor Gred G6 dibenarkan melaksanakan kontrak pembinaan sehingga RM10,000,000.00; projek melebihi RM10J wajib menggunakan Gred G7.",
+      "ref": "CIDB Contractor Registration Requirements"
+    },
+    {
+      "id": 24,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Under Section 29 of CIDB Act 520 (as amended), what is the penalty upon conviction for a person or company undertaking construction works without a valid CIDB contractor registration certificate?",
+      "q_bm": "Di bawah Seksyen 29 Akta CIDB 520 (pindaan), apakah penalti apabila disabitkan kesalahan bagi mana-mana orang atau syarikat yang menjalankan kerja pembinaan tanpa perakuan pendaftaran kontraktor CIDB yang sah?",
+      "options_en": [
+        "A fine of not less than RM10,000 and not more than RM100,000",
+        "A verbal warning only",
+        "A flat compound of RM500",
+        "Automatic award of a Grade G1 license"
+      ],
+      "options_bm": [
+        "Denda tidak kurang daripada RM10,000 dan tidak melebihi RM100,000",
+        "Amaran lisan sahaja",
+        "Kompaun tetap sebanyak RM500",
+        "Pemberian lesen Gred G1 secara automatik"
+      ],
+      "answer": 0,
+      "exp_en": "Amendment Act 2011 raised the maximum penalty for unregistered contracting from RM10,000 to between RM10,000 and RM100,000, plus stop-work powers.",
+      "exp_bm": "Akta Pindaan 2011 menaikkan penalti menjalankan kerja tanpa pendaftaran daripada maksimum RM10,000 kepada antara RM10,000 hingga RM100,000, selain kuasa henti kerja.",
+      "ref": "Akta 520 Section 29 — Offence of Unregistered Contracting"
+    },
+    {
+      "id": 25,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Which three primary registration categories does CIDB use to classify contractor technical specialization?",
+      "q_bm": "Apakah tiga kategori pendaftaran utama yang digunakan oleh CIDB untuk mengklasifikasikan pengkhususan teknikal kontraktor?",
+      "options_en": [
+        "B (Building), CE (Civil Engineering), and ME (Mechanical & Electrical)",
+        "A (Architecture), S (Surveying), and P (Planning)",
+        "H (Housing), I (Infrastructure), and T (Tourism)",
+        "R (Roads), W (Water), and E (Energy)"
+      ],
+      "options_bm": [
+        "B (Pembinaan Bangunan), CE (Kejuruteraan Awam), dan ME (Mekanikal & Elektrikal)",
+        "A (Seni Bina), S (Ukur), dan P (Perancangan)",
+        "H (Perumahan), I (Infrastruktur), dan T (Pelancongan)",
+        "R (Jalan), W (Air), dan E (Tenaga)"
+      ],
+      "answer": 0,
+      "exp_en": "CIDB classifies contractors into Category B (Building), Category CE (Civil Engineering), and Category ME (Mechanical & Electrical), plus Facility (F) categories.",
+      "exp_bm": "CIDB mengklasifikasikan kontraktor kepada Kategori B (Bangunan), Kategori CE (Kejuruteraan Awam), dan Kategori ME (Mekanikal & Elektrikal), serta kategori Fasiliti (F).",
+      "ref": "CIDB Contractor Registration Categories"
+    },
+    {
+      "id": 26,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "What is the purpose of CIDB's 'SPKK' (Sijil Perolehan Kerja Kerajaan)?",
+      "q_bm": "Apakah tujuan 'SPKK' (Sijil Perolehan Kerja Kerajaan) yang dikeluarkan oleh CIDB?",
+      "options_en": [
+        "To certify a registered contractor's eligibility to participate in government/public-sector procurement tenders",
+        "To replace the Building Plan approval from DBKL",
+        "To certify individual foreign general labourers",
+        "To approve environmental impact assessments"
+      ],
+      "options_bm": [
+        "Untuk memperakui kelayakan kontraktor berdaftar menyertai tender perolehan kerajaan/sektor awam",
+        "Untuk menggantikan kelulusan Pelan Bangunan daripada DBKL",
+        "Untuk memperakui buruh am asing secara individu",
+        "Untuk meluluskan penilaian impak alam sekitar"
+      ],
+      "answer": 0,
+      "exp_en": "While PPK (Perakuan Pendaftaran Kontraktor) is mandatory for all private and public works, SPKK is specifically required for government procurement tenders.",
+      "exp_bm": "Walaupun PPK wajib bagi semua kerja swasta dan awam, SPKK diperlukan secara khusus bagi menyertai tender perolehan kerajaan.",
+      "ref": "CIDB Registration & Government Procurement"
+    },
+    {
+      "id": 27,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "What is CIDB 'SCORE' (Contractor Competency and Capability Evaluation Programme)?",
+      "q_bm": "Apakah program 'SCORE' CIDB (Program Penilaian Keupayaan dan Kemampuan Kontraktor)?",
+      "options_en": [
+        "A star-rating diagnostic tool measuring contractor business, financial, technical, and management capability",
+        "A software for calculating concrete slump",
+        "A fire alarm testing checklist",
+        "A payroll tax deduction table"
+      ],
+      "options_bm": [
+        "Alat diagnostik penarafan bintang yang mengukur keupayaan perniagaan, kewangan, teknikal, dan pengurusan kontraktor",
+        "Perisian untuk mengira kemerosotan (slump) konkrit",
+        "Senarai semak ujian penggera kebakaran",
+        "Jadual potongan cukai gaji"
+      ],
+      "answer": 0,
+      "exp_en": "SCORE evaluates contractors across 7 parameters (financial, technical, project management, procurement, best practices, etc.) on a 1-to-5-star scale.",
+      "exp_bm": "SCORE menilai kontraktor merentasi 7 parameter (kewangan, teknikal, pengurusan projek, perolehan, amalan terbaik, dll.) pada skala 1 hingga 5 bintang.",
+      "ref": "CCPM Module 01 — CIDB Industry Development Programmes"
+    },
+    {
+      "id": 28,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Does CIDB Act 520 apply to foreign contractors undertaking construction works in Malaysia?",
+      "q_bm": "Adakah Akta CIDB 520 terpakai kepada kontraktor asing yang menjalankan kerja pembinaan di Malaysia?",
+      "options_en": [
+        "Yes — foreign contractors must obtain a CIDB Foreign Contractor Registration Certificate before executing any construction work in Malaysia",
+        "No — foreign contractors are completely exempt from Malaysian laws",
+        "Only if the project is below RM1 million",
+        "Only if the project is residential"
+      ],
+      "options_bm": [
+        "Ya — kontraktor asing mesti memperoleh Perakuan Pendaftaran Kontraktor Asing CIDB sebelum menjalankan sebarang kerja pembinaan di Malaysia",
+        "Tidak — kontraktor asing dikecualikan sepenuhnya daripada undang-undang Malaysia",
+        "Hanya jika projek bernilai di bawah RM1 juta",
+        "Hanya jika projek tersebut projek perumahan"
+      ],
+      "answer": 0,
+      "exp_en": "Under Act 520, no foreign contractor may undertake or execute construction works in Malaysia without valid CIDB registration.",
+      "exp_bm": "Di bawah Akta 520, tiada kontraktor asing boleh mengakujanji atau melaksanakan kerja pembinaan di Malaysia tanpa pendaftaran CIDB yang sah.",
+      "ref": "Akta 520 Section 25 — Foreign Contractors"
+    },
+    {
+      "id": 29,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "What are the three core pillars strengthened by the CIDB Act 520 (Amendment 2011) implemented on 1 June 2015?",
+      "q_bm": "Apakah tiga teras utama yang diperkukuh oleh Akta CIDB 520 (Pindaan 2011) yang berkuat kuasa pada 1 Jun 2015?",
+      "options_en": [
+        "Registration/accreditation of construction personnel, compliance standards for building materials, and safety of buildings/works",
+        "Bank interest rates, income tax, and customs tariffs",
+        "Land acquisition, strata titles, and property stamp duty",
+        "Hotel licensing, retail hours, and parking fees"
+      ],
+      "options_bm": [
+        "Pendaftaran/akreditasi personel binaan, pematuhan standard bahan binaan, dan keselamatan bangunan/kerja pembinaan",
+        "Kadar faedah bank, cukai pendapatan, dan tarif kastam",
+        "Pengambilan tanah, hakmilik strata, dan duti setem hartanah",
+        "Pelesenan hotel, waktu operasi runcit, dan caj parkir"
+      ],
+      "answer": 0,
+      "exp_en": "The 2011 Amendment focused specifically on personnel accreditation (Sec 33A), Fourth Schedule material certification (Sec 33C), and building/work safety (Sec 34B).",
+      "exp_bm": "Pindaan 2011 memberi tumpuan khusus kepada akreditasi personel (Sek 33A), pensijilan bahan Jadual Keempat (Sek 33C), dan keselamatan bangunan/kerja (Sek 34B).",
+      "ref": "Akta 520 (Amendment 2011) — Core Objectives"
+    },
+    {
+      "id": 30,
+      "set": 3,
+      "level": "Asas / Foundation",
+      "q_en": "Under CIDB Act 520, when is a construction project exempt from mandatory contractor registration?",
+      "q_bm": "Di bawah Akta CIDB 520, bilakah sesuatu kerja pembinaan dikecualikan daripada pendaftaran kontraktor wajib?",
+      "options_en": [
+        "Only specific minor exemptions gazetted by the Minister (such as small self-built owner-occupied works below prescribed thresholds)",
+        "All private shopping malls are exempt",
+        "All Design-and-Build contracts are exempt",
+        "Any project completed in less than 3 years is exempt"
+      ],
+      "options_bm": [
+        "Hanya pengecualian kecil tertentu yang diwartakan oleh Menteri (seperti kerja binaan sendiri pemilik di bawah had ditetapkan)",
+        "Semua pusat beli-belah swasta dikecualikan",
+        "Semua kontrak Reka dan Bina dikecualikan",
+        "Mana-mana projek yang siap kurang daripada 3 tahun dikecualikan"
+      ],
+      "answer": 0,
+      "exp_en": "Commercial, industrial, and public construction works require valid CIDB registration; exemptions apply strictly to narrow gazetted exceptions.",
+      "exp_bm": "Kerja pembinaan komersial, industri, dan awam memerlukan pendaftaran CIDB yang sah; pengecualian hanya terpakai kepada kes terhad yang diwartakan.",
+      "ref": "Akta 520 — Scope & Exemptions"
+    },
+    {
+      "id": 31,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 33 of CIDB Act 520, what is the mandatory requirement for EVERY construction worker (general and skilled) before entering a construction site?",
+      "q_bm": "Di bawah Seksyen 33 Akta CIDB 520, apakah syarat wajib bagi SETIAP pekerja binaan (am dan mahir) sebelum memasuki tapak bina?",
+      "options_en": [
+        "Must be registered with CIDB and hold a valid Construction Personnel Registration Card (Green Card)",
+        "Must hold a Bachelor's Degree in Civil Engineering",
+        "Must be a member of REHDA",
+        "Must have 15 years of overseas experience"
+      ],
+      "options_bm": [
+        "Mesti berdaftar dengan CIDB dan memegang Kad Pendaftaran Personel Binaan (Kad Hijau) yang sah",
+        "Mesti memiliki Ijazah Sarjana Muda Kejuruteraan Awam",
+        "Mesti menjadi ahli REHDA",
+        "Mesti mempunyai 15 tahun pengalaman luar negara"
+      ],
+      "answer": 0,
+      "exp_en": "Every construction personnel on site must hold an active CIDB Green Card, which provides basic safety induction (SICW) and takaful protection.",
+      "exp_bm": "Setiap personel binaan di tapak wajib memiliki Kad Hijau CIDB yang aktif, yang merangkumi kursus induksi keselamatan (SICW) dan perlindungan takaful.",
+      "ref": "Akta 520 Section 33 — Registration of Construction Personnel"
+    },
+    {
+      "id": 32,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 33A of Act 520, which two groups listed in the Third Schedule must hold valid CIDB Skill Competency Accreditation (SKK)?",
+      "q_bm": "Di bawah Seksyen 33A Akta 520, dua kumpulan manakah yang disenaraikan dalam Jadual Ketiga yang wajib memegang Perakuan Kecekapan Kemahiran (SKK) CIDB?",
+      "options_en": [
+        "Construction site supervisors and skilled construction workers (e.g., crane operators, scaffolders, welders, electricians)",
+        "Security guards and canteen cooks",
+        "Retail store cashiers and mall cleaners",
+        "Bank auditors and external lawyers"
+      ],
+      "options_bm": [
+        "Penyelia tapak bina dan pekerja binaan mahir (cth. pengendali kren, pemasang perancah, pengimpal, juruelektrik)",
+        "Pengawal keselamatan dan tukang masak kantin",
+        "Juruwang kedai runcit dan tukang cuci pusat beli-belah",
+        "Juruaudit bank dan peguam luar"
+      ],
+      "answer": 0,
+      "exp_en": "Section 33A requires all construction site supervisors and Third Schedule skilled trades to be accredited and certified by CIDB.",
+      "exp_bm": "Seksyen 33A mewajibkan semua penyelia tapak bina dan pekerja tred mahir dalam Jadual Ketiga diakreditasi dan diperakui oleh CIDB.",
+      "ref": "Akta 520 Section 33A & Third Schedule"
+    },
+    {
+      "id": 33,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the maximum fine under Section 33A of Act 520 imposed on BOTH an unaccredited skilled worker/supervisor AND the employer who engages them?",
+      "q_bm": "Berapakah denda maksimum di bawah Seksyen 33A Akta 520 yang dikenakan ke atas KEDUA-DUA pekerja mahir/penyelia tidak bertauliah DAN majikan yang menggaji mereka?",
+      "options_en": [
+        "A fine not exceeding RM5,000",
+        "A fine of RM500,000",
+        "A fine of RM100",
+        "No fine applies to the employer"
+      ],
+      "options_bm": [
+        "Denda tidak melebihi RM5,000",
+        "Denda sebanyak RM500,000",
+        "Denda sebanyak RM100",
+        "Tiada denda dikenakan kepada majikan"
+      ],
+      "answer": 0,
+      "exp_en": "Section 33A imposes a fine up to RM5,000 on any person working without required accreditation and the exact same penalty on the employer.",
+      "exp_bm": "Seksyen 33A mengenakan denda sehingga RM5,000 ke atas individu yang bekerja tanpa akreditasi wajib serta penalti yang sama ke atas majikannya.",
+      "ref": "Akta 520 Section 33A(3) & (4)"
+    },
+    {
+      "id": 34,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 34 of CIDB Act 520, what is the contract value threshold above which a contractor MUST declare the project to CIDB and pay the statutory levy?",
+      "q_bm": "Di bawah Seksyen 34 Akta CIDB 520, berapakah nilai ambang kontrak di mana kontraktor WAJIB mengisytiharkan projek kepada CIDB dan membayar levi berkanun?",
+      "options_en": [
+        "Contract sum exceeding RM500,000.00",
+        "Contract sum exceeding RM50,000.00",
+        "Contract sum exceeding RM10,000,000.00",
+        "Only projects above RM100,000,000.00"
+      ],
+      "options_bm": [
+        "Jumlah harga kontrak melebihi RM500,000.00",
+        "Jumlah harga kontrak melebihi RM50,000.00",
+        "Jumlah harga kontrak melebihi RM10,000,000.00",
+        "Hanya projek melebihi RM100,000,000.00"
+      ],
+      "answer": 0,
+      "exp_en": "Every construction contract exceeding RM500,000 must be notified to CIDB and is subject to the statutory CIDB levy.",
+      "exp_bm": "Setiap kontrak pembinaan yang melebihi RM500,000 mesti dimaklumkan kepada CIDB dan tertakluk kepada levi berkanun CIDB.",
+      "ref": "Akta 520 Section 34 — Notification & Levy"
+    },
+    {
+      "id": 35,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the current statutory CIDB levy rate imposed on construction contracts exceeding RM500,000 under Section 34 of Act 520?",
+      "q_bm": "Berapakah kadar levi berkanun CIDB semasa yang dikenakan ke atas kontrak pembinaan melebihi RM500,000 di bawah Seksyen 34 Akta 520?",
+      "options_en": [
+        "0.125% of the contract sum",
+        "0.25% of the contract sum",
+        "1.0% of the contract sum",
+        "6.0% of the contract sum"
+      ],
+      "options_bm": [
+        "0.125% daripada jumlah harga kontrak",
+        "0.25% daripada jumlah harga kontrak",
+        "1.0% daripada jumlah harga kontrak",
+        "6.0% daripada jumlah harga kontrak"
+      ],
+      "answer": 0,
+      "exp_en": "The CIDB levy rate is 0.125% (one-eighth of one percent) of the total contract value.",
+      "exp_bm": "Kadar levi CIDB ialah 0.125% (satu perlapan peratus) daripada jumlah keseluruhan nilai kontrak.",
+      "ref": "Akta 520 Section 34(2) — Levy Rate"
+    },
+    {
+      "id": 36,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "For the Setiawangsa Seven-Storey Shopping Centre with a contract sum of RM180,500,000.00, how much is the statutory CIDB levy payable?",
+      "q_bm": "Bagi projek Pusat Beli-Belah 7 Tingkat Setiawangsa dengan harga kontrak RM180,500,000.00, berapakah jumlah levi berkanun CIDB yang perlu dibayar?",
+      "options_en": [
+        "RM 225,625.00",
+        "RM 451,250.00",
+        "RM 180,500.00",
+        "RM 22,562.50"
+      ],
+      "options_bm": [
+        "RM 225,625.00",
+        "RM 451,250.00",
+        "RM 180,500.00",
+        "RM 22,562.50"
+      ],
+      "answer": 0,
+      "exp_en": "Calculation: 0.125% × RM180,500,000 = 0.00125 × 180,500,000 = RM225,625.00.",
+      "exp_bm": "Pengiraan: 0.125% × RM180,500,000 = 0.00125 × 180,500,000 = RM225,625.00.",
+      "ref": "Akta 520 Section 34 & PA Case Study M01"
+    },
+    {
+      "id": 37,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Which official CIDB form must a contractor submit to declare a new construction project award, and within what timeframe?",
+      "q_bm": "Borang rasmi CIDB manakah yang mesti dikemukakan oleh kontraktor untuk mengisytiharkan penganugerahan projek baharu, dan dalam tempoh berapa lama?",
+      "options_en": [
+        "Form CIDB L1/96 within 14 days from the date of award (or before work commences)",
+        "Form Borang F within 6 months after completion",
+        "Form JKJ 103 within 30 days after piling",
+        "Form CIDB G7 within 1 year of DLP"
+      ],
+      "options_bm": [
+        "Borang CIDB L1/96 dalam tempoh 14 hari dari tarikh penganugerahan (atau sebelum kerja bermula)",
+        "Borang F dalam tempoh 6 bulan selepas siap",
+        "Borang JKJ 103 dalam tempoh 30 hari selepas kerja cerucuk",
+        "Borang CIDB G7 dalam tempoh 1 tahun DLP"
+      ],
+      "answer": 0,
+      "exp_en": "Contractors must notify CIDB using Form CIDB L1/96 within 14 days of letter of award (and before site work starts) together with contract award proof.",
+      "exp_bm": "Kontraktor wajib memaklumkan CIDB menggunakan Borang CIDB L1/96 dalam tempoh 14 hari dari surat setuju terima (dan sebelum kerja tapak bermula).",
+      "ref": "Akta 520 Section 34(1) — Project Declaration"
+    },
+    {
+      "id": 38,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the penalty under Section 34 of Act 520 if a contractor fails to declare a construction project exceeding RM500,000 to CIDB?",
+      "q_bm": "Apakah penalti di bawah Seksyen 34 Akta 520 sekiranya kontraktor gagal mengisytiharkan projek pembinaan melebihi RM500,000 kepada CIDB?",
+      "options_en": [
+        "A fine not exceeding RM50,000",
+        "A fine of RM1,000 only",
+        "Automatic cancellation of the Building Plan",
+        "No penalty if the project finishes on time"
+      ],
+      "options_bm": [
+        "Denda tidak melebihi RM50,000",
+        "Denda RM1,000 sahaja",
+        "Pembatalan automatik Pelan Bangunan",
+        "Tiada denda jika projek siap mengikut jadual"
+      ],
+      "answer": 0,
+      "exp_en": "Failure to notify/declare a project under Section 34(1) is an offence punishable on conviction by a fine not exceeding RM50,000.",
+      "exp_bm": "Kegagalan memaklumkan/mengisytiharkan projek di bawah Seksyen 34(1) ialah satu kesalahan yang boleh didenda tidak melebihi RM50,000 apabila disabitkan.",
+      "ref": "Akta 520 Section 34(9) — Non-Declaration Penalty"
+    },
+    {
+      "id": 39,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the statutory penalty under Section 34 of Act 520 for failing to pay the assessed CIDB levy?",
+      "q_bm": "Apakah penalti berkanun di bawah Seksyen 34 Akta 520 bagi kegagalan membayar levi CIDB yang telah ditaksirkan?",
+      "options_en": [
+        "A fine not exceeding RM50,000 OR four (4) times the amount of levy payable, whichever is higher",
+        "A flat penalty of RM5,000",
+        "Deduction from the Architect's professional fee",
+        "Suspension of municipal water supply"
+      ],
+      "options_bm": [
+        "Denda tidak melebihi RM50,000 ATAU empat (4) kali ganda jumlah levi yang kena dibayar, mengikut mana yang lebih tinggi",
+        "Penalti tetap RM5,000",
+        "Potongan daripada yuran profesional Arkitek",
+        "Penggantungan bekalan air perbandaran"
+      ],
+      "answer": 0,
+      "exp_en": "For a RM225,625 levy (Setiawangsa Mall), 4× the levy equals RM902,500—far higher than RM50,000—making timely levy payment critical.",
+      "exp_bm": "Bagi levi RM225,625 (Pusat Beli-Belah Setiawangsa), 4× levi bersamaan RM902,500—jauh lebih tinggi daripada RM50,000—menjadikan bayaran levi tepat masa amat kritikal.",
+      "ref": "Akta 520 Section 34(10) — Non-Payment of Levy"
+    },
+    {
+      "id": 40,
+      "set": 4,
+      "level": "Aplikasi / Application",
+      "q_en": "Who is legally responsible for paying the CIDB levy on a construction contract under Section 34 of Act 520?",
+      "q_bm": "Siapakah yang bertanggungjawab secara sah di sisi undang-undang untuk membayar levi CIDB bagi sesuatu kontrak pembinaan di bawah Seksyen 34 Akta 520?",
+      "options_en": [
+        "The Main Contractor executing the contract (who typically prices it into Preliminaries)",
+        "The Jabatan Bomba officer",
+        "The individual retail shop tenants",
+        "The material testing laboratory"
+      ],
+      "options_bm": [
+        "Kontraktor Utama yang melaksanakan kontrak (yang lazimnya memasukkannya dalam item Preliminari)",
+        "Pegawai Jabatan Bomba",
+        "Penyewa kedai runcit individu",
+        "Makmal pengujian bahan"
+      ],
+      "answer": 0,
+      "exp_en": "Section 34 places the statutory obligation to declare and pay the 0.125% levy squarely on the registered contractor undertaking the contract.",
+      "exp_bm": "Seksyen 34 meletakkan kewajipan berkanun untuk mengisytihar dan membayar levi 0.125% secara langsung ke atas kontraktor berdaftar yang melaksanakan kontrak.",
+      "ref": "Akta 520 Section 34 — Contractor Levy Liability"
+    },
+    {
+      "id": 41,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 33C of CIDB Act 520, what certificate must accompany construction materials listed in the Fourth Schedule before they can be dealt with or used on site?",
+      "q_bm": "Di bawah Seksyen 33C Akta CIDB 520, perakuan manakah yang mesti mengiringi bahan binaan yang disenaraikan dalam Jadual Keempat sebelum ia boleh diurusniagakan atau digunakan di tapak?",
+      "options_en": [
+        "CIDB Perakuan Pematuhan Standard (PPS) / Certificate of Standard Compliance",
+        "Certificate of Practical Completion (CPC)",
+        "Development Order (DO)",
+        "Certificate of Making Good Defects (CMGD)"
+      ],
+      "options_bm": [
+        "Perakuan Pematuhan Standard (PPS) CIDB",
+        "Perakuan Siap Praktikal (CPC)",
+        "Kebenaran Merancang (DO)",
+        "Perakuan Siap Membaiki Kecacatan (CMGD)"
+      ],
+      "answer": 0,
+      "exp_en": "Section 33C prohibits dealing with or using uncertified Fourth Schedule materials; valid CIDB PPS (backed by SIRIM/accredited testing) is mandatory.",
+      "exp_bm": "Seksyen 33C melarang urusan atau penggunaan bahan Jadual Keempat yang tidak diperakui; PPS CIDB yang sah (disokong ujian SIRIM/makmal bertauliah) adalah wajib.",
+      "ref": "Akta 520 Section 33C & Fourth Schedule"
+    },
+    {
+      "id": 42,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the statutory fine upon conviction under Section 33D of Act 520 for dealing with construction materials specified in the Fourth Schedule without CIDB certification?",
+      "q_bm": "Berapakah denda berkanun apabila disabitkan kesalahan di bawah Seksyen 33D Akta 520 kerana berurusan dengan bahan binaan dalam Jadual Keempat tanpa pensijilan CIDB?",
+      "options_en": [
+        "A fine of not less than RM10,000 and not more than RM500,000",
+        "A fine of RM500 only",
+        "A fine not exceeding RM2,000",
+        "No financial penalty, only a warning letter"
+      ],
+      "options_bm": [
+        "Denda tidak kurang daripada RM10,000 dan tidak melebihi RM500,000",
+        "Denda RM500 sahaja",
+        "Denda tidak melebihi RM2,000",
+        "Tiada penalti kewangan, hanya surat amaran"
+      ],
+      "answer": 0,
+      "exp_en": "Section 33D imposes heavy penalties (RM10,000 to RM500,000) to prevent substandard local or dumped imported building materials from entering Malaysian sites.",
+      "exp_bm": "Seksyen 33D mengenakan penalti berat (RM10,000 hingga RM500,000) bagi menghalang bahan binaan tempatan bermutu rendah atau bahan import lambakan memasuki tapak bina Malaysia.",
+      "ref": "Akta 520 Section 33D — Material Non-Compliance Penalty"
+    },
+    {
+      "id": 43,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Which of the following building materials are regulated under the Fourth Schedule of CIDB Act 520?",
+      "q_bm": "Antara bahan binaan berikut, yang manakah dikawal selia di bawah Jadual Keempat Akta CIDB 520?",
+      "options_en": [
+        "Steel reinforcement bars, Portland cement, structural steel sections, ceramic tiles, sanitary wares, and fire-rated doors",
+        "Office stationery, printer paper, and whiteboard markers",
+        "Temporary site office furniture and pantry appliances",
+        "Landscaping grass turf and ornamental flower pots"
+      ],
+      "options_bm": [
+        "Bar tetulang keluli, simen Portland, keratan keluli struktur, jubin seramik, kelengkapan sanitari, dan pintu rintangan api",
+        "Alat tulis pejabat, kertas pencetak, dan pen penanda",
+        "Perabot pejabat tapak sementara dan peralatan pantri",
+        "Rumput landskap dan pasu bunga hiasan"
+      ],
+      "answer": 0,
+      "exp_en": "The Fourth Schedule covers structural, architectural, and safety-critical materials (steel, cement, tiles, glass, sanitary ware, pipes, cables, fire doors).",
+      "exp_bm": "Jadual Keempat merangkumi bahan struktur, seni bina, dan kritikal keselamatan (keluli, simen, jubin, kaca, sanitari, paip, kabel, pintu rintangan api).",
+      "ref": "Akta 520 Fourth Schedule — Standards for Construction Materials"
+    },
+    {
+      "id": 44,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Why was Section 33C of Act 520 introduced to regulate BOTH imported and locally manufactured construction materials equally?",
+      "q_bm": "Mengapakah Seksyen 33C Akta 520 diperkenalkan untuk mengawal selia KEDUA-DUA bahan binaan import dan keluaran tempatan secara saksama?",
+      "options_en": [
+        "Because Customs Orders previously only regulated imports, and uniform standards ensure WTO compliance while stopping substandard local materials",
+        "To ban all locally manufactured cement in Malaysia",
+        "To allow imported materials to bypass SIRIM testing",
+        "To increase import duties on foreign steel"
+      ],
+      "options_bm": [
+        "Kerana Perintah Kastam sebelum ini hanya mengawal import, dan standard seragam memastikan pematuhan WTO sambil menyekat bahan tempatan bermutu rendah",
+        "Untuk mengharamkan semua simen keluaran tempatan di Malaysia",
+        "Untuk membenarkan bahan import melangkau ujian SIRIM",
+        "Untuk menaikkan duti import ke atas keluli asing"
+      ],
+      "answer": 0,
+      "exp_en": "Equal regulatory standards for local and imported materials ensure non-discrimination under World Trade Organization (WTO) rules and holistic quality assurance.",
+      "exp_bm": "Standard kawal selia yang sama bagi bahan tempatan dan import memastikan tiada diskriminasi di bawah peraturan WTO serta jaminan kualiti menyeluruh.",
+      "ref": "CCPM Module 01 — Act 520 Amendment Rationale"
+    },
+    {
+      "id": 45,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 34B of CIDB Act 520, what powers does CIDB possess if a contractor breaches building or construction site safety duties?",
+      "q_bm": "Di bawah Seksyen 34B Akta CIDB 520, apakah kuasa yang dimiliki CIDB sekiranya kontraktor melanggar kewajipan keselamatan bangunan atau tapak bina?",
+      "options_en": [
+        "Immediately stop construction work, inspect at the contractor's cost, order specified rectification works, or order demolition of defective parts",
+        "Only send a polite reminder email after 6 months",
+        "Confiscate the developer's land title permanently",
+        "Transfer the contract to the architect"
+      ],
+      "options_bm": [
+        "Menghentikan kerja pembinaan serta-merta, memeriksa atas kos kontraktor, mengarahkan kerja pembaikan tertentu, atau mengarahkan perobohan bahagian cacat",
+        "Hanya menghantar e-mel peringatan sopan selepas 6 bulan",
+        "Merampas hakmilik tanah pemaju secara kekal",
+        "Memindahkan kontrak kepada arkitek"
+      ],
+      "answer": 0,
+      "exp_en": "Section 34B grants CIDB direct statutory enforcement powers including immediate Stop-Work Orders (SWO) and demolition orders at the contractor's expense.",
+      "exp_bm": "Seksyen 34B memberi CIDB kuasa penguatkuasaan berkanun secara langsung termasuk Perintah Henti Kerja (SWO) serta-merta dan perintah perobohan atas kos kontraktor.",
+      "ref": "Akta 520 Section 34B — Safety of Buildings & Works"
+    },
+    {
+      "id": 46,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the maximum penalty under Section 34B/34C of Act 520 if a contractor fails to comply with a CIDB safety directive?",
+      "q_bm": "Apakah penalti maksimum di bawah Seksyen 34B/34C Akta 520 sekiranya kontraktor gagal mematuhi arahan keselamatan CIDB?",
+      "options_en": [
+        "Fine up to RM500,000 plus an additional fine up to RM10,000 per day for continuing offences",
+        "Fine of RM5,000 only",
+        "Fine of RM25,000 with no daily penalty",
+        "Suspension for 24 hours only"
+      ],
+      "options_bm": [
+        "Denda sehingga RM500,000 ditambah denda tambahan sehingga RM10,000 sehari bagi kesalahan berterusan",
+        "Denda RM5,000 sahaja",
+        "Denda RM25,000 tanpa penalti harian",
+        "Penggantungan selama 24 jam sahaja"
+      ],
+      "answer": 0,
+      "exp_en": "Non-compliance with CIDB safety directives attracts up to RM500,000 fine and RM10,000/day continuing penalty.",
+      "exp_bm": "Ketidakpatuhan terhadap arahan keselamatan CIDB boleh dikenakan denda sehingga RM500,000 dan penalti berterusan RM10,000 sehari.",
+      "ref": "Akta 520 Section 34C — Breach of Safety Directive"
+    },
+    {
+      "id": 47,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 34C of CIDB Act 520, what is the penalty if a contractor's breach of safety duty results in DEATH?",
+      "q_bm": "Di bawah Seksyen 34C Akta CIDB 520, apakah penalti sekiranya pelanggaran kewajipan keselamatan oleh kontraktor mengakibatkan KEMATIAN?",
+      "options_en": [
+        "Fine not exceeding RM500,000 OR imprisonment for a term not exceeding 2 years, or BOTH",
+        "Fine of RM10,000 only",
+        "Community service for 1 week",
+        "Revocation of Green Card only"
+      ],
+      "options_bm": [
+        "Denda tidak melebihi RM500,000 ATAU penjara bagi tempoh tidak melebihi 2 tahun, atau KEDUA-DUANYA",
+        "Denda RM10,000 sahaja",
+        "Khidmat masyarakat selama 1 minggu",
+        "Pembatalan Kad Hijau sahaja"
+      ],
+      "answer": 0,
+      "exp_en": "Fatal breaches carry criminal liability up to RM500,000 fine, 2 years imprisonment, or both—on top of OSHA 1994 penalties.",
+      "exp_bm": "Pelanggaran yang menyebabkan kematian membawa liabiliti jenayah sehingga denda RM500,000, penjara 2 tahun, atau kedua-duanya—di samping penalti OSHA 1994.",
+      "ref": "Akta 520 Section 34C — Fatal Breach Liability"
+    },
+    {
+      "id": 48,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Does the contractor's statutory duty under Section 34A of Act 520 to ensure building safety end immediately upon Practical Completion?",
+      "q_bm": "Adakah kewajipan berkanun kontraktor di bawah Seksyen 34A Akta 520 untuk memastikan keselamatan bangunan tamat serta-merta selepas Siap Praktikal?",
+      "options_en": [
+        "No — the statutory duty applies BOTH during construction AND after construction works are completed",
+        "Yes — all legal liability ends the second keys are handed over",
+        "Only during the first 30 days after piling",
+        "Only if the building has more than 20 storeys"
+      ],
+      "options_bm": [
+        "Tidak — kewajipan berkanun ini terpakai SEMASA pembinaan DAN SELEPAS kerja pembinaan siap",
+        "Ya — semua liabiliti undang-undang tamat sebaik sahaja kunci diserahkan",
+        "Hanya semasa 30 hari pertama selepas kerja cerucuk",
+        "Hanya jika bangunan melebihi 20 tingkat"
+      ],
+      "answer": 0,
+      "exp_en": "Section 34A explicitly holds contractors and site managers responsible for building safety both during and post construction.",
+      "exp_bm": "Seksyen 34A secara jelas mempertanggungjawabkan kontraktor dan pengurus tapak terhadap keselamatan bangunan semasa dan selepas pembinaan.",
+      "ref": "Akta 520 Section 34A — Duty During and Post Construction"
+    },
+    {
+      "id": 49,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "What action must a QA/QC Manager take at the site gate if a lorry delivers 30 tonnes of high-tensile reinforcement bars WITHOUT a valid CIDB PPS certificate?",
+      "q_bm": "Apakah tindakan yang mesti diambil oleh Pengurus QA/QC di pintu tapak sekiranya lori menghantar 30 tan bar tetulang keluli TANPA sijil PPS CIDB yang sah?",
+      "options_en": [
+        "Reject the delivery immediately (or quarantine and prohibit installation) until valid PPS and mill certificates are verified",
+        "Allow workers to install the bars immediately and check certificates next month",
+        "Paint the bars to hide missing markings",
+        "Accept the bars at a 5% price discount"
+      ],
+      "options_bm": [
+        "Tolak penghantaran serta-merta (atau kuarantin dan larang pemasangan) sehingga sijil PPS dan sijil kilang yang sah disahkan",
+        "Benarkan pekerja memasang bar serta-merta dan semak sijil bulan depan",
+        "Cat bar tersebut untuk menyembunyikan tanda yang tiada",
+        "Terima bar tersebut dengan diskaun harga 5%"
+      ],
+      "answer": 0,
+      "exp_en": "Using uncertified Fourth Schedule steel violates Act 520 Section 33C and compromises structural safety; uncertified batches must never enter permanent works.",
+      "exp_bm": "Menggunakan keluli Jadual Keempat tanpa sijil melanggar Seksyen 33C Akta 520 dan menjejaskan keselamatan struktur; kelompok tanpa sijil tidak boleh digunakan.",
+      "ref": "CCPM Module 01 & M08 — Material Gatekeeping"
+    },
+    {
+      "id": 50,
+      "set": 5,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian standards body works alongside CIDB to test and certify construction materials for PPS issuance?",
+      "q_bm": "Badan piawaian Malaysia manakah yang bekerjasama dengan CIDB untuk menguji dan memperakui bahan binaan bagi pengeluaran PPS?",
+      "options_en": [
+        "SIRIM QAS International (and accredited ISO/IEC 17025 laboratories)",
+        "Bank Negara Malaysia (BNM)",
+        "Suruhanjaya Sekuriti Malaysia (SC)",
+        "Jabatan Imigresen Malaysia"
+      ],
+      "options_bm": [
+        "SIRIM QAS International (dan makmal bertauliah ISO/IEC 17025)",
+        "Bank Negara Malaysia (BNM)",
+        "Suruhanjaya Sekuriti Malaysia (SC)",
+        "Jabatan Imigresen Malaysia"
+      ],
+      "answer": 0,
+      "exp_en": "CIDB PPS relies on Malaysian Standards (MS) conformity testing conducted by SIRIM QAS International or CIDB-recognized accredited laboratories.",
+      "exp_bm": "PPS CIDB bergantung pada pengujian pematuhan Standard Malaysia (MS) yang dijalankan oleh SIRIM QAS International atau makmal bertauliah yang diiktiraf CIDB.",
+      "ref": "CCPM Module 01 — Material Standards & Certification"
+    },
+    {
+      "id": 51,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 70 of the Street, Drainage and Building Act 1974 (Act 133), what is the legal consequence of commencing building erection on site WITHOUT written Building Plan approval from the Local Authority?",
+      "q_bm": "Di bawah Seksyen 70 Akta Jalan, Parit dan Bangunan 1974 (Akta 133), apakah akibat perundangan jika memulakan pembinaan bangunan di tapak TANPA kelulusan bertulis Pelan Bangunan daripada Pihak Berkuasa Tempatan?",
+      "options_en": [
+        "It is a statutory offence subject to immediate Stop-Work Orders, heavy fines, and mandatory demolition of unauthorized structures",
+        "It is permitted as long as the developer owns the land",
+        "It is allowed for the first 3 storeys only",
+        "Only a RM50 administrative fee applies"
+      ],
+      "options_bm": [
+        "Ia adalah kesalahan berkanun yang tertakluk kepada Perintah Henti Kerja serta-merta, denda berat, dan perobohan wajib struktur tanpa kebenaran",
+        "Ia dibenarkan selagi pemaju memiliki tanah tersebut",
+        "Ia dibenarkan bagi 3 tingkat pertama sahaja",
+        "Hanya yuran pentadbiran RM50 dikenakan"
+      ],
+      "answer": 0,
+      "exp_en": "Section 70 of Act 133 strictly prohibits commencing building works without written approval of plans and specifications by the Local Authority.",
+      "exp_bm": "Seksyen 70 Akta 133 melarang keras permulaan kerja bangunan tanpa kelulusan bertulis pelan dan spesifikasi oleh Pihak Berkuasa Tempatan.",
+      "ref": "Act 133 Section 70 — Building Plan Approval"
+    },
+    {
+      "id": 52,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Which planning legislation governs Development Order (Kebenaran Merancang) applications specifically within Wilayah Persekutuan Kuala Lumpur (such as Setiawangsa)?",
+      "q_bm": "Perundangan perancangan manakah yang mengawal selia permohonan Kebenaran Merancang (Development Order) secara khusus di Wilayah Persekutuan Kuala Lumpur (seperti Setiawangsa)?",
+      "options_en": [
+        "Federal Territory (Planning) Act 1982 (Act 267) (alongside Town and Country Planning Act 1976 principles)",
+        "Sarawak Land Code",
+        "Sabah Town and Country Planning Ordinance",
+        "Merchant Shipping Ordinance 1952"
+      ],
+      "options_bm": [
+        "Akta (Perancangan) Wilayah Persekutuan 1982 (Akta 267) (sejajar dengan prinsip Akta Perancangan Bandar dan Desa 1976)",
+        "Kanun Tanah Sarawak",
+        "Ordinan Perancangan Bandar dan Desa Sabah",
+        "Ordinan Perkapalan Saudagar 1952"
+      ],
+      "answer": 0,
+      "exp_en": "While Act 172 applies across Peninsular states, Wilayah Persekutuan Kuala Lumpur is specifically governed by the Federal Territory (Planning) Act 1982 (Act 267) administered by DBKL.",
+      "exp_bm": "Walaupun Akta 172 terpakai di negeri-negeri Semenanjung, Wilayah Persekutuan Kuala Lumpur dikawal khusus oleh Akta (Perancangan) Wilayah Persekutuan 1982 (Akta 267) di bawah DBKL.",
+      "ref": "CCPM Module 01 & M07 — Planning Legislation"
+    },
+    {
+      "id": 53,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the primary function of the Local Authority's One Stop Centre (OSC 3.0 Plus) in Malaysian building development?",
+      "q_bm": "Apakah fungsi utama Pusat Setempat (OSC 3.0 Plus) Pihak Berkuasa Tempatan dalam pembangunan bangunan di Malaysia?",
+      "options_en": [
+        "To coordinate simultaneous or staged submission, technical agency review, and approval of Planning (DO), Building, Earthworks, Road & Drainage, and Landscape plans",
+        "To supply ready-mix concrete to private contractors",
+        "To recruit foreign construction workers",
+        "To arbitrate commercial payment disputes"
+      ],
+      "options_bm": [
+        "Untuk menyelaras penyerahan serentak atau berperingkat, semakan agensi teknikal, dan kelulusan pelan DO, Bangunan, Kerja Tanah, Jalan & Parit, serta Landskap",
+        "Untuk membekalkan konkrit siap bancuh kepada kontraktor swasta",
+        "Untuk merekrut pekerja binaan asing",
+        "Untuk menimbang tara pertikaian bayaran komersial"
+      ],
+      "answer": 0,
+      "exp_en": "OSC 3.0 Plus acts as the single secretariat routing development proposals to internal departments and external technical agencies (Bomba, TNB, IWK, Air Selangor, JPS).",
+      "exp_bm": "OSC 3.0 Plus bertindak sebagai urus setia tunggal yang mengagihkan cadangan pemajuan kepada jabatan dalaman dan agensi teknikal luar (Bomba, TNB, IWK, Air Selangor, JPS).",
+      "ref": "KPKT Manual OSC 3.0 Plus & CCPM M01/M07"
+    },
+    {
+      "id": 54,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Uniform Building By-Laws (UBBL) 1984 (By-Law 25), which form certifies that a completed building is safe and fit for occupation?",
+      "q_bm": "Di bawah Undang-Undang Kecil Bangunan Seragam (UBBL) 1984 (Undang-Undang Kecil 25), borang manakah yang memperakui bahawa bangunan yang siap adalah selamat dan layak untuk diduduki?",
+      "options_en": [
+        "Borang F — Certificate of Completion and Compliance (CCC)",
+        "Borang G1 — Earthworks Stage Certification",
+        "Form CIDB L1/96",
+        "DOSH Form JKJ 103"
+      ],
+      "options_bm": [
+        "Borang F — Perakuan Siap dan Pematuhan (CCC)",
+        "Borang G1 — Perakuan Berperingkat Kerja-Kerja Tanah",
+        "Borang CIDB L1/96",
+        "Borang DOSH JKJ 103"
+      ],
+      "answer": 0,
+      "exp_en": "Borang F (CCC) is issued by the Principal Submitting Person (PSP) only after all 21 stage forms (Borang G1–G21) and statutory agency clearances are completed.",
+      "exp_bm": "Borang F (CCC) dikeluarkan oleh Orang Utama Yang Mengemukakan (PSP) hanya selepas kesemua 21 borang berperingkat (Borang G1–G21) dan pelepasan agensi berkanun selesai.",
+      "ref": "UBBL 1984 By-Law 25 — Borang F (CCC)"
+    },
+    {
+      "id": 55,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "How many progressive stage-certification forms (Borang G) must be signed off across construction stages before the PSP can issue Borang F (CCC)?",
+      "q_bm": "Berapakah bilangan borang perakuan berperingkat (Borang G) yang mesti ditandatangani merentasi peringkat pembinaan sebelum PSP boleh mengeluarkan Borang F (CCC)?",
+      "options_en": [
+        "21 forms (Borang G1 to Borang G21)",
+        "5 forms (Borang G1 to Borang G5)",
+        "10 forms (Borang G1 to Borang G10)",
+        "50 forms (Borang G1 to Borang G50)"
+      ],
+      "options_bm": [
+        "21 borang (Borang G1 hingga Borang G21)",
+        "5 borang (Borang G1 hingga Borang G5)",
+        "10 borang (Borang G1 hingga Borang G10)",
+        "50 borang (Borang G1 hingga Borang G50)"
+      ],
+      "answer": 0,
+      "exp_en": "UBBL 1984 specifies 21 progressive stage certifications (G1 Earthworks, G2 Setting Out, G3 Foundations, G4 Structural, G8/G9 Fire, G11 Lifts, G17 STP, etc.).",
+      "exp_bm": "UBBL 1984 menetapkan 21 perakuan berperingkat (G1 Kerja Tanah, G2 Pemancangan Tanda, G3 Asas Tapak, G4 Struktur, G8/G9 Bomba, G11 Lif, G17 Loji Kumbahan, dll.).",
+      "ref": "UBBL 1984 Second Schedule — Borang G1–G21"
+    },
+    {
+      "id": 56,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "In UBBL 1984 stage certifications, what specific construction stage is certified under Borang G1 and Borang G3 respectively?",
+      "q_bm": "Dalam perakuan berperingkat UBBL 1984, peringkat pembinaan khusus manakah yang diperakui di bawah Borang G1 dan Borang G3 masing-masing?",
+      "options_en": [
+        "G1: Earthworks (Kerja-kerja Tanah); G3: Foundations (Asas Tapak)",
+        "G1: Roofing; G3: Painting",
+        "G1: Lifts & Escalators; G3: Landscaping",
+        "G1: Street Lighting; G3: Sewerage"
+      ],
+      "options_bm": [
+        "G1: Kerja-kerja Tanah; G3: Asas Tapak",
+        "G1: Bumbung; G3: Mengecat",
+        "G1: Lif & Eskalator; G3: Landskap",
+        "G1: Lampu Jalan; G3: Pembetungan"
+      ],
+      "answer": 0,
+      "exp_en": "Borang G1 covers Earthworks, Borang G2 covers Setting Out (Pemancangan Tanda), and Borang G3 covers Foundations (Asas Tapak).",
+      "exp_bm": "Borang G1 meliputi Kerja-kerja Tanah, Borang G2 meliputi Pemancangan Tanda, dan Borang G3 meliputi Asas Tapak.",
+      "ref": "UBBL 1984 — Borang G1, G2 & G3"
+    },
+    {
+      "id": 57,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Who is required to co-sign Borang G stage certifications alongside the Submitting Person (Architect/Engineer)?",
+      "q_bm": "Siapakah yang dikehendaki menandatangani bersama perakuan berperingkat Borang G di samping Orang Yang Mengemukakan (Arkitek/Jurutera)?",
+      "options_en": [
+        "The CIDB-registered Contractor (and Licensed Land Surveyor for G2 Setting Out)",
+        "The bank branch manager",
+        "The retail mall marketing manager",
+        "The local resident association chairman"
+      ],
+      "options_bm": [
+        "Kontraktor berdaftar CIDB (serta Juruukur Tanah Berlesen bagi G2 Pemancangan Tanda)",
+        "Pengurus cawangan bank",
+        "Pengurus pemasaran pusat beli-belah",
+        "Pengerusi persatuan penduduk tempatan"
+      ],
+      "answer": 0,
+      "exp_en": "Both the CIDB-registered contractor and the Submitting Person (plus Licensed Land Surveyor on G2) sign Borang G to accept joint statutory accountability.",
+      "exp_bm": "Kedua-dua kontraktor berdaftar CIDB dan Orang Yang Mengemukakan (serta Juruukur Tanah Berlesen pada G2) menandatangani Borang G bagi memikul akauntabiliti berkanun bersama.",
+      "ref": "UBBL 1984 — Borang G Signatories"
+    },
+    {
+      "id": 58,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian statute governs strata subdivision of commercial buildings or parcels into individual accessory/retail parcels?",
+      "q_bm": "Statut Malaysia manakah yang mengawal selia pecah bahagi strata bangunan komersial atau petak kepada petak individu/aksesori?",
+      "options_en": [
+        "Strata Titles Act 1985 (Act 318) (and Strata Management Act 2013, Act 757)",
+        "Land Acquisition Act 1960 (Act 486)",
+        "Fire Services Act 1988 (Act 341)",
+        "Employment Act 1955 (Act 265)"
+      ],
+      "options_bm": [
+        "Akta Hakmilik Strata 1985 (Akta 318) (dan Akta Pengurusan Strata 2013, Akta 757)",
+        "Akta Pengambilan Tanah 1960 (Akta 486)",
+        "Akta Perkhidmatan Bomba 1988 (Akta 341)",
+        "Akta Kerja 1955 (Akta 265)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 318 governs strata title issuance while Act 757 governs post-handover building maintenance and Joint Management Body (JMB) / Management Corporation (MC) operations.",
+      "exp_bm": "Akta 318 mengawal selia pengeluaran hakmilik strata manakala Akta 757 mengawal selia penyenggaraan bangunan selepas serahan serta JMB / MC.",
+      "ref": "CCPM Module 01 Table 5.1 — Land & Strata Laws"
+    },
+    {
+      "id": 59,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the National Land Code 1965 (Act 56), what must a developer verify before building a shopping centre on land previously zoned/titled for agriculture or residential use?",
+      "q_bm": "Di bawah Kanun Tanah Negara 1965 (Akta 56), apakah yang mesti disahkan oleh pemaju sebelum membina pusat beli-belah di atas tanah yang sebelum ini berstatus pertanian atau kediaman?",
+      "options_en": [
+        "Conversion of land category/use to 'Building (Commercial)' and compliance with express conditions (Sections 124 / 204D)",
+        "Nothing — land titles never restrict building types",
+        "Only verbal permission from neighbours",
+        "Only a signboard permit"
+      ],
+      "options_bm": [
+        "Penukaran kategori/kegunaan tanah kepada 'Bangunan (Komersial)' dan pematuhan syarat nyata (Seksyen 124 / 204D)",
+        "Tiada apa-apa — geran tanah tidak pernah mengehadkan jenis bangunan",
+        "Hanya kebenaran lisan daripada jiran",
+        "Hanya permit papan tanda"
+      ],
+      "answer": 0,
+      "exp_en": "Land category conversion and commercial zoning alignment under the National Land Code 1965 and Local Plan are prerequisites for Development Order approval.",
+      "exp_bm": "Penukaran kategori tanah dan penjajaran zon komersial di bawah Kanun Tanah Negara 1965 serta Pelan Tempatan adalah prasyarat kelulusan Kebenaran Merancang.",
+      "ref": "National Land Code 1965 (Act 56) & CCPM M01"
+    },
+    {
+      "id": 60,
+      "set": 6,
+      "level": "Aplikasi / Application",
+      "q_en": "What is a 'Letter of No Objection' (Surat Tiada Halangan) obtained during pre-consultation with technical agencies (TNB, IWK, Air Selangor, JPS)?",
+      "q_bm": "Apakah 'Surat Tiada Halangan' yang diperoleh semasa pra-rundingan dengan agensi teknikal (TNB, IWK, Air Selangor, JPS)?",
+      "options_en": [
+        "Preliminary technical clearance confirming utility capacity, connection points, and reserve requirements before formal OSC submission",
+        "The final Certificate of Completion and Compliance",
+        "A waiver exempting the contractor from paying utility connection charges",
+        "An insurance policy covering crane collapse"
+      ],
+      "options_bm": [
+        "Pelepasan teknikal awal yang mengesahkan kapasiti utiliti, titik sambungan, dan keperluan rizab sebelum penyerahan rasmi OSC",
+        "Perakuan Siap dan Pematuhan (CCC) akhir",
+        "Pengecualian yang membebaskan kontraktor daripada membayar caj sambungan utiliti",
+        "Polisi insurans yang melindungi keruntuhan kren"
+      ],
+      "answer": 0,
+      "exp_en": "Securing Letters of No Objection early prevents major layout redesigns when plans are circulated through DBKL OSC 3.0 Plus.",
+      "exp_bm": "Mendapatkan Surat Tiada Halangan lebih awal mengelakkan reka bentuk semula susun atur besar-besaran apabila pelan diedarkan melalui DBKL OSC 3.0 Plus.",
+      "ref": "CCPM Module 01 & M07 — Authority Pre-Consultation"
+    },
+    {
+      "id": 61,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Occupational Safety and Health Act 1994 (Act 514), which fundamental legal principle governs safety duties at a construction workplace?",
+      "q_bm": "Di bawah Akta Keselamatan dan Kesihatan Pekerjaan 1994 (Akta 514), prinsip perundangan asas manakah yang mengawal selia kewajipan keselamatan di tempat kerja pembinaan?",
+      "options_en": [
+        "Self-regulation: responsibility to ensure safety lies with those who create the risks (employers/contractors) and those who work with them",
+        "Only DOSH inspectors are responsible for site safety",
+        "Workers bear 100% responsibility and employers have zero duty",
+        "Safety rules only apply to government projects"
+      ],
+      "options_bm": [
+        "Peraturan kendiri (Self-regulation): tanggungjawab memastikan keselamatan terletak pada pihak yang mewujudkan risiko (majikan/kontraktor) dan pekerja",
+        "Hanya pemeriksa DOSH bertanggungjawab ke atas keselamatan tapak",
+        "Pekerja menanggung 100% tanggungjawab dan majikan tiada kewajipan",
+        "Peraturan keselamatan hanya terpakai kepada projek kerajaan"
+      ],
+      "answer": 0,
+      "exp_en": "OSHA 1994 is built on the Robens self-regulation principle requiring employers, principals, designers, and employees to proactively manage workplace hazards.",
+      "exp_bm": "OSHA 1994 dibina atas prinsip peraturan kendiri Robens yang mewajibkan majikan, prinsipal, pereka bentuk, dan pekerja mengurus bahaya tempat kerja secara proaktif.",
+      "ref": "OSHA 1994 (Act 514) — Core Principle"
+    },
+    {
+      "id": 62,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Factories and Machinery (Building Operations and Works of Engineering Construction) (Safety) Regulations 1986 (BOWEC), at least how many days before commencing site operations must the contractor notify DOSH (Form JKJ 103)?",
+      "q_bm": "Di bawah Peraturan-Peraturan Kilang dan Jentera (Kendalian Bangunan dan Kerja-Kerja Kejuruteraan Binaan) (Keselamatan) 1986 (BOWEC), sekurang-kurangnya berapa hari sebelum memulakan operasi tapak kontraktor mesti memaklumkan DOSH (Borang JKJ 103)?",
+      "options_en": [
+        "At least 7 days before commencing operations (for works lasting >6 weeks)",
+        "Within 6 months after completing the roof",
+        "1 hour before concrete pouring",
+        "Notification is never required"
+      ],
+      "options_bm": [
+        "Sekurang-kurangnya 7 hari sebelum memulakan operasi (bagi kerja melebihi 6 minggu)",
+        "Dalam tempoh 6 bulan selepas menyiapkan bumbung",
+        "1 jam sebelum penuangan konkrit",
+        "Pemakluman tidak pernah diperlukan"
+      ],
+      "answer": 0,
+      "exp_en": "BOWEC / OSHA construction regulations require written notification to DOSH (Form JKJ 103) at least 7 days prior to commencing construction operations.",
+      "exp_bm": "Peraturan pembinaan BOWEC / OSHA mewajibkan pemakluman bertulis kepada DOSH (Borang JKJ 103) sekurang-kurangnya 7 hari sebelum memulakan operasi pembinaan.",
+      "ref": "BOWEC 1986 & CCPM M01/M09"
+    },
+    {
+      "id": 63,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Occupational Safety and Health (Safety and Health Officer) Order 1997, what is the contract value threshold above which a construction project MUST employ a full-time DOSH-registered Safety and Health Officer (SHO)?",
+      "q_bm": "Di bawah Perintah Keselamatan dan Kesihatan Pekerjaan (Pegawai Keselamatan dan Kesihatan) 1997, berapakah nilai ambang kontrak di mana projek pembinaan WAJIB menggaji Pegawai Keselamatan dan Kesihatan (SHO) sepenuh masa yang berdaftar dengan DOSH?",
+      "options_en": [
+        "Total contract price exceeding RM20,000,000.00",
+        "Total contract price exceeding RM500,000.00",
+        "Total contract price exceeding RM5,000,000.00",
+        "Only projects exceeding RM500,000,000.00"
+      ],
+      "options_bm": [
+        "Jumlah harga kontrak melebihi RM20,000,000.00",
+        "Jumlah harga kontrak melebihi RM500,000.00",
+        "Jumlah harga kontrak melebihi RM5,000,000.00",
+        "Hanya projek melebihi RM500,000,000.00"
+      ],
+      "answer": 0,
+      "exp_en": "Any building operation or engineering construction work exceeding RM20 million (such as the RM180.5M Setiawangsa Mall) legally requires a full-time registered SHO.",
+      "exp_bm": "Mana-mana kendalian bangunan atau kerja kejuruteraan binaan melebihi RM20 juta (seperti Pusat Beli-Belah Setiawangsa RM180.5J) wajib menggaji SHO berdaftar sepenuh masa.",
+      "ref": "OSHA (Safety and Health Officer) Order 1997"
+    },
+    {
+      "id": 64,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 30 of OSHA 1994, when is an employer legally required to establish a formal Safety and Health Committee at the workplace?",
+      "q_bm": "Di bawah Seksyen 30 OSHA 1994, bilakah majikan dikehendaki secara sah menubuhkan Jawatankuasa Keselamatan dan Kesihatan rasmi di tempat kerja?",
+      "options_en": [
+        "When there are 40 or more persons employed at the workplace (or as directed by the Director General of DOSH)",
+        "Only when there are more than 5,000 workers",
+        "Only after a fatal accident happens",
+        "Never on commercial projects"
+      ],
+      "options_bm": [
+        "Apabila terdapat 40 orang atau lebih yang digajikan di tempat kerja (atau sebagaimana diarahkan oleh Ketua Pengarah DOSH)",
+        "Hanya apabila terdapat lebih daripada 5,000 pekerja",
+        "Hanya selepas kemalangan maut berlaku",
+        "Tidak pernah bagi projek komersial"
+      ],
+      "answer": 0,
+      "exp_en": "Workplaces with 40 or more personnel must form a joint management-worker Safety and Health Committee meeting at least once every 3 months (monthly best practice on sites).",
+      "exp_bm": "Tempat kerja yang mempunyai 40 orang atau lebih wajib menubuhkan Jawatankuasa Keselamatan dan Kesihatan bersama yang bermesyuarat sekurang-kurangnya 3 bulan sekali (bulanan di tapak).",
+      "ref": "OSHA 1994 Section 30 — Safety & Health Committee"
+    },
+    {
+      "id": 65,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the role of 'OSHCIM 2017' (Guidelines on Occupational Safety and Health in Construction Industry Management) issued by DOSH Malaysia?",
+      "q_bm": "Apakah peranan 'OSHCIM 2017' (Garis Panduan Keselamatan dan Kesihatan Pekerjaan dalam Pengurusan Industri Pembinaan) yang dikeluarkan oleh DOSH Malaysia?",
+      "options_en": [
+        "To integrate safety and health risk management early into pre-construction planning and design across Clients, Designers, and Contractors",
+        "To set retail rental rates for shopping malls",
+        "To replace CIDB contractor registration",
+        "To govern customs import duties"
+      ],
+      "options_bm": [
+        "Untuk mengintegrasikan pengurusan risiko keselamatan dan kesihatan lebih awal ke dalam perancangan pra-pembinaan dan reka bentuk merentasi Klien, Pereka Bentuk, dan Kontraktor",
+        "Untuk menetapkan kadar sewa runcit pusat beli-belah",
+        "Untuk menggantikan pendaftaran kontraktor CIDB",
+        "Untuk mengawal selia duti import kastam"
+      ],
+      "answer": 0,
+      "exp_en": "OSHCIM (modeled on CDM principles) places explicit prevention-through-design duties on Clients and Designers alongside Contractors.",
+      "exp_bm": "OSHCIM (berteraskan prinsip CDM) meletakkan kewajipan pencegahan melalui reka bentuk ke atas Klien dan Pereka Bentuk di samping Kontraktor.",
+      "ref": "DOSH OSHCIM 2017 & CCPM M01/M09"
+    },
+    {
+      "id": 66,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian Act governs fire safety design approvals, fire-fighting systems, and Fire Certificate requirements for designated commercial premises like shopping centres?",
+      "q_bm": "Akta Malaysia manakah yang mengawal selia kelulusan reka bentuk keselamatan kebakaran, sistem pemadaman api, dan keperluan Perakuan Bomba bagi premis komersial ditetapkan seperti pusat beli-belah?",
+      "options_en": [
+        "Fire Services Act 1988 (Act 341)",
+        "Electricity Supply Act 1990 (Act 447)",
+        "Land Public Transport Act 2010 (Act 715)",
+        "Employment Act 1955 (Act 265)"
+      ],
+      "options_bm": [
+        "Akta Perkhidmatan Bomba 1988 (Akta 341)",
+        "Akta Bekalan Elektrik 1990 (Akta 447)",
+        "Akta Pengangkutan Awam Darat 2010 (Akta 715)",
+        "Akta Kerja 1955 (Akta 265)"
+      ],
+      "answer": 0,
+      "exp_en": "The Fire Services Act 1988 (Act 341), enforced by Jabatan Bomba dan Penyelamat Malaysia (JBPM), governs fire safety compliance and annual Fire Certificates for large commercial buildings.",
+      "exp_bm": "Akta Perkhidmatan Bomba 1988 (Akta 341) yang dikuatkuasakan oleh Jabatan Bomba dan Penyelamat Malaysia (JBPM) mengawal selia pematuhan kebakaran dan Perakuan Bomba tahunan.",
+      "ref": "Fire Services Act 1988 (Act 341)"
+    },
+    {
+      "id": 67,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Before operating a tower crane, passenger hoist, or air compressor on a Malaysian construction site, what valid statutory certificate must be obtained from DOSH?",
+      "q_bm": "Sebelum mengendalikan kren menara, lif penumpang tapak (hoist), atau pemampat udara di tapak bina Malaysia, apakah perakuan berkanun sah yang mesti diperoleh daripada DOSH?",
+      "options_en": [
+        "Valid Certificate of Fitness — PMA (Perakuan Kelayakan Mesin Angkat) for lifting machinery or PMT for unfired pressure vessels",
+        "CIDB QLASSIC Certificate",
+        "IWK Sewerage Discharge Permit",
+        "DBKL Business Premise License"
+      ],
+      "options_bm": [
+        "Perakuan Kelayakan sah — PMA (Perakuan Kelayakan Mesin Angkat) bagi jentera angkat atau PMT bagi pengandung tekanan tidak berapi",
+        "Sijil QLASSIC CIDB",
+        "Permit Pelepasan Pembetungan IWK",
+        "Lesen Premis Perniagaan DBKL"
+      ],
+      "answer": 0,
+      "exp_en": "Lifting machines (cranes, hoists, gondolas) require a valid DOSH PMA renewed every 15 months, while air receivers/boilers require a valid PMT.",
+      "exp_bm": "Jentera angkat (kren, hoist, gondola) memerlukan PMA DOSH sah yang diperbaharui setiap 15 bulan, manakala pengandung udara/dandang memerlukan PMT yang sah.",
+      "ref": "Factories & Machinery Act / OSHA Regulations"
+    },
+    {
+      "id": 68,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Occupational Safety and Health (Amendment) Act 2022 (Act A1648), what happened to the maximum general penalty for employers breaching safety duties under Section 15–18?",
+      "q_bm": "Di bawah Akta Keselamatan dan Kesihatan Pekerjaan (Pindaan) 2022 (Akta A1648), apakah perubahan kepada penalti maksimum am bagi majikan yang melanggar kewajipan keselamatan di bawah Seksyen 15–18?",
+      "options_en": [
+        "Increased tenfold from RM50,000 to RM500,000",
+        "Reduced from RM50,000 to RM5,000",
+        "Abolished completely",
+        "Replaced by a RM100 compound"
+      ],
+      "options_bm": [
+        "Dinaikkan sepuluh kali ganda daripada RM50,000 kepada RM500,000",
+        "Dikurangkan daripada RM50,000 kepada RM5,000",
+        "Dimansuhkan sepenuhnya",
+        "Digantikan dengan kompaun RM100"
+      ],
+      "answer": 0,
+      "exp_en": "The OSHA Amendment 2022 raised the maximum fine for breaches of employer/principal duties from RM50,000 to RM500,000, aligning with CIDB Act 520.",
+      "exp_bm": "Pindaan OSHA 2022 menaikkan denda maksimum bagi pelanggaran kewajipan majikan/prinsipal daripada RM50,000 kepada RM500,000, sejajar dengan Akta CIDB 520.",
+      "ref": "OSHA (Amendment) Act 2022 (Act A1648)"
+    },
+    {
+      "id": 69,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the role of a Site Safety Supervisor (SSS) on a construction site under BOWEC Regulation 25?",
+      "q_bm": "Apakah peranan Penyelia Keselamatan Tapak Bina (SSS) di tapak pembinaan di bawah Peraturan 25 BOWEC?",
+      "options_en": [
+        "To inspect and rectify unsafe conditions daily, supervise subcontractor safety compliance, and assist the SHO (minimum 15 hours/week on site)",
+        "To certify interim payment certificates for the client",
+        "To design post-tensioned floor slabs",
+        "To approve Development Orders"
+      ],
+      "options_bm": [
+        "Untuk memeriksa dan membaiki keadaan tidak selamat setiap hari, menyelia pematuhan keselamatan subkontraktor, dan membantu SHO (minimum 15 jam/minggu di tapak)",
+        "Untuk memperakui sijil bayaran interim bagi klien",
+        "Untuk mereka bentuk papak lantai pasca-tegang",
+        "Untuk meluluskan Kebenaran Merancang"
+      ],
+      "answer": 0,
+      "exp_en": "A DOSH-registered SSS conducts daily site safety inspections, toolbox briefings, and subcontractor supervision.",
+      "exp_bm": "SSS yang berdaftar dengan DOSH menjalankan pemeriksaan keselamatan tapak harian, taklimat toolbox, dan penyeliaan subkontraktor.",
+      "ref": "BOWEC 1986 Regulation 25 — Site Safety Supervisor"
+    },
+    {
+      "id": 70,
+      "set": 7,
+      "level": "Aplikasi / Application",
+      "q_en": "Which statutory social security scheme must cover all local and foreign construction workers employed in Malaysia?",
+      "q_bm": "Skim keselamatan sosial berkanun manakah yang mesti melindungi semua pekerja binaan tempatan dan asing yang digajikan di Malaysia?",
+      "options_en": [
+        "SOCSO (PERKESO) under the Employees' Social Security Act 1969 (Act 4)",
+        "Only voluntary travel insurance",
+        "EPF only for foreign workers",
+        "No coverage is required for temporary site workers"
+      ],
+      "options_bm": [
+        "PERKESO (SOCSO) di bawah Akta Keselamatan Sosial Pekerja 1969 (Akta 4)",
+        "Hanya insurans perjalanan sukarela",
+        "KWSP sahaja bagi pekerja asing",
+        "Tiada perlindungan diperlukan bagi pekerja tapak sementara"
+      ],
+      "answer": 0,
+      "exp_en": "All employees (including foreign workers since 2019) must be registered and contributed for under SOCSO/PERKESO for employment injury protection.",
+      "exp_bm": "Semua pekerja (termasuk pekerja asing sejak 2019) wajib didaftarkan dan dicarumkan di bawah PERKESO/SOCSO bagi perlindungan bencana pekerjaan.",
+      "ref": "Employees' Social Security Act 1969 & CCPM M01"
+    },
+    {
+      "id": 71,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian Act governs environmental pollution control, Environmental Impact Assessments (Section 34A), Environmental Audits (Section 33A), and Scheduled Wastes?",
+      "q_bm": "Akta Malaysia manakah yang mengawal selia kawalan pencemaran alam sekitar, Penilaian Impak Alam Sekitar (Seksyen 34A), Audit Alam Sekitar (Seksyen 33A), dan Buangan Terjadual?",
+      "options_en": [
+        "Environmental Quality Act 1974 (Act 127)",
+        "Electricity Supply Act 1990 (Act 447)",
+        "Strata Titles Act 1985 (Act 318)",
+        "Housing Development Act 1966 (Act 118)"
+      ],
+      "options_bm": [
+        "Akta Kualiti Alam Sekeliling 1974 (Akta 127)",
+        "Akta Bekalan Elektrik 1990 (Akta 447)",
+        "Akta Hakmilik Strata 1985 (Akta 318)",
+        "Akta Pemajuan Perumahan 1966 (Akta 118)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 127, administered by the Department of Environment (DOE / JAS), regulates air, water, noise, open burning (Sec 29A), and scheduled wastes.",
+      "exp_bm": "Akta 127 yang ditadbir oleh Jabatan Alam Sekitar (JAS / DOE) mengawal selia udara, air, bunyi bising, pembakaran terbuka (Sek 29A), dan buangan terjadual.",
+      "ref": "Environmental Quality Act 1974 (Act 127)"
+    },
+    {
+      "id": 72,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 29A of the Environmental Quality Act 1974, what is the legal rule regarding open burning of timber formwork or clearing debris on a construction site?",
+      "q_bm": "Di bawah Seksyen 29A Akta Kualiti Alam Sekeliling 1974, apakah peraturan undang-undang mengenai pembakaran terbuka acuan kayu atau sisa pembersihan di tapak pembinaan?",
+      "options_en": [
+        "Strictly prohibited — open burning on construction sites is an offence punishable by fine up to RM500,000 or imprisonment up to 5 years, or both",
+        "Allowed every Sunday afternoon",
+        "Allowed if the fire is smaller than 5 metres",
+        "Permitted without restriction during rainy days"
+      ],
+      "options_bm": [
+        "Dilarang keras — pembakaran terbuka di tapak pembinaan adalah kesalahan yang boleh didenda sehingga RM500,000 atau penjara sehingga 5 tahun, atau kedua-duanya",
+        "Dibenarkan setiap petang Ahad",
+        "Dibenarkan jika api lebih kecil daripada 5 meter",
+        "Dibenarkan tanpa sekatan pada hari hujan"
+      ],
+      "answer": 0,
+      "exp_en": "Section 29A imposes strict zero-tolerance liability on landowners and occupiers/contractors for any open burning on construction sites.",
+      "exp_bm": "Seksyen 29A mengenakan liabiliti toleransi sifar yang ketat ke atas pemilik tanah dan penghuni/kontraktor bagi sebarang pembakaran terbuka di tapak bina.",
+      "ref": "EQA 1974 Section 29A — Prohibition on Open Burning"
+    },
+    {
+      "id": 73,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian statute governs electrical installation licensing, competent Chargeman/Wireman requirements, and high-voltage supply safety (such as an 11kV mall substation)?",
+      "q_bm": "Statut Malaysia manakah yang mengawal selia pelesenan pemasangan elektrik, keperluan Penjaga Jentera (Chargeman)/Pendawai kompeten, dan keselamatan bekalan voltan tinggi (seperti pencawang 11kV pusat beli-belah)?",
+      "options_en": [
+        "Electricity Supply Act 1990 (Act 447) (enforced by Suruhanjaya Tenaga)",
+        "Fire Services Act 1988 (Act 341)",
+        "Land Conservation Act 1960 (Act 385)",
+        "Employment Act 1955 (Act 265)"
+      ],
+      "options_bm": [
+        "Akta Bekalan Elektrik 1990 (Akta 447) (dikuatkuasakan oleh Suruhanjaya Tenaga)",
+        "Akta Perkhidmatan Bomba 1988 (Akta 341)",
+        "Akta Pemuliharaan Tanah 1960 (Akta 385)",
+        "Akta Kerja 1955 (Akta 265)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 447 and the Electricity Regulations 1994 mandate that electrical installations and HV substations be designed, tested, and operated by ST-registered competent persons.",
+      "exp_bm": "Akta 447 dan Peraturan-Peraturan Elektrik 1994 mewajibkan pemasangan elektrik dan pencawang HV direka, diuji, dan dikendalikan oleh orang kompeten berdaftar ST.",
+      "ref": "Electricity Supply Act 1990 (Act 447)"
+    },
+    {
+      "id": 74,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "What is the primary objective of the Construction Industry Payment and Adjudication Act 2012 (CIPAA, Act 746)?",
+      "q_bm": "Apakah objektif utama Akta Pembayaran dan Adjudikasi Industri Pembinaan 2012 (CIPAA, Akta 746)?",
+      "options_en": [
+        "To facilitate regular and timely payment in construction contracts, prohibit conditional 'pay-when-paid' clauses, and provide rapid statutory adjudication",
+        "To fix the price of cement and steel bars",
+        "To replace DBKL building plan approvals",
+        "To regulate foreign worker visas"
+      ],
+      "options_bm": [
+        "Untuk memudahkan pembayaran tetap dan tepat pada masanya dalam kontrak pembinaan, melarang klausa bersyarat 'pay-when-paid', dan menyediakan adjudikasi berkanun yang pantas",
+        "Untuk menetapkan harga simen dan bar keluli",
+        "Untuk menggantikan kelulusan pelan bangunan DBKL",
+        "Untuk mengawal selia visa pekerja asing"
+      ],
+      "answer": 0,
+      "exp_en": "CIPAA 2012 protects cash flow across the construction supply chain by outlawing 'pay-when-paid' clauses (Section 35) and providing a 45-working-day adjudication remedy.",
+      "exp_bm": "CIPAA 2012 melindungi aliran tunai merentasi rantaian bekalan pembinaan dengan mengharamkan klausa 'pay-when-paid' (Seksyen 35) dan menyediakan remedi adjudikasi 45 hari bekerja.",
+      "ref": "CIPAA 2012 (Act 746) & CCPM M01/M13"
+    },
+    {
+      "id": 75,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Under Section 35 of CIPAA 2012, what is the legal status of a subcontract clause stating 'The Main Contractor shall pay the Subcontractor only when paid by the Employer'?",
+      "q_bm": "Di bawah Seksyen 35 CIPAA 2012, apakah status perundangan klausa subkontrak yang menyatakan 'Kontraktor Utama hanya akan membayar Subkontraktor apabila dibayar oleh Majikan'?",
+      "options_en": [
+        "Void and unenforceable",
+        "Fully valid and binding",
+        "Valid only for contracts above RM100 million",
+        "Valid if written in red ink"
+      ],
+      "options_bm": [
+        "Batal dan tidak boleh dikuatkuasakan (Void)",
+        "Sah sepenuhnya dan mengikat",
+        "Sah hanya bagi kontrak melebihi RM100 juta",
+        "Sah jika ditulis dengan dakwat merah"
+      ],
+      "answer": 0,
+      "exp_en": "Section 35 of CIPAA 2012 renders all conditional payment provisions ('pay-when-paid' or 'pay-if-paid') in construction contracts void.",
+      "exp_bm": "Seksyen 35 CIPAA 2012 menjadikan semua peruntukan pembayaran bersyarat ('pay-when-paid' atau 'pay-if-paid') dalam kontrak pembinaan terbatal.",
+      "ref": "CIPAA 2012 Section 35 — Prohibition of Conditional Payment"
+    },
+    {
+      "id": 76,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian Act sets minimum standards for worker accommodation (Centralised Labour Quarters / CLQ) and amenities provided to construction workers?",
+      "q_bm": "Akta Malaysia manakah yang menetapkan standard minimum bagi penginapan pekerja (Kuarters Pekerja Berpusat / CLQ) dan kemudahan yang disediakan kepada pekerja binaan?",
+      "options_en": [
+        "Employees' Minimum Standards of Housing, Accommodations and Amenities Act 1990 (Act 446)",
+        "Street, Drainage and Building Act 1974 (Act 133)",
+        "Fire Services Act 1988 (Act 341)",
+        "Strata Titles Act 1985 (Act 318)"
+      ],
+      "options_bm": [
+        "Akta Standard Minimum Perumahan, Penginapan dan Kemudahan Pekerja 1990 (Akta 446)",
+        "Akta Jalan, Parit dan Bangunan 1974 (Akta 133)",
+        "Akta Perkhidmatan Bomba 1988 (Akta 341)",
+        "Akta Hakmilik Strata 1985 (Akta 318)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 446 (enforced by JTK / Department of Labour) requires a Certificate for Accommodation and strict space, sanitation, and safety standards for worker quarters.",
+      "exp_bm": "Akta 446 (dikuatkuasakan oleh JTK) mewajibkan Perakuan Penginapan serta standard ruang, sanitasi, dan keselamatan yang ketat bagi kuarters pekerja.",
+      "ref": "Act 446 & Employment Act 1955 (Act 265)"
+    },
+    {
+      "id": 77,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which Malaysian Act governs the registration and professional recognition of Engineering Technologists (Ts.) and Certified Technicians (Tc.) in the construction industry?",
+      "q_bm": "Akta Malaysia manakah yang mengawal selia pendaftaran dan pengiktirafan profesional Teknologis Kejuruteraan (Ts.) dan Juruteknik Bertauliah (Tc.) dalam industri pembinaan?",
+      "options_en": [
+        "Technologists and Technicians Act 2015 (Act 768) (administered by MBOT)",
+        "Land Public Transport Act 2010 (Act 715)",
+        "Employment Act 1955 (Act 265)",
+        "Environmental Quality Act 1974 (Act 127)"
+      ],
+      "options_bm": [
+        "Akta Teknologis dan Juruteknik 2015 (Akta 768) (ditadbir oleh MBOT)",
+        "Akta Pengangkutan Awam Darat 2010 (Akta 715)",
+        "Akta Kerja 1955 (Akta 265)",
+        "Akta Kualiti Alam Sekeliling 1974 (Akta 127)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 768 established the Malaysia Board of Technologists (MBOT) to accredit Graduate Technologists, Professional Technologists (Ts.), and Certified Technicians (Tc.).",
+      "exp_bm": "Akta 768 menubuhkan Lembaga Teknologis Malaysia (MBOT) untuk mengakreditasi Teknologis Siswazah, Teknologis Profesional (Ts.), dan Juruteknik Bertauliah (Tc.).",
+      "ref": "Technologists and Technicians Act 2015 (Act 768)"
+    },
+    {
+      "id": 78,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which legislation governs public transport interfaces, traffic impact approvals, and commercial vehicle haulage compliance in Peninsular Malaysia?",
+      "q_bm": "Perundangan manakah yang mengawal selia antara muka pengangkutan awam, kelulusan impak trafik, dan pematuhan pengangkutan kenderaan perdagangan di Semenanjung Malaysia?",
+      "options_en": [
+        "Land Public Transport Act 2010 (Act 715) (and Road Transport Act 1987, Act 333)",
+        "Fire Services Act 1988 (Act 341)",
+        "Strata Titles Act 1985 (Act 318)",
+        "Housing Development Act 1966 (Act 118)"
+      ],
+      "options_bm": [
+        "Akta Pengangkutan Awam Darat 2010 (Akta 715) (dan Akta Pengangkutan Jalan 1987, Akta 333)",
+        "Akta Perkhidmatan Bomba 1988 (Akta 341)",
+        "Akta Hakmilik Strata 1985 (Akta 318)",
+        "Akta Pemajuan Perumahan 1966 (Akta 118)"
+      ],
+      "answer": 0,
+      "exp_en": "Act 715 (enforced by APAD) and Road Transport Act 1987 (JPJ) regulate heavy haulage operator permits, overloading, and public transport integration.",
+      "exp_bm": "Akta 715 (dikuatkuasakan oleh APAD) dan Akta Pengangkutan Jalan 1987 (JPJ) mengawal selia permit pengendali kenderaan berat, muatan berlebihan, dan integrasi pengangkutan awam.",
+      "ref": "Land Public Transport Act 2010 (Act 715)"
+    },
+    {
+      "id": 79,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Under the Employment Act 1955 (Act 265, as amended), what is the maximum normal working hours per week for employees in Malaysia before overtime rates apply?",
+      "q_bm": "Di bawah Akta Kerja 1955 (Akta 265, pindaan), berapakah had maksimum waktu kerja biasa seminggu bagi pekerja di Malaysia sebelum kadar kerja lebih masa (overtime) terpakai?",
+      "options_en": [
+        "45 hours per week",
+        "60 hours per week",
+        "72 hours per week",
+        "30 hours per week"
+      ],
+      "options_bm": [
+        "45 jam seminggu",
+        "60 jam seminggu",
+        "72 jam seminggu",
+        "30 jam seminggu"
+      ],
+      "answer": 0,
+      "exp_en": "The Employment (Amendment) Act 2022 reduced maximum weekly working hours from 48 hours to 45 hours per week.",
+      "exp_bm": "Akta Kerja (Pindaan) 2022 menurunkan had maksimum waktu kerja mingguan daripada 48 jam kepada 45 jam seminggu.",
+      "ref": "Employment Act 1955 (Act 265, Amendment 2022)"
+    },
+    {
+      "id": 80,
+      "set": 8,
+      "level": "Aplikasi / Application",
+      "q_en": "Which regulatory body oversees sewerage infrastructure approvals (such as a shopping mall Sewage Treatment Plant — STP) in Peninsular Malaysia?",
+      "q_bm": "Badan kawal selia manakah yang menyelia kelulusan infrastruktur pembetungan (seperti Loji Rawatan Kumbahan — STP pusat beli-belah) di Semenanjung Malaysia?",
+      "options_en": [
+        "Suruhanjaya Perkhidmatan Air Negara (SPAN) and Indah Water Konsortium (IWK) under Water Services Industry Act 2006 (Act 655)",
+        "Jabatan Laut Malaysia",
+        "Bank Negara Malaysia",
+        "Lembaga Getah Malaysia"
+      ],
+      "options_bm": [
+        "Suruhanjaya Perkhidmatan Air Negara (SPAN) dan Indah Water Konsortium (IWK) di bawah Akta Industri Perkhidmatan Air 2006 (Akta 655)",
+        "Jabatan Laut Malaysia",
+        "Bank Negara Malaysia",
+        "Lembaga Getah Malaysia"
+      ],
+      "answer": 0,
+      "exp_en": "SPAN regulates water supply and sewerage services under Act 655, with IWK acting as the certifying agency for STP designs and Borang G17.",
+      "exp_bm": "SPAN mengawal selia perkhidmatan bekalan air dan pembetungan di bawah Akta 655, dengan IWK sebagai agensi perakuan bagi reka bentuk STP dan Borang G17.",
+      "ref": "Water Services Industry Act 2006 (Act 655)"
+    },
+    {
+      "id": 81,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "In the Setiawangsa Shopping Centre brief, Possession Date is 10/03/2021, Duration is 130 weeks, and Stated Completion is 05/09/2023. What did our baseline audit discover when calculating 10/03/2021 + 130 weeks (910 days)?",
+      "q_bm": "Dalam ringkasan kes Pusat Beli-Belah Setiawangsa, Tarikh Milik Tapak ialah 10/03/2021, Tempoh ialah 130 minggu, dan Tarikh Siap Dinyatakan ialah 05/09/2023. Apakah yang ditemui dalam audit garis dasar apabila mengira 10/03/2021 + 130 minggu (910 hari)?",
+      "options_en": [
+        "Adding 910 calendar days gives 06/09/2023—a 1-day contractual discrepancy that must be formally clarified without silently altering the contract text",
+        "The contract is actually 200 weeks long",
+        "Completion falls in December 2024",
+        "There is a 60-day error"
+      ],
+      "options_bm": [
+        "Penambahan 910 hari kalendar menghasilkan 06/09/2023—percanggahan kontrak 1 hari yang mesti dijelaskan secara rasmi tanpa meminda teks kontrak secara senyap",
+        "Kontrak sebenarnya berdurasi 200 minggu",
+        "Tarikh siap jatuh pada Disember 2024",
+        "Terdapat ralat selama 60 hari"
+      ],
+      "answer": 0,
+      "exp_en": "130 weeks × 7 days = 910 days from 10 March 2021 lands on 6 September 2023 (or 5 Sept if inclusive counting applies). Clarifying this upfront prevents LAD disputes.",
+      "exp_bm": "130 minggu × 7 hari = 910 hari dari 10 Mac 2021 jatuh pada 6 September 2023 (atau 5 Sept jika kiraan inklusif). Penjelasan awal mengelakkan pertikaian LAD.",
+      "ref": "Setiawangsa Case Study — Baseline Verification (M01/M02)"
+    },
+    {
+      "id": 82,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "If the Setiawangsa Shopping Centre suffers a 10-calendar-day critical delay caused by the contractor's late CIDB material compliance, what is the direct LAD exposure at RM10,500.00/day?",
+      "q_bm": "Sekiranya Pusat Beli-Belah Setiawangsa mengalami kelewatan kritikal 10 hari kalendar akibat kelewatan kontraktor mematuhi pensijilan bahan CIDB, berapakah pendedahan LAD langsung pada kadar RM10,500.00/hari?",
+      "options_en": [
+        "RM 105,000.00",
+        "RM 10,500.00",
+        "RM 1,050,000.00",
+        "RM 52,500.00"
+      ],
+      "options_bm": [
+        "RM 105,000.00",
+        "RM 10,500.00",
+        "RM 1,050,000.00",
+        "RM 52,500.00"
+      ],
+      "answer": 0,
+      "exp_en": "Direct LAD = 10 days × RM10,500.00/day = RM105,000.00 (excluding idle site preliminaries).",
+      "exp_bm": "LAD Langsung = 10 hari × RM10,500.00/hari = RM105,000.00 (tidak termasuk kos preliminari tapak yang terbiar).",
+      "ref": "Setiawangsa Case Study — LAD Calculation"
+    },
+    {
+      "id": 83,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "On the 468,000 sq ft Setiawangsa site, what is the approximate land area in square metres and acres?",
+      "q_bm": "Di atas tapak Setiawangsa seluas 468,000 kaki persegi, berapakah anggaran keluasan tanah dalam meter persegi dan ekar?",
+      "options_en": [
+        "~43,478 sq m (10.74 acres)",
+        "~10,000 sq m (2.50 acres)",
+        "~100,000 sq m (24.7 acres)",
+        "~4,680 sq m (1.15 acres)"
+      ],
+      "options_bm": [
+        "~43,478 meter persegi (10.74 ekar)",
+        "~10,000 meter persegi (2.50 ekar)",
+        "~100,000 meter persegi (24.7 ekar)",
+        "~4,680 meter persegi (1.15 ekar)"
+      ],
+      "answer": 0,
+      "exp_en": "468,000 sq ft ÷ 10.7639 = 43,478.6 sq m; 468,000 sq ft ÷ 43,560 = 10.74 acres.",
+      "exp_bm": "468,000 kaki persegi ÷ 10.7639 = 43,478.6 m²; 468,000 kaki persegi ÷ 43,560 = 10.74 ekar.",
+      "ref": "Setiawangsa Case Study — Site Particulars"
+    },
+    {
+      "id": 84,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "Which set of eight (8) physical construction components is explicitly specified in Section B of the CIDB Setiawangsa case study?",
+      "q_bm": "Set lapan (8) komponen pembinaan fizikal manakah yang dinyatakan secara khusus dalam Bahagian B kajian kes Setiawangsa CIDB?",
+      "options_en": [
+        "Admin Building, Guardhouse, Refuse Building, Vehicle/Pedestrian Routes, 200 Retail Stores, 1,300 Parking Lots, Sewage Treatment Plant (STP), and Water Tank",
+        "200 Terrace Houses, 1 Mosque, 1 School, and 1 Football Stadium",
+        "50-Storey Office Tower, Helipad, and Monorail Station",
+        "Oil Refinery, Jetty, and Petrochemical Tank Farm"
+      ],
+      "options_bm": [
+        "Bangunan Pentadbiran, Pondok Pengawal, Rumah Sampah, Laluan Kenderaan & Pejalan Kaki, 200 Stor Jualan, 1,300 Lot Parkir, Loji Kumbahan (STP), dan Tangki Air",
+        "200 Rumah Teres, 1 Masjid, 1 Sekolah, dan 1 Stadium Bola Sepak",
+        "Menara Pejabat 50 Tingkat, Helipad, dan Stesen Monorel",
+        "Loji Penapisan Minyak, Jeti, dan Tangki Petrokimia"
+      ],
+      "answer": 0,
+      "exp_en": "All eight components must be explicitly accounted for in the WBS, elemental cost plan, statutory submissions (Borang G), and O&M asset register.",
+      "exp_bm": "Kesemua lapan komponen mesti diambil kira secara eksplisit dalam WBS, pelan kos elemen, penyerahan berkanun (Borang G), dan daftar aset O&M.",
+      "ref": "CIDB PA Case Study — Section B Components"
+    },
+    {
+      "id": 85,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "When preparing the Setiawangsa PMP, why must the CPM keep the project's 24-month Defects Liability Period (DLP) distinct from the 130-week Construction Period?",
+      "q_bm": "Semasa menyediakan PMP Setiawangsa, mengapakah CPM mesti membezakan Tempoh Tanggungan Kecacatan (DLP) 24 bulan daripada Tempoh Pembinaan 130 minggu?",
+      "options_en": [
+        "Because the 130-week period ends at Practical Completion (CPC), whereas the 24-month DLP runs post-PC to govern defect rectification and second-half retention release",
+        "Because DLP happens before piling begins",
+        "Because LAD applies during the 24-month DLP",
+        "Because no defects are allowed to be reported during DLP"
+      ],
+      "options_bm": [
+        "Kerana tempoh 130 minggu tamat pada Siap Praktikal (CPC), manakala DLP 24 bulan bermula selepas PC untuk mengawal pembaikan kecacatan dan pelepasan separuh kedua wang tahanan",
+        "Kerana DLP berlaku sebelum kerja cerucuk bermula",
+        "Kerana LAD dikenakan semasa DLP 24 bulan",
+        "Kerana tiada kecacatan dibenarkan dilaporkan semasa DLP"
+      ],
+      "answer": 0,
+      "exp_en": "Practical Completion triggers CCC/occupation and releases the first 50% retention; the 24-month DLP follows PC and concludes with CMGD and final retention release.",
+      "exp_bm": "Siap Praktikal mencetuskan CCC/pendudukan dan melepaskan 50% wang tahanan pertama; DLP 24 bulan menyusul selepas PC dan berakhir dengan CMGD serta pelepasan baki wang tahanan.",
+      "ref": "Setiawangsa Case Study — Contractual Timeline"
+    },
+    {
+      "id": 86,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "In a Kuala Lumpur commercial development under DBKL, if a D&B contractor begins bulk earthworks and foundation piling before DBKL approves the Earthworks Plan and Building Plan, which statute is breached?",
+      "q_bm": "Dalam pembangunan komersial Kuala Lumpur di bawah DBKL, jika kontraktor D&B memulakan kerja tanah pukal dan cerucuk asas sebelum DBKL meluluskan Pelan Kerja Tanah dan Pelan Bangunan, statut manakah yang dilanggar?",
+      "options_en": [
+        "Street, Drainage and Building Act 1974 (Act 133, Section 70 & 70A) and Federal Territory (Planning) Act 1982 (Act 267)",
+        "CIPAA 2012 (Act 746)",
+        "Employment Act 1955 (Act 265)",
+        "Strata Titles Act 1985 (Act 318)"
+      ],
+      "options_bm": [
+        "Akta Jalan, Parit dan Bangunan 1974 (Akta 133, Seksyen 70 & 70A) dan Akta (Perancangan) Wilayah Persekutuan 1982 (Akta 267)",
+        "CIPAA 2012 (Akta 746)",
+        "Akta Kerja 1955 (Akta 265)",
+        "Akta Hakmilik Strata 1985 (Akta 318)"
+      ],
+      "answer": 0,
+      "exp_en": "Section 70A of Act 133 specifically governs Earthworks Plan approval, while Section 70 governs Building Plan approval prior to site execution.",
+      "exp_bm": "Seksyen 70A Akta 133 mengawal selia kelulusan Pelan Kerja Tanah secara khusus, manakala Seksyen 70 mengawal selia kelulusan Pelan Bangunan sebelum pelaksanaan tapak.",
+      "ref": "Act 133 Sections 70 & 70A — Earthworks & Building Plans"
+    },
+    {
+      "id": 87,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "Why does the CIDB PA rubric award higher marks when a candidate integrates 'Program Outcomes (PO)' and 'Learning Outcomes (LO)' across Modules 01–16?",
+      "q_bm": "Mengapakah rubrik PA CIDB memberikan markah lebih tinggi apabila calon mengintegrasikan 'Hasil Program (PO)' dan 'Hasil Pembelajaran (LO)' merentasi Modul 01–16?",
+      "options_en": [
+        "It proves the candidate's technical solutions directly satisfy Level 6 CSQF competency standards rather than merely copying generic templates",
+        "It allows the candidate to skip Modules 10 to 16",
+        "It reduces the word count requirement to 500 words",
+        "It exempts the report from binding"
+      ],
+      "options_bm": [
+        "Ia membuktikan penyelesaian teknikal calon memenuhi secara langsung standard kompetensi CSQF Tahap 6 dan bukannya sekadar menyalin templat umum",
+        "Ia membolehkan calon melangkau Modul 10 hingga 16",
+        "Ia mengurangkan syarat jumlah perkataan kepada 500 patah perkataan",
+        "Ia mengecualikan laporan daripada dijilid"
+      ],
+      "answer": 0,
+      "exp_en": "Mapping POs and LOs to concrete project controls demonstrates authentic Level 6 mastery and synthesis.",
+      "exp_bm": "Memetakan PO dan LO kepada kawalan projek yang konkrit membuktikan penguasaan dan sintesis Tahap 6 yang tulen.",
+      "ref": "CIDB PA Assessment Criteria — PO & LO Attainment"
+    },
+    {
+      "id": 88,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "If Perintis Development Berhad appoints an internal D&B project team that lacks a valid CIDB Grade G7 registration (holding only Grade G5), what must the CPM advise immediately?",
+      "q_bm": "Jika Perintis Development Berhad melantik pasukan projek D&B dalaman yang tidak mempunyai pendaftaran CIDB Gred G7 yang sah (hanya memegang Gred G5), apakah nasihat segera CPM?",
+      "options_en": [
+        "Halt contract execution under that entity immediately and ensure a valid CIDB Grade G7 (Categories B, CE, ME) entity is registered/appointed before site work",
+        "Proceed anyway because RM180.5M is close enough to RM5M",
+        "Split the 7-storey mall into 36 separate G5 contracts to bypass CIDB rules",
+        "Ignore CIDB registration until Practical Completion"
+      ],
+      "options_bm": [
+        "Hentikan pelaksanaan kontrak di bawah entiti tersebut serta-merta dan pastikan entiti CIDB Gred G7 (Kategori B, CE, ME) yang sah didaftarkan/dilantik sebelum kerja tapak",
+        "Teruskan sahaja kerana RM180.5J cukup hampir dengan RM5J",
+        "Pecahkan pusat beli-belah 7 tingkat kepada 36 kontrak G5 berasingan untuk memintas peraturan CIDB",
+        "Abaikan pendaftaran CIDB sehingga Siap Praktikal"
+      ],
+      "answer": 0,
+      "exp_en": "Splitting contracts to evade registration limits or contracting above grade limit is illegal under Act 520 Section 25/29.",
+      "exp_bm": "Memecahkan kontrak untuk mengelak had pendaftaran atau berkontrak melebihi had gred adalah menyalahi undang-undang di bawah Seksyen 25/29 Akta 520.",
+      "ref": "Akta 520 Section 25 — Grade Compliance"
+    },
+    {
+      "id": 89,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "In a 50-to-80-page CIDB PA report, why should a candidate NEVER fabricate borehole logs, clause numbers, or site survey coordinates when none are provided in the question?",
+      "q_bm": "Dalam laporan PA CIDB sepanjang 50 hingga 80 muka surat, mengapakah calon TIDAK PERNAH boleh mereka-reka log lubang jara (borehole), nombor klausa, atau koordinat ukur tapak apabila tiada dalam soalan?",
+      "options_en": [
+        "Because professional integrity requires distinguishing verified case-study facts from explicitly labelled planning assumptions pending validation",
+        "Because boreholes are never used in shopping centres",
+        "Because clause numbers do not exist in Malaysian contracts",
+        "Because assessors only read the cover page"
+      ],
+      "options_bm": [
+        "Kerana integriti profesional menuntut pembezaan jelas antara fakta kajian kes yang disahkan dengan andaian perancangan yang dilabel secara eksplisit sementara menunggu pengesahan",
+        "Kerana lubang jara tidak pernah digunakan dalam pusat beli-belah",
+        "Kerana nombor klausa tidak wujud dalam kontrak Malaysia",
+        "Kerana penilai hanya membaca muka hadapan sahaja"
+      ],
+      "answer": 0,
+      "exp_en": "Assessors penalize fabricated claims presented as facts, whereas explicitly labelled illustrative assumptions show genuine project management discipline.",
+      "exp_bm": "Penilai menolak dakwaan rekaan yang dipersembahkan sebagai fakta, manakala andaian ilustrasi yang dilabel secara eksplisit menunjukkan disiplin pengurusan projek yang tulen.",
+      "ref": "CCPM Module 01 — Professional Ethics & Evidence"
+    },
+    {
+      "id": 90,
+      "set": 9,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "Which combination of statutory clearances is mandatory before the PSP can issue Borang F (CCC) for the Setiawangsa Shopping Centre?",
+      "q_bm": "Gabungan pelepasan berkanun manakah yang wajib sebelum PSP boleh mengeluarkan Borang F (CCC) bagi Pusat Beli-Belah Setiawangsa?",
+      "options_en": [
+        "All 21 Borang G1–G21 forms signed, Bomba Fire Clearance, DOSH PMA for lifts/escalators, TNB energization, Air Selangor water supply, and IWK STP clearance",
+        "Only a signed receipt from the concrete supplier",
+        "Only a marketing brochure for the 200 retail stores",
+        "Only the initial tender advertisement"
+      ],
+      "options_bm": [
+        "Kesemua 21 borang G1–G21 ditandatangani, Pelepasan Bomba, PMA DOSH bagi lif/eskalator, penyambungan TNB, bekalan air Air Selangor, dan pelepasan STP IWK",
+        "Hanya resit bertandatangan daripada pembekal konkrit",
+        "Hanya risalah pemasaran bagi 200 stor jualan",
+        "Hanya iklan tender awal"
+      ],
+      "answer": 0,
+      "exp_en": "CCC (Borang F) legally requires 100% completion of Borang G1–G21 and essential utility/safety agency clearances.",
+      "exp_bm": "CCC (Borang F) secara sah memerlukan penyiapan 100% Borang G1–G21 serta pelepasan agensi utiliti dan keselamatan utama.",
+      "ref": "UBBL 1984 By-Law 25 & CCPM M01/M07/M14"
+    },
+    {
+      "id": 91,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: During a surprise joint audit at Week 38, CIDB enforcement officers find 12 foreign welders and 3 site supervisors working on structural steel without CIDB SKK accreditation cards. What is the immediate statutory exposure and CPM action?",
+      "q_bm": "SENARIO KRISIS: Semasa audit mengejut pada Minggu ke-38, pegawai penguat kuasa CIDB mendapati 12 pengimpal asing dan 3 penyelia tapak bekerja pada struktur keluli tanpa kad akreditasi SKK CIDB. Apakah pendedahan berkanun segera dan tindakan CPM?",
+      "options_en": [
+        "Fine up to RM5,000 per unaccredited person on both worker and employer under Sec 33A; immediately stand down unaccredited personnel, replace with SKK-certified crews, and audit all subcontractor trade registers",
+        "Hide the workers in the basement until officers leave",
+        "Tell CIDB officers that steel welding does not require accreditation",
+        "Deduct the fine from the client's contingency fund"
+      ],
+      "options_bm": [
+        "Denda sehingga RM5,000 bagi setiap individu tidak bertauliah ke atas pekerja dan majikan di bawah Sek 33A; hentikan tugas mereka serta-merta, gantikan dengan kru bertauliah SKK, dan audit semua daftar tred subkontraktor",
+        "Sembunyikan pekerja di ruang bawah tanah sehingga pegawai beredar",
+        "Beritahu pegawai CIDB bahawa kimpalan keluli tidak memerlukan akreditasi",
+        "Tolak denda tersebut daripada dana luar jangka klien"
+      ],
+      "answer": 0,
+      "exp_en": "Under Act 520 Section 33A, both worker and employer face fines up to RM5,000 each, and uncertified structural welds risk structural failure and NCR rejection.",
+      "exp_bm": "Di bawah Seksyen 33A Akta 520, pekerja dan majikan berdepan denda sehingga RM5,000 setiap satu, dan kimpalan struktur tanpa tauliah berisiko gagal struktur dan ditolak NCR.",
+      "ref": "Akta 520 Section 33A — Level 6 Crisis Response"
+    },
+    {
+      "id": 92,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Two months after contract award, you discover the commercial team forgot to submit Form CIDB L1/96 and pay the RM225,625.00 levy. What is the maximum statutory fine exposure if prosecuted, and what must you do immediately?",
+      "q_bm": "SENARIO KRISIS: Dua bulan selepas penganugerahan kontrak, anda mendapati pasukan komersial terlupa menghantar Borang CIDB L1/96 dan membayar levi RM225,625.00. Apakah pendedahan denda berkanun maksimum jika didakwa, dan apakah tindakan segera anda?",
+      "options_en": [
+        "Up to RM50,000 for late/non-declaration PLUS up to 4× levy (RM902,500) for non-payment; immediately lodge Form L1/96, settle the RM225,625 levy, and submit formal mitigation to CIDB",
+        "Wait until project completion in 2023 to declare",
+        "Declare the contract value as RM450,000 to avoid paying levy",
+        "Ignore it because Perintis is a public-listed company"
+      ],
+      "options_bm": [
+        "Sehingga RM50,000 bagi kelewatan/kegagalan pengisytiharan DITAMBAH sehingga 4× levi (RM902,500) bagi kegagalan bayaran; segera hantar Borang L1/96, jelaskan levi RM225,625, dan kemukakan rayuan mitigasi rasmi kepada CIDB",
+        "Tunggu sehingga projek siap pada 2023 untuk mengisytihar",
+        "Isytiharkan nilai kontrak sebagai RM450,000 untuk mengelak bayar levi",
+        "Abaikan kerana Perintis ialah syarikat tersenarai awam"
+      ],
+      "answer": 0,
+      "exp_en": "Voluntary immediate declaration and full payment of the RM225,625 levy demonstrates good faith and mitigates prosecution risk under Section 34.",
+      "exp_bm": "Pengisytiharan segera secara sukarela dan pembayaran penuh levi RM225,625 menunjukkan niat baik dan mengurangkan risiko pendakwaan di bawah Seksyen 34.",
+      "ref": "Akta 520 Section 34 — Levy Recovery"
+    },
+    {
+      "id": 93,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: A tower crane luffing wire snaps during lifting at Setiawangsa, injuring a rigger. Both DOSH and CIDB issue immediate Stop-Work Orders (SWO). Which statutory conditions must be satisfied before lifting operations can legally resume?",
+      "q_bm": "SENARIO KRISIS: Kabel kren menara putus semasa kerja mengangkat di Setiawangsa, mencederakan seorang juruikat (rigger). Kedua-dua DOSH dan CIDB mengeluarkan Perintah Henti Kerja (SWO) serta-merta. Syarat berkanun manakah yang mesti dipenuhi sebelum operasi mengangkat boleh disambung semula secara sah?",
+      "options_en": [
+        "Root-cause incident investigation, replacement & load-testing of wire rope, re-inspection by DOSH (valid PMA) and CIDB, and formal written lifting of both SWOs",
+        "Resume lifting the next morning after a 5-minute toolbox talk",
+        "Only ask the crane operator to sign an indemnity letter",
+        "Continue lifting at night when inspectors are asleep"
+      ],
+      "options_bm": [
+        "Siasatan punca insiden, penggantian & ujian beban kabel, pemeriksaan semula oleh DOSH (PMA sah) dan CIDB, serta penarikan balik bertulis rasmi kedua-dua SWO",
+        "Sambung mengangkat keesokan pagi selepas taklimat toolbox 5 minit",
+        "Hanya minta pengendali kren menandatangani surat tanggung rugi",
+        "Teruskan kerja mengangkat pada waktu malam semasa pemeriksa tiada"
+      ],
+      "answer": 0,
+      "exp_en": "Breaching a DOSH or CIDB Stop-Work Order carries severe criminal penalties (up to RM500,000 fine and imprisonment). Formal statutory clearance is mandatory.",
+      "exp_bm": "Melanggar Perintah Henti Kerja DOSH atau CIDB membawa penalti jenayah berat (denda sehingga RM500,000 dan penjara). Pelepasan berkanun rasmi adalah wajib.",
+      "ref": "OSHA 1994 & Akta 520 Section 34B/34C"
+    },
+    {
+      "id": 94,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: The Developer's Marketing Director pressures you to start piling on 10 March 2021 (Possession Date) even though DBKL has NOT yet approved the Earthworks Plan or Building Plan. As a Level 6 CCPM, what is your professional decision?",
+      "q_bm": "SENARIO KRISIS: Pengarah Pemasaran Pemaju mendesak anda memulakan kerja cerucuk pada 10 Mac 2021 (Tarikh Milik Tapak) walaupun DBKL BELUM meluluskan Pelan Kerja Tanah atau Pelan Bangunan. Sebagai CCPM Tahap 6, apakah keputusan profesional anda?",
+      "options_en": [
+        "Refuse to release permanent piling works (violates Act 133 Sec 70/70A), restrict site activities strictly to hoarding, survey & SI boreholes, and expedite OSC 3.0 Plus approval",
+        "Start piling secretly behind high hoarding",
+        "Ask the piling contractor to bear all DBKL criminal fines",
+        "Postpone all statutory submissions until 2022"
+      ],
+      "options_bm": [
+        "Tolak pelepasan kerja cerucuk kekal (melanggar Akta 133 Sek 70/70A), hadkan aktiviti tapak hanya kepada pemasangan pagar (hoarding), ukur & SI lubang jara, serta percepat kelulusan OSC 3.0 Plus",
+        "Mulakan kerja cerucuk secara rahsia di sebalik pagar tinggi",
+        "Minta kontraktor cerucuk menanggung semua denda jenayah DBKL",
+        "Tangguhkan semua penyerahan berkanun sehingga 2022"
+      ],
+      "answer": 0,
+      "exp_en": "Permitting illegal site works exposes both developer and contractor to Section 70/70A prosecution and demolition orders; non-permanent enabling/SI works can proceed safely while expediting OSC.",
+      "exp_bm": "Membenarkan kerja tapak tanpa kelulusan mendedahkan pemaju dan kontraktor kepada pendakwaan Seksyen 70/70A dan perintah perobohan; kerja awalan/SI boleh dijalankan sementara mempercepat OSC.",
+      "ref": "Act 133 Sec 70/70A & CCPM Professional Ethics"
+    },
+    {
+      "id": 95,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: A specialist MEP subcontractor threatens to suspend chilled-water pipe installation under CIPAA 2012 because the main D&B contractor withheld payment citing a 'pay-when-paid' clause. How must the CPM intervene?",
+      "q_bm": "SENARIO KRISIS: Subkontraktor pakar M&E mengugut untuk menggantung pemasangan paip air dingin di bawah CIPAA 2012 kerana kontraktor utama D&B menahan bayaran dengan memetik klausa 'pay-when-paid'. Bagaimanakah CPM mesti campur tangan?",
+      "options_en": [
+        "Advise that 'pay-when-paid' clauses are void under CIPAA Sec 35, audit the verified work done immediately, and enforce prompt payment to prevent statutory suspension (CIPAA Sec 29) on the critical path",
+        "Support the main contractor's pay-when-paid excuse",
+        "Terminate the subcontractor without paying for certified work",
+        "Tell the subcontractor to wait until the 24-month DLP ends"
+      ],
+      "options_bm": [
+        "Nasihatkan bahawa klausa 'pay-when-paid' adalah batal di bawah Sek 35 CIPAA, audit kerja siap yang disahkan segera, dan kuatkuasakan bayaran segera bagi mengelak penggantungan berkanun (Sek 29 CIPAA) pada laluan kritikal",
+        "Sokong alasan pay-when-paid kontraktor utama",
+        "Tamatkan subkontraktor tanpa membayar kerja yang telah disahkan",
+        "Beritahu subkontraktor supaya menunggu sehingga DLP 24 bulan tamat"
+      ],
+      "answer": 0,
+      "exp_en": "Under CIPAA Section 29, an unpaid party who wins adjudication can legally suspend work—which would devastate the Setiawangsa critical path and trigger RM10,500/day LAD.",
+      "exp_bm": "Di bawah Seksyen 29 CIPAA, pihak tidak dibayar yang menang adjudikasi boleh menggantung kerja secara sah—yang akan melumpuhkan laluan kritikal Setiawangsa dan mencetuskan LAD RM10,500/hari.",
+      "ref": "CIPAA 2012 Sections 29 & 35"
+    },
+    {
+      "id": 96,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: During post-pour ultrasonic testing, 200 sq m of imported ceramic floor tiles already laid in the concourse are found to lack CIDB PPS certification. What is the compliant resolution under Act 520?",
+      "q_bm": "SENARIO KRISIS: Semasa ujian ultrasonik selepas pemasangan, 200 m² jubin lantai seramik import yang telah dipasang di ruang legar didapati tidak mempunyai sijil PPS CIDB. Apakah penyelesaian yang patuh di bawah Akta 520?",
+      "options_en": [
+        "Issue an NCR, hack out and replace the 200 sq m with CIDB PPS-certified tiles at the defaulting trade's cost, and tighten gate-entry PPS checks to prevent recurrence",
+        "Ignore it because tiles are already grouted",
+        "Ask the tiles supplier to forge a certificate",
+        "Paint over the tiles"
+      ],
+      "options_bm": [
+        "Keluarkan NCR, pecahkan dan gantikan 200 m² tersebut dengan jubin bertauliah PPS CIDB atas kos pihak yang cuai, serta ketatkan semakan PPS di pintu masuk tapak",
+        "Abaikan kerana jubin sudah siap digrout",
+        "Minta pembekal jubin memalsukan sijil",
+        "Cat di atas permukaan jubin tersebut"
+      ],
+      "answer": 0,
+      "exp_en": "Ceramic tiles are Fourth Schedule items under Act 520; leaving non-compliant materials installed risks CIDB penalties up to RM500,000 and QLASSIC failure.",
+      "exp_bm": "Jubin seramik ialah item Jadual Keempat di bawah Akta 520; membiarkan bahan tidak patuh terpasang berisiko dikenakan penalti CIDB sehingga RM500,000 dan kegagalan QLASSIC.",
+      "ref": "Akta 520 Section 33C/33D & QA/QC Control"
+    },
+    {
+      "id": 97,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: At Week 124, 19 of the 21 Borang G forms are signed, but Borang G8/G9 (Fire Fighting Passive & Active) is delayed because smoke-spill fans failed Bomba's witness test. Can the PSP legally issue Borang F (CCC) so tenants can open on schedule?",
+      "q_bm": "SENARIO KRISIS: Pada Minggu ke-124, 19 daripada 21 borang G telah ditandatangani, tetapi Borang G8/G9 (Sistem Kebakaran Pasif & Aktif) tertangguh kerana kipas nyah-asap gagal ujian saksi Bomba. Bolehkah PSP mengeluarkan Borang F (CCC) secara sah supaya penyewa boleh beroperasi mengikut jadual?",
+      "options_en": [
+        "No — Borang F (CCC) cannot be legally issued until Borang G8/G9 and Bomba clearance are signed; rectify fan airflow, re-test with Bomba, and expedite sign-off",
+        "Yes — issue Borang F first and fix fire fans next year",
+        "Yes — skip Borang G8/G9 because 19 out of 21 is >90%",
+        "Yes — ask DBKL to waive fire safety rules"
+      ],
+      "options_bm": [
+        "Tidak — Borang F (CCC) tidak boleh dikeluarkan secara sah sehingga Borang G8/G9 dan pelepasan Bomba ditandatangani; baiki aliran udara kipas, uji semula bersama Bomba, dan percepat kelulusan",
+        "Ya — keluarkan Borang F dahulu dan baiki kipas kebakaran tahun depan",
+        "Ya — langkau Borang G8/G9 kerana 19 daripada 21 ialah >90%",
+        "Ya — minta DBKL mengecualikan peraturan keselamatan kebakaran"
+      ],
+      "answer": 0,
+      "exp_en": "Issuing Borang F without valid Borang G8/G9 and Bomba clearance is a serious statutory offence under Act 133 and UBBL 1984 and endangers public lives.",
+      "exp_bm": "Mengeluarkan Borang F tanpa Borang G8/G9 dan pelepasan Bomba yang sah ialah kesalahan berkanun serius di bawah Akta 133 dan UBBL 1984 serta membahayakan nyawa orang awam.",
+      "ref": "UBBL 1984 By-Law 25 & Fire Services Act 341"
+    },
+    {
+      "id": 98,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Heavy monsoon rain washes silty water from the Setiawangsa site into the public drain, prompting a DBKL warning notice. Which immediate engineering and governance actions should the CPM execute?",
+      "q_bm": "SENARIO KRISIS: Hujan monsun lebat menghanyutkan air berkelodak dari tapak Setiawangsa ke dalam parit awam, menyebabkan notis amaran DBKL dikeluarkan. Apakah tindakan kejuruteraan dan tadbir urus segera yang perlu dilaksanakan oleh CPM?",
+      "options_en": [
+        "Desilt sediment traps immediately, reinforce perimeter silt fences/berms to JPS MSMA standards, verify wheel-wash operation, and submit photographic compliance proof to DBKL",
+        "Pump all muddy water directly into the neighbouring housing drain at night",
+        "Remove all silt traps to let water flow faster",
+        "Blame the weather forecast and take no site action"
+      ],
+      "options_bm": [
+        "Nyah-enap perangkap kelodak serta-merta, kukuhkan pagar kelodak/benteng perimeter mengikut standard JPS MSMA, sahkan operasi kolam basuh tayar, dan kemukakan bukti pematuhan bergambar kepada DBKL",
+        "Pam semua air berlumpur terus ke parit perumahan bersebelahan pada waktu malam",
+        "Buang semua perangkap kelodak supaya air mengalir lebih laju",
+        "Salahkan ramalan cuaca dan tidak mengambil sebarang tindakan di tapak"
+      ],
+      "answer": 0,
+      "exp_en": "Immediate ESCP rectification prevents a DBKL Stop-Work Order (saving RM10,500/day LAD exposure) and ensures compliance with Act 133 and EQA 1974.",
+      "exp_bm": "Pembaikan ESCP segera mengelakkan Perintah Henti Kerja DBKL (menyelamatkan pendedahan LAD RM10,500/hari) dan memastikan pematuhan Akta 133 serta EQA 1974.",
+      "ref": "JPS MSMA, Act 133 & EQA 1974 (M01/M10)"
+    },
+    {
+      "id": 99,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "CRISIS SCENARIO: Mid-way through construction, the D&B design team proposes reducing slab reinforcement and fire-compartment wall thickness without PE/Architect approval to recover a RM1.5M steel price spike. How must the CPM respond?",
+      "q_bm": "SENARIO KRISIS: Di pertengahan pembinaan, pasukan reka bentuk D&B mencadangkan pengurangan tetulang keluli papak dan ketebalan dinding petak kebakaran tanpa kelulusan PE/Arkitek bagi menampung kenaikan harga keluli RM1.5J. Bagaimanakah CPM mesti bertindak balas?",
+      "options_en": [
+        "Veto the proposal immediately—structural safety and UBBL/Bomba fire ratings are non-negotiable statutory mandates; instead pursue legitimate Value Engineering (VE) or contingency drawdown",
+        "Approve the reduction quietly to protect profit margin",
+        "Allow thinner walls only on the top 3 floors",
+        "Reduce concrete cement content as well"
+      ],
+      "options_bm": [
+        "Veto cadangan tersebut serta-merta—keselamatan struktur dan kadar rintangan api UBBL/Bomba ialah mandat berkanun yang tidak boleh dikompromi; sebaliknya laksanakan Kejuruteraan Nilai (VE) yang sah atau pengeluaran luar jangka",
+        "Luluskan pengurangan secara senyap untuk melindungi margin keuntungan",
+        "Benarkan dinding lebih nipis hanya pada 3 tingkat teratas",
+        "Kurangkan juga kandungan simen dalam konkrit"
+      ],
+      "answer": 0,
+      "exp_en": "Under Act 520 Sec 34A, Act 133, and Act 341, compromising structural or fire safety is illegal and unethical. Cost recovery must never violate statutory codes.",
+      "exp_bm": "Di bawah Sek 34A Akta 520, Akta 133, dan Akta 341, mengkompromi keselamatan struktur atau kebakaran adalah menyalahi undang-undang dan tidak beretika.",
+      "ref": "CCPM Module 01 & M11 — Statutory Boundaries in VM"
+    },
+    {
+      "id": 100,
+      "set": 10,
+      "level": "Krisis Tahap 6 / Level 6 Scenario",
+      "q_en": "FINAL CAPSTONE SYNTHESIS: Which integrated principle best summarizes a Level 6 CCPM's governance philosophy across the entire construction project life cycle?",
+      "q_bm": "SINTESIS PENUTUP: Prinsip bersepadu manakah yang paling tepat merumuskan falsafah tadbir urus CCPM Tahap 6 merentasi keseluruhan kitaran hayat projek pembinaan?",
+      "options_en": [
+        "Proactive stage-gate governance linking statutory compliance, verified baselines, measurable QA/HSE/cost controls, and auditable evidence at every handover gate",
+        "Focusing solely on lowest initial price while ignoring safety, quality, and statutory approvals until completion",
+        "Managing the entire RM180.5M project through informal verbal instructions without written records",
+        "Treating the Project Management Plan as a decorative shelf document never updated during construction"
+      ],
+      "options_bm": [
+        "Tadbir urus pintu peringkat (stage-gate) proaktif yang menghubungkan pematuhan berkanun, garis dasar disahkan, kawalan QA/HSE/kos terukur, dan bukti boleh diaudit pada setiap gerbang serahan",
+        "Memberi tumpuan semata-mata pada harga permulaan terendah sambil mengabaikan keselamatan, kualiti, dan kelulusan berkanun sehingga siap",
+        "Mengurus keseluruhan projek RM180.5J melalui arahan lisan tidak rasmi tanpa rekod bertulis",
+        "Menganggap Pelan Pengurusan Projek sebagai dokumen hiasan di rak yang tidak pernah dikemas kini semasa pembinaan"
+      ],
+      "answer": 0,
+      "exp_en": "True Level 6 CCPM competency integrates statutory law, technical baselines, proactive risk/cost/quality controls, and auditable stage gates from inception to O&M.",
+      "exp_bm": "Kompetensi CCPM Tahap 6 yang sebenar mengintegrasikan undang-undang berkanun, garis dasar teknikal, kawalan risiko/kos/kualiti proaktif, dan pintu peringkat boleh diaudit dari permulaan hingga O&M.",
+      "ref": "CCPM Module 01 — Capstone Competency Synthesis"
+    }
+  ]
+}
